@@ -1,3 +1,3 @@
 let config = {
-  recovery_botton_length: 180, 
+    recovery_botton_length: 180,
 };

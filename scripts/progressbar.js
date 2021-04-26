@@ -8,106 +8,127 @@ let progressbar = {
     mana_state: 0,
     stamina_state: 0,
 
-    // Get the attributes from hero and sets the progressbars on the character-sheet
-    firstInitialization : function() {
-        progressbar.getProgressbarMax(); 
-        progressbar.setStatesToZero();
-        progressbar.setAllProgessbarMaxes(); 
+    getProgressbarMax: function() {
+        progressbar.health_max = hero.health;
+        progressbar.mana_max = hero.mana;
+        progressbar.stamina_max = hero.stamina;
     },
 
-    getProgressbarMax : function() {
-        health_max = hero.health;
-        mana_max = hero.mana;
-        stamina_max = hero.stamina;
+    setStatesToZero: function() {
+        progressbar.health_state = 0;
+        progressbar.mana_state = 0;
+        progressbar.stamina_state = 0;
     },
 
-    setStatesToZero : function() {
-        health_state = 0;
-        mana_state = 0;
-        stamina_state = 0;
-    },
-
-    setProgessbarMax : function(progressbar_type, max_value) {
+    setProgessbarMax: function(progressbar_type, max_value) {
         let element = document.getElementById("progressbar_state_" + progressbar_type + "_number_max");
-        element.innerHTML = "/ " + max_value;  
-        logging("INFO", "The " + progressbar_type + "-progressbar has been set to: " + max_value );           
+        element.innerHTML = "/ " + max_value;
+        logging("INFO", "The " + progressbar_type + "-progressbar has been set to: " + max_value);
     },
 
-    setAllProgessbarMaxes : function() {
-        progressbar.setProgessbarMax("health",health_max);
-        progressbar.setProgessbarMax("mana",mana_max);
-        progressbar.setProgessbarMax("stamina",stamina_max);
-    },    
+    reduceStamina: function(decreasingNumber) {
+        if ((progressbar.stamina_state - decreasingNumber) < 0) {
+            return false;
+        } else {
+            progressbar.stamina_state -= decreasingNumber
+            progressbar.refreshProgressbar("stamina");
+            return true;
+        }
+    },
 
-    refreshProgressbar : function(progressbar_type) {
+    increaseStamina: function(increasingNumber) {
+        progressbar.stamina_state += increasingNumber;
+    },
+
+    reduceMana: function(decreasingNumber) {
+        if ((progressbar.mana_state - decreasingNumber) < 0) {
+            return false;
+        } else {
+            progressbar.mana_state -= decreasingNumber
+            progressbar.refreshProgressbar("mana");
+            return true;
+        }
+    },
+
+    increaseMana: function(increasingNumber) {
+        progressbar.mana_state += increasingNumber;
+    },
+
+    setAllProgessbarMaxes: function() {
+        progressbar.setProgessbarMax("health", progressbar.health_max);
+        progressbar.setProgessbarMax("mana", progressbar.mana_max);
+        progressbar.setProgessbarMax("stamina", progressbar.stamina_max);
+    },
+
+    refreshProgressbar: function(progressbar_type) {
         let progressbar_number = document.getElementById("progressbar_state_" + progressbar_type + "_number");
-        let element = document.getElementById("progressbar_state_" + progressbar_type); 
-        
+        let element = document.getElementById("progressbar_state_" + progressbar_type);
+
         switch (progressbar_type) {
             case "health":
-                element.style.width = getPercentage(health_state, health_max) + '%'; 
-                progressbar_number.innerHTML = health_state;
+                element.style.width = getPercentage(progressbar.health_state, progressbar.health_max) + '%';
+                progressbar_number.innerHTML = progressbar.health_state;
                 break;
             case "mana":
-                element.style.width = getPercentage(mana_state, mana_max) + '%'; 
-                progressbar_number.innerHTML = mana_state;
+                element.style.width = getPercentage(progressbar.mana_state, progressbar.mana_max) + '%';
+                progressbar_number.innerHTML = progressbar.mana_state;
                 break;
             case "stamina":
-                element.style.width = getPercentage(stamina_state, stamina_max) + '%'; 
-                progressbar_number.innerHTML = stamina_state;
+                element.style.width = getPercentage(progressbar.stamina_state, progressbar.stamina_max) + '%';
+                progressbar_number.innerHTML = progressbar.stamina_state;
                 break;
         }
-        
+
     },
 
     // TODO: Find better way or better readable way for the recovery functions
-    recover_health : function() {
+    recover_health: function() {
         let progressbar_number = document.getElementById("progressbar_state_health_number");
-        let element = document.getElementById("progressbar_state_health");   
+        let element = document.getElementById("progressbar_state_health");
         let identity = setInterval(scene, 10);
 
         function scene() {
-            if (health_state >= health_max) {
+            if (progressbar.health_state >= progressbar.health_max) {
                 clearInterval(identity);
             } else {
-                health_state++; 
-                element.style.width = getPercentage(health_state, health_max) + '%'; 
-                progressbar_number.innerHTML = health_state;
+                progressbar.health_state = progressbar.health_state++;
+                element.style.width = getPercentage(progressbar.health_state, progressbar.health_max) + '%';
+                progressbar_number.innerHTML = progressbar.health_state;
             }
-        }  
+        }
     },
-    
+
     // TODO: Find better way or better readable way for the recovery functions
-    recover_mana : function() {
+    recover_mana: function() {
         let progressbar_number = document.getElementById("progressbar_state_mana_number");
-        let element = document.getElementById("progressbar_state_mana");   
+        let element = document.getElementById("progressbar_state_mana");
         let identity = setInterval(scene, 10);
 
         function scene() {
-            if (mana_state >= mana_max) {
+            if (progressbar.mana_state >= progressbar.mana_max) {
                 clearInterval(identity);
             } else {
-                mana_state++; 
-                element.style.width = getPercentage(mana_state, mana_max) + '%'; 
-                progressbar_number.innerHTML = mana_state;
+                progressbar.increaseMana(1);
+                element.style.width = getPercentage(progressbar.mana_state, progressbar.mana_max) + '%';
+                progressbar_number.innerHTML = progressbar.mana_state;
             }
-        }  
+        }
     },
 
     // TODO: Find better way or better readable way for the recovery functions
-    recover_stamina : function() {
+    recover_stamina: function() {
         let progressbar_number = document.getElementById("progressbar_state_stamina_number");
-        let element = document.getElementById("progressbar_state_stamina");   
+        let element = document.getElementById("progressbar_state_stamina");
         let identity = setInterval(scene, 10);
 
         function scene() {
-            if (stamina_state >= stamina_max) {
+            if (progressbar.stamina_state >= progressbar.stamina_max) {
                 clearInterval(identity);
             } else {
-                stamina_state++; 
-                element.style.width = getPercentage(stamina_state, stamina_max) + '%'; 
-                progressbar_number.innerHTML = stamina_state;
+                progressbar.increaseStamina(1);
+                element.style.width = getPercentage(progressbar.stamina_state, progressbar.stamina_max) + '%';
+                progressbar_number.innerHTML = progressbar.stamina_state;
             }
-        }  
+        }
     },
 };

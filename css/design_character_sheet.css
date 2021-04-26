@@ -14,24 +14,23 @@
 }
 
 #progressbar_state_stamina {
-  width: 0%;
-  height: 10px;
-  background-color: #4CAF50;
-  color: white;
+    width: 0%;
+    height: 10px;
+    background-color: #4CAF50;
+    color: white;
 }
 
 #progressbar_state_stamina_text {
-   display: inline-block;
-   margin-left:10px;
+    display: inline-block;
+    margin-left: 10px;
 }
 
-
 #progressbar_state_stamina_number {
-   display: inline-block;
+    display: inline-block;
 }
 
 #progressbar_state_stamina_number_max {
-   display: inline-block;
+    display: inline-block;
 }
 
 #progressbar_health {
@@ -44,24 +43,23 @@
 }
 
 #progressbar_state_health {
-  width: 0%;
-  height: 10px;
-  background-color: #DC143C;
-  color: white;
+    width: 0%;
+    height: 10px;
+    background-color: #DC143C;
+    color: white;
 }
 
 #progressbar_state_health_text {
-   display: inline-block;
-   margin-left:10px;
+    display: inline-block;
+    margin-left: 10px;
 }
 
-
 #progressbar_state_health_number {
-   display: inline-block;
+    display: inline-block;
 }
 
 #progressbar_state_health_number_max {
-   display: inline-block;
+    display: inline-block;
 }
 
 #progressbar_mana {
@@ -81,17 +79,16 @@
 }
 
 #progressbar_state_mana_text {
-   display: inline-block;
-   margin-left:10px;
+    display: inline-block;
+    margin-left: 10px;
 }
 
-
 #progressbar_state_mana_number {
-   display: inline-block;
+    display: inline-block;
 }
 
 #progressbar_state_mana_number_max {
-   display: inline-block;
+    display: inline-block;
 }
 
 #recoveryButton {
@@ -120,11 +117,10 @@
 #money_text {
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left:10px;
+    margin-left: 10px;
     display: inline-block;
-  
 }
-      
+
 #money_number {
     display: inline-block;
     text-align: center;

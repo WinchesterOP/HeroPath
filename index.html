@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
+
+<head>
 
     <!-- Scripts -->
     <script src="scripts/progressbar.js"></script>
@@ -12,69 +13,95 @@
     <script src="scripts/functions_basic.js"></script>
 
     <!-- Design -->
-    <link rel="stylesheet" type="text/css" href="css/design_character_sheet.css"/>
-    <link rel="stylesheet" type="text/css" href="css/design_first_area.css"/>
-    <link rel="stylesheet" type="text/css" href="css/design_logging_area.css"/>
+    <link rel="stylesheet" type="text/css" href="css/design_character_sheet.css" />
+    <link rel="stylesheet" type="text/css" href="css/design_home_area.css" />
+    <link rel="stylesheet" type="text/css" href="css/design_first_area.css" />
+    <link rel="stylesheet" type="text/css" href="css/design_logging_area.css" />
 
-  </head>
-  <body>
-  
+</head>
+
+<body>
+
     <div id="character_sheet">
 
-      <div id="character_name">Hero Name</div>
+        <div id="headline_character_sheet">Character Sheet</div>
+        <div id="character_name">Hero Name</div>
 
-      <div id="progressbar_health">
-        <div id="progressbar_state_health"></div>
-        <div id="progressbar_state_health_text">Health: </div>
-        <div id="progressbar_state_health_number">0</div>
-        <div id="progressbar_state_health_number_max"></div>
-        <button id="recoveryButton" onClick="button_func.clickedOnRestButton()">Rest</button>
-      </div>
+        <div id="progressbar_health">
+            <div id="progressbar_state_health"></div>
+            <div id="progressbar_state_health_text">Health: </div>
+            <div id="progressbar_state_health_number">0</div>
+            <div id="progressbar_state_health_number_max"></div>
+            <button id="recoveryButton" onClick="button_func.clickedOnRestButton()">Rest</button>
+        </div>
 
-      <div id="progressbar_mana">
-        <div id="progressbar_state_mana"></div>
-        <div id="progressbar_state_mana_text">Mana: </div>
-        <div id="progressbar_state_mana_number">0</div>
-        <div id="progressbar_state_mana_number_max"></div>
-        <button id="recoveryButton" onClick="button_func.clickedOnMeditateButton()">Meditate</button>
-      </div>
+        <div id="progressbar_mana">
+            <div id="progressbar_state_mana"></div>
+            <div id="progressbar_state_mana_text">Mana: </div>
+            <div id="progressbar_state_mana_number">0</div>
+            <div id="progressbar_state_mana_number_max"></div>
+            <button id="recoveryButton" onClick="button_func.clickedOnMeditateButton()">Meditate</button>
+        </div>
 
-      <div id="progressbar_stamina">
-        <div id="progressbar_state_stamina"></div>
-        <div id="progressbar_state_stamina_text">Stamina: </div>
-        <div id="progressbar_state_stamina_number">0</div>
-        <div id="progressbar_state_stamina_number_max"></div>
-        <button id="recoveryButton" onClick="button_func.clickedOnRecoveryButton()">Recovery</button>
-      </div>
+        <div id="progressbar_stamina">
+            <div id="progressbar_state_stamina"></div>
+            <div id="progressbar_state_stamina_text">Stamina: </div>
+            <div id="progressbar_state_stamina_number">0</div>
+            <div id="progressbar_state_stamina_number_max"></div>
+            <button id="recoveryButton" onClick="button_func.clickedOnRecoveryButton()">Recovery</button>
+        </div>
 
-      <div id=money>
-        <div id="money_text">Gold: </div>
-        <div id="money_number">10</div>
-      </div>
+        <div id=money>
+            <div id="money_text">Gold: </div>
+            <div id="money_number">10</div>
+        </div>
 
     </div>
 
-    <div id=first_area>
+    <div id="tabBar">
+        <ul id="tabs">
+            <li><button class="tab-0" tab="tab_home">Home</button></li>
+            <li><button class="tab-1" tab="tab_little_town">Little Town</button></li>
+        </ul>
+    </div>
 
-      <div id=jobs_first_area>
+    <div id=tab_home>
+        <div id=home_area>
 
-        <div id=farmworking>Farmworking</div>
-        <button id="farmworkingButton" onClick="button_func.clickedOnFarmworkingButton()">Work</button>
+            <div id=headline_home_area>Home</div>
+            <div id=jobs_home_area>
 
-      </div>
+                <div id=reinforceBody>Reinforce Body</div>
+                <button id="reinforceBodyButton" onClick="button_func.clickedOnReinforceBodyButton()">Work</button>
 
+            </div>
+        </div>
+    </div>
+
+    <div id=tab_little_town>
+        <div id=first_area>
+
+            <div id=headline_first_area>Little Town</div>
+            <div id=jobs_first_area>
+
+                <div id=farmworking>Farmworking</div>
+                <button id="farmworkingButton" onClick="button_func.clickedOnFarmworkingButton()">Work</button>
+
+            </div>
+        </div>
     </div>
 
     <div id=logging_area>
 
-      <div id=logging_area_text_field>
+        <div id=logging_area_text_field>
 
-        <div id=logging_area_text>No Messages</div>        
+            <div id=logging_area_text>No Messages</div>
 
-      </div>
+        </div>
 
     </div>
 
     <script src="scripts/main.js"></script>
-  </body>
+</body>
+
 </html>
