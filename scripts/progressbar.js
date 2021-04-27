@@ -27,6 +27,7 @@ let progressbar = {
         logging("INFO", "The " + progressbar_type + "-progressbar has been set to: " + max_value);
     },
 
+    //TODO: increase and reduce can be added to one function
     reduceStamina: function(decreasingNumber) {
         if ((progressbar.stamina_state - decreasingNumber) < 0) {
             return false;
@@ -37,10 +38,12 @@ let progressbar = {
         }
     },
 
+    //TODO: increase and reduce can be added to one function
     increaseStamina: function(increasingNumber) {
         progressbar.stamina_state += increasingNumber;
     },
 
+    //TODO: increase and reduce can be added to one function
     reduceMana: function(decreasingNumber) {
         if ((progressbar.mana_state - decreasingNumber) < 0) {
             return false;
@@ -51,10 +54,12 @@ let progressbar = {
         }
     },
 
+    //TODO: increase and reduce can be added to one function
     increaseMana: function(increasingNumber) {
         progressbar.mana_state += increasingNumber;
     },
 
+    //TODO: increase and reduce can be added to one function
     reduceHealth: function(decreasingNumber) {
         if ((progressbar.health_state - decreasingNumber) < 0) {
             return false;
@@ -65,6 +70,7 @@ let progressbar = {
         }
     },
 
+    //TODO: increase and reduce can be added to one function
     increaseHealth: function(increasingNumber) {
         progressbar.health_state += increasingNumber;
     },

@@ -12,9 +12,19 @@
 }
 
 #reinforceBodyButton {
-    margin-top: 10px;
-    float: right;
+    background-color: #dddddd;
+    border-width: 2px;
+    color: #000000;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
     display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 #jobs_home_area {

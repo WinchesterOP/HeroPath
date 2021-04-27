@@ -5,7 +5,6 @@ let hero = {
     health: 100,
     mana: 130,
     stamina: 150,
-    age: 5,
     currentGold: 100,
 
     setHeroName: function(name) {

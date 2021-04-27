@@ -12,6 +12,10 @@
     <script src="scripts/logging_area.js"></script>
     <script src="scripts/functions_basic.js"></script>
 
+    <!-- CDN-Scripts - tippy.js(tooltips) -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+
     <!-- Design -->
     <link rel="stylesheet" type="text/css" href="css/design_character_sheet.css" />
     <link rel="stylesheet" type="text/css" href="css/design_home_area.css" />
@@ -69,12 +73,8 @@
         <div id=home_area>
 
             <div id=headline_home_area>Home</div>
-            <div id=jobs_home_area>
+            <button id="reinforceBodyButton" onClick="button_func.clickedOnReinforceBodyButton()">Reinforce Body</button>
 
-                <div id=reinforceBody>Reinforce Body</div>
-                <button id="reinforceBodyButton" onClick="button_func.clickedOnReinforceBodyButton()">Work</button>
-
-            </div>
         </div>
     </div>
 
@@ -82,12 +82,8 @@
         <div id=first_area>
 
             <div id=headline_first_area>Little Town</div>
-            <div id=jobs_first_area>
+            <button id="farmworkingButton" onClick="button_func.clickedOnFarmworkingButton()">Farmworking</button>
 
-                <div id=farmworking>Farmworking</div>
-                <button id="farmworkingButton" onClick="button_func.clickedOnFarmworkingButton()">Work</button>
-
-            </div>
         </div>
     </div>
 
