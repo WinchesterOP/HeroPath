@@ -4,6 +4,7 @@
 
 let result = false;
 
+/*
 do {
     let heroName = prompt('Name your Hero?', "WinchesterOP");
     let question = `Your Hero will be named: ${heroName}. Are you Sure?`;
@@ -15,5 +16,7 @@ do {
         logging("INFO", "Hero name was setted as: \"" + hero.name + "\"");
     }
 } while (!result);
+
+*/
 
 hero.firstInitialization();

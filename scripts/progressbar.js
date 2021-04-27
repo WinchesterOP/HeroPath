@@ -21,6 +21,7 @@ let progressbar = {
     },
 
     setProgessbarMax: function(progressbar_type, max_value) {
+        progressbar.getProgressbarMax();
         let element = document.getElementById("progressbar_state_" + progressbar_type + "_number_max");
         element.innerHTML = "/ " + max_value;
         logging("INFO", "The " + progressbar_type + "-progressbar has been set to: " + max_value);
@@ -52,6 +53,20 @@ let progressbar = {
 
     increaseMana: function(increasingNumber) {
         progressbar.mana_state += increasingNumber;
+    },
+
+    reduceHealth: function(decreasingNumber) {
+        if ((progressbar.health_state - decreasingNumber) < 0) {
+            return false;
+        } else {
+            progressbar.health_state -= decreasingNumber
+            progressbar.refreshProgressbar("health");
+            return true;
+        }
+    },
+
+    increaseHealth: function(increasingNumber) {
+        progressbar.health_state += increasingNumber;
     },
 
     setAllProgessbarMaxes: function() {
@@ -91,7 +106,7 @@ let progressbar = {
             if (progressbar.health_state >= progressbar.health_max) {
                 clearInterval(identity);
             } else {
-                progressbar.health_state = progressbar.health_state++;
+                progressbar.increaseHealth(1);
                 element.style.width = getPercentage(progressbar.health_state, progressbar.health_max) + '%';
                 progressbar_number.innerHTML = progressbar.health_state;
             }

@@ -45,6 +45,6 @@ let hero = {
     increaseHealthMax: function(increasingNumber) {
         hero.health += increasingNumber;
         progressbar.setProgessbarMax("health", hero.health);
-        progressbar.refreshProgressbar("stamina");
+        progressbar.refreshProgressbar("health");
     },
 };
