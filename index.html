@@ -3,14 +3,6 @@
 
 <head>
 
-    <!-- Scripts -->
-    <script src="scripts/progressbar.js"></script>
-    <script src="scripts/config.js"></script>
-    <script src="scripts/button.js"></script>
-    <script src="scripts/hero.js"></script>
-    <script src="scripts/jobs.js"></script>
-    <script src="scripts/logging_area.js"></script>
-    <script src="scripts/functions_basic.js"></script>
 
 
 
@@ -63,29 +55,21 @@
 
     </div>
 
-    <div id="tabBar">
-        <ul id="tabs">
-            <li><button class="tab-0" tab="tab_home">Home</button></li>
-            <li><button class="tab-1" tab="tab_little_town">Little Town</button></li>
-        </ul>
+    <button id="heroButton" onClick="button_func.clickedOnHomeButton()">Home</button>
+    <button id="heroButton" onClick="button_func.clickedOnLittleTownButton()">Little Town</button>
+
+    <div id=home_area>
+
+        <div id=headline_home_area>Home</div>
+        <button id="heroButton" onClick="button_func.clickedOnReinforceBodyButton()">Reinforce Body</button>
+
     </div>
 
-    <div id=tab_home>
-        <div id=home_area>
+    <div id=first_area>
 
-            <div id=headline_home_area>Home</div>
-            <button id="reinforceBodyButton" onClick="button_func.clickedOnReinforceBodyButton()">Reinforce Body</button>
+        <div id=headline_first_area>Little Town</div>
+        <button id="heroButton" onClick="button_func.clickedOnFarmworkingButton()">Farmworking</button>
 
-        </div>
-    </div>
-
-    <div id=tab_little_town>
-        <div id=first_area>
-
-            <div id=headline_first_area>Little Town</div>
-            <button id="farmworkingButton" onClick="button_func.clickedOnFarmworkingButton()">Farmworking</button>
-
-        </div>
     </div>
 
     <div id=logging_area>Entries
@@ -98,18 +82,21 @@
 
     </div>
 
-
-
-
-
-
     <!-- Starting main-function -->
-
-
     <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
     <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
     <script src="scripts/tooltip.js"></script>
     <script src="scripts/main.js"></script>
+
+    <!-- Scripts -->
+    <script src="scripts/progressbar.js"></script>
+    <script src="scripts/config.js"></script>
+    <script src="scripts/button.js"></script>
+    <script src="scripts/hero.js"></script>
+    <script src="scripts/jobs.js"></script>
+    <script src="scripts/logging_area.js"></script>
+    <script src="scripts/functions_basic.js"></script>
+
 
 </body>
 
