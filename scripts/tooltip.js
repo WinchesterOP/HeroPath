@@ -1,4 +1,19 @@
-tippy('#reinforceBodyButton', {
-    content: 'Reinforce Button \n Cost: 10 Mana \n Effect: \n HealthMax: +10 ',
-    content: 'Reinforce Button \n Cost: 10 Mana \n Effect: \n HealthMax: +10 ',
-});
+tippy(
+    '#reinforceBodyButton', {
+        allowHTML: true,
+        content: 'Cost:' +
+            '<UL><LI>10 Mana</UL>' +
+            'Effect:' +
+            '<UL><LI>HealthMax +5<LI>StaminaMax +5</UL>',
+    },
+);
+
+tippy(
+    '#farmworkingButton', {
+        allowHTML: true,
+        content: 'Cost:' +
+            '<UL><LI>10 Stamina</UL>' +
+            'Effect:' +
+            '<UL><LI>Gold +10</UL>',
+    },
+);
