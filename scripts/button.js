@@ -28,13 +28,14 @@ let button_func = {
         jobs.reinforceBody();
     },
 
+    //TODO: function to change all other areas invisible. 
+    //TODO: an array to list all areas
     clickedOnLittleTownButton: function() {
         if (button_func.first_area_block.style.display === "none") {
             button_func.first_area_block.style.display = "block";
             button_func.home_area_block.style.display = "none";
         } else {
             button_func.first_area_block.style.display = "none";
-            button_func.home_area_block.style.display = "block";
         }
     },
 
@@ -44,7 +45,6 @@ let button_func = {
             button_func.first_area_block.style.display = "none";
         } else {
             button_func.home_area_block.style.display = "none";
-            button_func.first_area_block.style.display = "block";
         }
     },
 

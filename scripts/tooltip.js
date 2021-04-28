@@ -9,7 +9,7 @@ tippy(
 );
 
 tippy(
-    '#farmworkingButton', {
+    "#heroButton", {
         allowHTML: true,
         content: 'Cost:' +
             '<UL><LI>10 Stamina</UL>' +
