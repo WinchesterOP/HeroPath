@@ -1,12 +1,12 @@
 let progressbar = {
 
-    health_max: 100,
-    mana_max: 100,
-    stamina_max: 100,
+    health_max: 10,
+    mana_max: 10,
+    stamina_max: 10,
 
-    health_state: 0,
-    mana_state: 0,
-    stamina_state: 0,
+    health_state: 10,
+    mana_state: 10,
+    stamina_state: 10,
 
     getProgressbarMax: function() {
         progressbar.health_max = hero.health;
@@ -21,7 +21,6 @@ let progressbar = {
     },
 
     setProgessbarMax: function(progressbar_type, max_value) {
-        progressbar.getProgressbarMax();
         let element = document.getElementById("progressbar_state_" + progressbar_type + "_number_max");
         element.innerHTML = "/ " + max_value;
         logging("INFO", "The " + progressbar_type + "-progressbar has been set to: " + max_value);
@@ -76,6 +75,7 @@ let progressbar = {
     },
 
     setAllProgessbarMaxes: function() {
+        progressbar.getProgressbarMax();
         progressbar.setProgessbarMax("health", progressbar.health_max);
         progressbar.setProgessbarMax("mana", progressbar.mana_max);
         progressbar.setProgessbarMax("stamina", progressbar.stamina_max);
@@ -150,6 +150,19 @@ let progressbar = {
                 element.style.width = getPercentage(progressbar.stamina_state, progressbar.stamina_max) + '%';
                 progressbar_number.innerHTML = progressbar.stamina_state;
             }
+        }
+    },
+
+    recover_stamina_fixed_amount: function(number) {
+        let progressbar_number = document.getElementById("progressbar_state_stamina_number");
+        let element = document.getElementById("progressbar_state_stamina");
+        
+        if (progressbar.stamina_state >= progressbar.stamina_max) {
+            return;
+        } else {
+            progressbar.increaseStamina(number);
+            element.style.width = getPercentage(progressbar.stamina_state, progressbar.stamina_max) + '%';
+            progressbar_number.innerHTML = progressbar.stamina_state;
         }
     },
 };

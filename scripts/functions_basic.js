@@ -22,6 +22,11 @@ function getTimestamp() {
     return formattedTime;
 }
 
+function getTime() {
+    let date = new Date();
+    return date.toLocaleTimeString();
+}
+
 function logging(loglevel, text) {
     console.log(getTimestamp() + " - " + loglevel + ": " + text);
 }

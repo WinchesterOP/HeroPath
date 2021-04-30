@@ -2,103 +2,183 @@
 <html>
 
 <head>
-
-
-
-
-
-
-
     <!-- Design -->
-    <link rel="stylesheet" type="text/css" href="css/design_character_sheet.css" />
-    <link rel="stylesheet" type="text/css" href="css/design_home_area.css" />
-    <link rel="stylesheet" type="text/css" href="css/design_first_area.css" />
-    <link rel="stylesheet" type="text/css" href="css/design_logging_area.css" />
+    <link rel="stylesheet" type="text/css" href="css/character_sheet.css" />
+    <link rel="stylesheet" type="text/css" href="css/home_area.css" />
+    <link rel="stylesheet" type="text/css" href="css/littleTown_area.css" />
+    <link rel="stylesheet" type="text/css" href="css/logging_area.css" />
+    <link rel="stylesheet" type="text/css" href="css/navigation_area.css" />
+    <link rel="stylesheet" type="text/css" href="css/button.css" />
+    <link rel="stylesheet" type="text/css" href="css/diary.css" />
 
+    <!-- to see everything during developing -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/dev.css" /> -->
+    <!-- to see everything during developing -->
+
+    <title>Hero's Path</title>
 </head>
 
 <body>
 
-    <div id="character_sheet">
+    <div id="menu_area">
 
-        <div id="headline_character_sheet">Character Sheet</div>
-        <div id="character_name">Hero Name</div>
+        <div id="character_sheet">
 
-        <div id="progressbar_health">
-            <div id="progressbar_state_health"></div>
-            <div id="progressbar_state_health_text">Health: </div>
-            <div id="progressbar_state_health_number">0</div>
-            <div id="progressbar_state_health_number_max"></div>
-            <button id="recoveryButton" onClick="button_func.clickedOnRestButton()">Rest</button>
+            <div id="headline_character_sheet">Character Sheet</div>
+            <div id="character_name">Hero Name</div>
+            <div id="character_level">Lv. 0</div>
+
+            <div id="progressbar_health">
+                <div id="progressbar_state_health"></div>
+                <div id="progressbar_state_health_text">Health: </div>
+                <div id="progressbar_state_health_number_max"></div> 
+                <div id="progressbar_state_health_number">0</div>
+            </div>
+
+            <div id="progressbar_mana">
+                <div id="progressbar_state_mana"></div>
+                <div id="progressbar_state_mana_text">Mana: </div>
+                <div id="progressbar_state_mana_number_max"></div>
+                <div id="progressbar_state_mana_number">0</div>
+            </div>
+
+            <div id="progressbar_stamina">
+                <div id="progressbar_state_stamina"></div>
+                <div id="progressbar_state_stamina_text">Stamina: </div>
+                <div id="progressbar_state_stamina_number_max"></div>
+                <div id="progressbar_state_stamina_number">0</div>   
+            </div>
+
+            <div id="money_exp_area">
+                <div id=money>
+                    <div id="money_placeholder"></div>
+                    <div id="money_text">Gold: </div>
+                    <div id="money_number">0</div>
+                </div>  
+
+                <div id=exp_area>
+                    <div id="exp_text">next Lv.: </div>
+                    <div id="exp_number">10</div>
+                </div>  
+             </div>
         </div>
 
-        <div id="progressbar_mana">
-            <div id="progressbar_state_mana"></div>
-            <div id="progressbar_state_mana_text">Mana: </div>
-            <div id="progressbar_state_mana_number">0</div>
-            <div id="progressbar_state_mana_number_max"></div>
-            <button id="recoveryButton" onClick="button_func.clickedOnMeditateButton()">Meditate</button>
+        <div id="button_area">
+            <div id="headline_button_area">Menu</div>
+            <button class="menuButton" id="worldButton" onClick="button_func.clickedOnWorldButton()">World</button>
+            <button class="menuButton" id="attributesButton" onClick="button_func.clickedOnWorldButton()">Attributes</button>
+            <button class="menuButton" id="inventoryButton" onClick="button_func.clickedOnWorldButton()">Inventory</button>
+            <button class="menuButton" id="diaryButton" onClick="button_func.clickedOnDiaryButton()">Diary</button>
         </div>
 
-        <div id="progressbar_stamina">
-            <div id="progressbar_state_stamina"></div>
-            <div id="progressbar_state_stamina_text">Stamina: </div>
-            <div id="progressbar_state_stamina_number">0</div>
-            <div id="progressbar_state_stamina_number_max"></div>
-            <button id="recoveryButton" onClick="button_func.clickedOnRecoveryButton()">Recovery</button>
+    </div>
+
+    <!-- ********** -->
+    <!-- World Area -->
+    <!-- ********** -->
+
+    <div id=world_area class=menuButtonArea>
+
+        <div id=navigation_area>
+
+            <div id="headline_Navigation_area" class="headline">World</div>
+            <button class="heroButton" id="homeButton" onClick="button_func.clickedOnHomeButton()">Home</button>
+            <button class="heroButton" id="littleTownButton" onClick="button_func.clickedOnLittleTownButton()">Little Town</button>
+
         </div>
 
-        <div id=money>
-            <div id="money_text">Gold: </div>
-            <div id="money_number">10</div>
+        <div id=home_area class="switch_area">
+
+            <div id=headline_home_area class="headline">Home</div>
+            <button class="heroButton" id="talkToFatherButton" onClick="button_func.clickedOnTalkToFatherButton()">Talk to Father</button>
+            <button class="heroButton" id="swordSwingButton" onClick="button_func.clickedOnSwordSwingButton()">Sword swing</button>
+            <button class="heroButton" id="restButton" onClick="button_func.clickedOnRestButton()">Rest</button>
+            <button class="heroButton" id="meditateButton" onClick="button_func.clickedOnMeditateButton()">Meditate</button>
+            <button class="heroButton" id="recoverButton" onClick="button_func.clickedOnRecoveryButton()">Recover</button>
+            <button class="heroButton" id="reinforceBodyButton" onClick="button_func.clickedOnReinforceBodyButton()">Reinforce Body</button>
+
+
+        </div>
+
+        <div id=littleTown_area class="switch_area">
+
+            <div id=headline_first_area class="headline">Little Town</div>
+            <button class="heroButton" id="talkToLadyButton" onClick="button_func.clickedOnTalkToLadyLittleTownButton()">Talk to Lady</button>
+            <button class="heroButton" id="talkToFarmerButton" onClick="button_func.clickedOnTalkToLittleTownFarmerButton()">Talk to Farmer</button>
+            <button class="heroButton" id="farmworkingButton" onClick="button_func.clickedOnFarmworkingButton()">Farmworking</button>
+            <button class="heroButton" id="dungeonFlowerBedButton" onClick="button_func.clickedOnDungeonFlowerBedButton()">Dungeon: Flower Bed</button>
+            
+        </div>
+
+        <div id=logging_area>
+
+            <div id=logging_area_text_field>
+
+                <div id=logging_area_text></div>
+
+            </div>
+
         </div>
 
     </div>
 
-    <button id="heroButton" onClick="button_func.clickedOnHomeButton()">Home</button>
-    <button id="heroButton" onClick="button_func.clickedOnLittleTownButton()">Little Town</button>
+    <!-- ********** -->
+    <!-- Diary Area -->
+    <!-- ********** -->
 
-    <div id=home_area>
+    <div id=diary_area class=menuButtonArea>
 
-        <div id=headline_home_area>Home</div>
-        <button id="heroButton" onClick="button_func.clickedOnReinforceBodyButton()">Reinforce Body</button>
+        <div id=navigation_area_diary>
 
-    </div>
-
-    <div id=first_area>
-
-        <div id=headline_first_area>Little Town</div>
-        <button id="heroButton" onClick="button_func.clickedOnFarmworkingButton()">Farmworking</button>
-
-    </div>
-
-    <div id=logging_area>Entries
-
-        <div id=logging_area_text_field>
-
-            <div id=logging_area_text>No Messages<br></div>
+                <div id="headline_diary_area" class="headline">Diary</div>
+                <button class="heroButton" id="entriesButton" onClick="button_func.clickedOnEntriesButton()">Entries</button>
+                <button class="heroButton" id="questButton" onClick="button_func.clickedOnQuestButton()">Quest</button>
 
         </div>
 
+        <div>
+
+            <div id=diary_entries_area class="switch_area_diary">Entries
+
+                <div id=diary_entries_area_text_field>
+                    <div id=diary_entries_area_text></div>
+                </div>
+            </div>
+
+            <div id=diary_quest_area class="switch_area_diary">Quest
+                    <div id=diary_quest_area_text></div>
+            </div>
+
+        </div>
     </div>
+
+    <!-- *********** -->
+    <!-- Script Area -->
+    <!-- *********** -->
 
 
 
     <!-- Scripts -->
     <script src="scripts/progressbar.js"></script>
-    <script src="scripts/config.js"></script>
+    <script src="scripts/area_func.js"></script>
     <script src="scripts/button.js"></script>
     <script src="scripts/hero.js"></script>
     <script src="scripts/jobs.js"></script>
     <script src="scripts/logging_area.js"></script>
     <script src="scripts/functions_basic.js"></script>
+    <script src="scripts/story_progress.js"></script>
+    <script src="scripts/background_timer.js"></script>
+    <script src="scripts/diary.js"></script>
+    <script src="scripts/config.js"></script>
 
-    <!-- Starting main-function -->
+
+    <!-- CDN - Scripts -->
     <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
     <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
     <script src="scripts/tooltip.js"></script>
-    <script src="scripts/main.js"></script>
 
+    <!-- Starting main-function -->
+    <script src="scripts/main.js"></script>
 
 </body>
 

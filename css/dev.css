@@ -1,0 +1,7 @@
+.heroButton, #exp_area, #money {
+    display: inline-block;
+}
+
+#progressbar_stamina, #progressbar_health, #progressbar_mana, .menuButton, #logging_area {
+    display: block;
+}

@@ -20,3 +20,4 @@ do {
 */
 
 hero.firstInitialization();
+background_timer.startCounting();

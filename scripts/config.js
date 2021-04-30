@@ -1,3 +1,5 @@
 let config = {
-    recovery_botton_length: 180,
+
+    quest_lady_in_distress_reward_exp: 100,
+ 
 };
