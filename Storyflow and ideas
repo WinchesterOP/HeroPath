@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net" modified="2021-05-01T12:50:11.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="lXmpYv96bHrF4UW_5zN0" version="14.6.9" type="github">
+  <diagram id="TYVINidy_r5RLT-9-Vnp" name="Page-1">
+    <mxGraphModel dx="960" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="irx26XRdqh6CpXdz-TXo-2" value="Talk to Father&lt;br&gt;(Home)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-3" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="irx26XRdqh6CpXdz-TXo-1" target="irx26XRdqh6CpXdz-TXo-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="63" as="sourcePoint" />
+            <mxPoint x="190" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="72" />
+              <mxPoint x="60" y="148" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-1" value="Start:&lt;br&gt;First Level-Up" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;sketch=0;fillColor=#7F00FF;" parent="1" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-5" value="Talk to Farmer&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-6" value="" style="endArrow=classic;html=1;noEdgeStyle=1;orthogonal=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="irx26XRdqh6CpXdz-TXo-2" target="irx26XRdqh6CpXdz-TXo-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="70" as="sourcePoint" />
+            <mxPoint x="230" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="232" />
+              <mxPoint x="60" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-7" value="Start:&lt;br&gt;Third Level-Up" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;sketch=0;fillColor=#7F00FF;" parent="1" vertex="1">
+          <mxGeometry x="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-8" value="Talk to Lady&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-9" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="irx26XRdqh6CpXdz-TXo-7" target="irx26XRdqh6CpXdz-TXo-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="150" as="sourcePoint" />
+            <mxPoint x="320" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="72" />
+              <mxPoint x="240" y="148" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-10" value="Dungeon: Flower Bed&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-11" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="irx26XRdqh6CpXdz-TXo-8" target="irx26XRdqh6CpXdz-TXo-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="280" as="sourcePoint" />
+            <mxPoint x="470" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="232" />
+              <mxPoint x="240" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-12" value="Follow Enemy&lt;br&gt;(Capital City)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="435" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-13" value="Later Ideas:" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;sketch=0;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-14" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="irx26XRdqh6CpXdz-TXo-13" target="irx26XRdqh6CpXdz-TXo-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="249.99999999999977" y="70.00000000000011" as="sourcePoint" />
+            <mxPoint x="249.99999999999977" y="170.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="495" y="72" />
+              <mxPoint x="495" y="148" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-15" value="Save the children&lt;br&gt;(Capital City)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-16" value="Follow Enemy&lt;br&gt;(Capital City)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-18" value="Enemy runs into burning building. You are hearing kids crying for help" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="420" y="320" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-19" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="irx26XRdqh6CpXdz-TXo-12" target="irx26XRdqh6CpXdz-TXo-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429.9999999999998" y="70.00000000000011" as="sourcePoint" />
+            <mxPoint x="429.9999999999998" y="170.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="495" y="232" />
+              <mxPoint x="495" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-20" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="irx26XRdqh6CpXdz-TXo-18" target="irx26XRdqh6CpXdz-TXo-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="249.99999999999977" y="70.00000000000011" as="sourcePoint" />
+            <mxPoint x="249.99999999999977" y="170.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="472" />
+              <mxPoint x="420" y="548" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-21" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="irx26XRdqh6CpXdz-TXo-18" target="irx26XRdqh6CpXdz-TXo-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="70.00000000000011" as="sourcePoint" />
+            <mxPoint x="70" y="170.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="472" />
+              <mxPoint x="570" y="548" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
