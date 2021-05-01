@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-01T18:14:40.373Z" agent="5.0 (Windows)" etag="4Qt2M_48FQ_TBu-IaA7a" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-01T18:15:13.088Z" agent="5.0 (Windows)" etag="__X--VCNrzBtKZeV3io_" version="14.6.9" type="github">
   <diagram id="TYVINidy_r5RLT-9-Vnp" name="Page-1">
     <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -701,9 +701,6 @@
         </mxCell>
         <mxCell id="GDXc2WCULTkVBbkMAAXe-38" value="Neco schreibt etwas(demon lord castle)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2009.9963838064668" y="190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="GR3v8f0Vn8pbBNBu9Q6K-1" value="Eren schreibt etwas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2160" y="190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
