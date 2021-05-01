@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-01T18:24:34.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="k46WnlGX8cOPG3LoCX_N" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-01T18:26:44.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="t6b1RybrrgOT2ndYQryr" version="14.6.9" type="github">
   <diagram id="TYVINidy_r5RLT-9-Vnp" name="Page-1">
-    <mxGraphModel dx="960" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1371" dy="2009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -784,7 +784,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gjbwj-8g8M3SsiGOUzL0-15" value="the apocalyptic dragon has been killed&lt;br&gt;(apocalyptic dimension)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2210" y="90" width="180" height="80" as="geometry" />
+          <mxGeometry x="2160" y="130" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gjbwj-8g8M3SsiGOUzL0-19" target="gjbwj-8g8M3SsiGOUzL0-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gjbwj-8g8M3SsiGOUzL0-19" target="gjbwj-8g8M3SsiGOUzL0-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-19" value="Fight the apocalyptic dragon&lt;br&gt;&lt;br&gt;there has to be a Notification that Dead means really dead in this fight&lt;br&gt;&lt;br&gt;(apocalyptic dimension)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="-100" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gjbwj-8g8M3SsiGOUzL0-21" target="gjbwj-8g8M3SsiGOUzL0-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-21" value="the hero party has been killed&lt;br&gt;(apocalyptic dimension)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="110" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-23" value="Reincarnation" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#33FFFF;" vertex="1" parent="1">
+          <mxGeometry x="2560" y="290" width="130" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
