@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-02T08:03:37.525Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="Po6gArNcPm7wlbD5Gvw6" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-02T08:06:50.038Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="IHNaijQyQIRi4bjBnfPf" version="14.6.9" type="github">
   <diagram id="TYVINidy_r5RLT-9-Vnp" name="Page-1">
-    <mxGraphModel dx="1627" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2198" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1071,11 +1071,32 @@
         <mxCell id="MIuwq38nCLDG81LJy97M-11" value="several Events later" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-533" y="1200" width="190" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MIuwq38nCLDG81LJy97M-14" value="the alchemist&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-533" y="1340" width="120" height="60" as="geometry" />
+        <mxCell id="MIuwq38nCLDG81LJy97M-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MIuwq38nCLDG81LJy97M-14" target="MIuwq38nCLDG81LJy97M-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-14" value="the alchemist is the boss of the dungeon&lt;br&gt;(Dungeon: Magic crystal factory)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1390" width="183" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MIuwq38nCLDG81LJy97M-16" target="MIuwq38nCLDG81LJy97M-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MIuwq38nCLDG81LJy97M-16" value="several Events later" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-790" y="1225" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MIuwq38nCLDG81LJy97M-17" target="MIuwq38nCLDG81LJy97M-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-17" value="the alchemist reconises you and allows you to enter the magic crystal factory&lt;br&gt;(magic crystal factory)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="1350" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MIuwq38nCLDG81LJy97M-20" target="MIuwq38nCLDG81LJy97M-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-20" value="several Events later" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="1610" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-23" value="the crystal of the magic crystal factory are used for the demon king to store his tribe inside after the apocalypse&lt;br&gt;(???)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-533" y="1820" width="183" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
