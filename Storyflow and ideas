@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-02T00:28:27.234Z" agent="5.0 (Windows)" etag="X8GwqyU4C8tV0kvhDZxZ" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-02T00:32:47.925Z" agent="5.0 (Windows)" etag="rdgXoyPAWTPBIUPOV-R-" version="14.6.9" type="github">
   <diagram id="TYVINidy_r5RLT-9-Vnp" name="Page-1">
-    <mxGraphModel dx="2500" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3671" dy="1526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -998,7 +998,7 @@
         <mxCell id="RebIsJpTSPGbqB_T1sYM-32" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RebIsJpTSPGbqB_T1sYM-22" target="RebIsJpTSPGbqB_T1sYM-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RebIsJpTSPGbqB_T1sYM-22" value="You&#39;re a mage and decipher it" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RebIsJpTSPGbqB_T1sYM-22" value="You&#39;re a mage and you can read it" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-137.5" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RebIsJpTSPGbqB_T1sYM-31" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RebIsJpTSPGbqB_T1sYM-26" target="RebIsJpTSPGbqB_T1sYM-28">
@@ -1013,8 +1013,20 @@
         <mxCell id="RebIsJpTSPGbqB_T1sYM-28" value="Combination&lt;br&gt;needed" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#7F00FF;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="-359.9976746351547" y="860" width="110" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="RebIsJpTSPGbqB_T1sYM-38" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RebIsJpTSPGbqB_T1sYM-33" target="RebIsJpTSPGbqB_T1sYM-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RebIsJpTSPGbqB_T1sYM-39" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RebIsJpTSPGbqB_T1sYM-33" target="RebIsJpTSPGbqB_T1sYM-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RebIsJpTSPGbqB_T1sYM-33" value="Find the hideout of the Demonlord henchman" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-415.00009036589313" y="1045" width="220" height="90" as="geometry" />
+          <mxGeometry x="-410.00009036589313" y="1045" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RebIsJpTSPGbqB_T1sYM-35" value="Foil his plans" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RebIsJpTSPGbqB_T1sYM-36" value="Fail to hinder him" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-473" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
