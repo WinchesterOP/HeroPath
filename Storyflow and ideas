@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-02T10:24:18.776Z" agent="5.0 (Windows)" etag="AsdpSrMvg6qh_xakdU-K" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-02T13:09:58.290Z" agent="5.0 (Windows)" etag="PQyuzsX8ZUR7Yf8EqPfo" version="14.6.9" type="github">
   <diagram id="TYVINidy_r5RLT-9-Vnp" name="Page-1">
     <mxGraphModel dx="2249" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -941,35 +941,27 @@
           <mxGeometry x="2014.75" y="840" width="230" height="70" as="geometry" />
         </mxCell>
         <mxCell id="RebIsJpTSPGbqB_T1sYM-8" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RebIsJpTSPGbqB_T1sYM-1" target="RebIsJpTSPGbqB_T1sYM-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-663" y="810" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RebIsJpTSPGbqB_T1sYM-10" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.333;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="RebIsJpTSPGbqB_T1sYM-1" target="RebIsJpTSPGbqB_T1sYM-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-557" y="810" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="LP6hopwKpI1qdDnJ-a3K-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;" edge="1" parent="1" source="RebIsJpTSPGbqB_T1sYM-1" target="RebIsJpTSPGbqB_T1sYM-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RebIsJpTSPGbqB_T1sYM-1" value="Decision:&lt;br&gt;he wants to give you some money to ignore the fact that he is here" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-640" y="620" width="160" height="150" as="geometry" />
+        <mxCell id="RebIsJpTSPGbqB_T1sYM-1" value="Decision:&lt;br&gt;He is trying to bribe you" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-640" y="570" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="MIuwq38nCLDG81LJy97M-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="RebIsJpTSPGbqB_T1sYM-3" target="MIuwq38nCLDG81LJy97M-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RebIsJpTSPGbqB_T1sYM-3" value="take the money&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-750" y="840" width="120" height="60" as="geometry" />
+        <mxCell id="RebIsJpTSPGbqB_T1sYM-3" value="take money&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RebIsJpTSPGbqB_T1sYM-29" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RebIsJpTSPGbqB_T1sYM-4" target="MIuwq38nCLDG81LJy97M-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-400" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RebIsJpTSPGbqB_T1sYM-4" value="tell the city guard about the alchemist&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-473" y="830" width="120" height="60" as="geometry" />
+        <mxCell id="RebIsJpTSPGbqB_T1sYM-4" value="tell city guards&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-490" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RebIsJpTSPGbqB_T1sYM-15" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RebIsJpTSPGbqB_T1sYM-13" target="RebIsJpTSPGbqB_T1sYM-16" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1003,13 +995,13 @@
         <mxCell id="MIuwq38nCLDG81LJy97M-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="MIuwq38nCLDG81LJy97M-1" target="MIuwq38nCLDG81LJy97M-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MIuwq38nCLDG81LJy97M-1" value="folow the slime trail&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MIuwq38nCLDG81LJy97M-1" value="Follow the slime trail&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-790" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MIuwq38nCLDG81LJy97M-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MIuwq38nCLDG81LJy97M-2" target="MIuwq38nCLDG81LJy97M-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MIuwq38nCLDG81LJy97M-2" value="Dungeon: slimy cave&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MIuwq38nCLDG81LJy97M-2" value="Dungeon: Slimy Cave&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-380" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MIuwq38nCLDG81LJy97M-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MIuwq38nCLDG81LJy97M-4" target="RebIsJpTSPGbqB_T1sYM-1" edge="1">
@@ -1017,8 +1009,8 @@
             <mxPoint x="-440" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MIuwq38nCLDG81LJy97M-4" value="after dungeon you gonna meet an alchemist. he tells you that he is experimenting with slimes to create magic crystals. they are absoring the energy from nature. he doenst care that the smiles are destroying the nature in the town &lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-790" y="370" width="230" height="150" as="geometry" />
+        <mxCell id="MIuwq38nCLDG81LJy97M-4" value="Meet Alchemist &lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-620" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MIuwq38nCLDG81LJy97M-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MIuwq38nCLDG81LJy97M-8" target="MIuwq38nCLDG81LJy97M-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
