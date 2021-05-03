@@ -1,0 +1,94 @@
+#attributes_area {
+    display: none;
+    width: 646px;
+}
+
+#attributes_area_stat_sheet {
+    border-style: solid;
+    border-width: 2px;
+    height: 400px;
+    text-margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ff3f14;
+    display: block;
+}
+
+#attributes_topline {
+
+   border-style: solid;
+   border-width: 2px;
+   background-color: #f5947f;
+   text-align: center;
+   width: 90%;
+   margin: auto;
+   margin-bottom: 40px;
+   padding: 10px 10px;
+    
+}
+
+.attributes_block {
+   display: inline-block; 
+}
+
+
+#attributes_name, #attributes_level, #attributes_remaining_points {
+    display: inline-block;
+    text-align: center;
+}
+
+#attributes_name  {
+    display: inline-block;
+    float: left;
+}
+
+#attributes_level  {
+    display: inline-block;
+}
+
+
+#attributes_remaining_points { 
+   float: right;
+}
+
+#attributes_strength {
+   display: inline-block;
+}
+
+.attributesPoints {
+   border-style: solid;
+   border-width: 1px;
+   background-color: #f5947f;
+   text-align: center;
+   width: 40px;
+   margin-left: 20px;
+   padding: 9px 10px;
+   display: inline-block;
+}
+
+.attributesStats {
+   width: 200px;
+   margin-left: 5px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   display: inline-block;
+}
+
+.attributesStatsValue {
+   float: right;
+   width: 100px;
+   margin-left: 20px;
+   margin-left: 5px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   display: inline-block;
+}
+
+#attributes_block_right {
+    margin-left: 30px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #f5947f;
+}
+
+

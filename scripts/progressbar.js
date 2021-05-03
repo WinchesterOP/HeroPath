@@ -165,4 +165,30 @@ let progressbar = {
             progressbar_number.innerHTML = progressbar.stamina_state;
         }
     },
+
+    recover_health_fixed_amount: function(number) {
+        let progressbar_number = document.getElementById("progressbar_state_health_number");
+        let element = document.getElementById("progressbar_state_health");
+        
+        if (progressbar.health_state >= progressbar.health_max) {
+            return;
+        } else {
+            progressbar.increaseHealth(number);
+            element.style.width = getPercentage(progressbar.health_state, progressbar.health_max) + '%';
+            progressbar_number.innerHTML = progressbar.health_state;
+        }
+    },
+
+    recover_mana_fixed_amount: function(number) {
+        let progressbar_number = document.getElementById("progressbar_state_mana_number");
+        let element = document.getElementById("progressbar_state_mana");
+        
+        if (progressbar.mana_state >= progressbar.mana_max) {
+            return;
+        } else {
+            progressbar.increaseMana(number);
+            element.style.width = getPercentage(progressbar.mana_state, progressbar.mana_max) + '%';
+            progressbar_number.innerHTML = progressbar.mana_state;
+        }
+    },
 };

@@ -14,6 +14,11 @@ let story_progress = {
                 button_func.appearButton("recoverButton");
                 button_func.appearButton("talkToFatherButton");
                 break;
+            case 2:
+                button_func.appearMenuButton("attributesButton");
+                logging_area.logSomeText("<br>[UNLOCKED: Attributes]");
+                
+                break;
             case 3: // Level 3 will trigger first quest event
                 button_func.appearButton("talkToLadyButton");
                 break;

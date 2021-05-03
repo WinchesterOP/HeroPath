@@ -12,6 +12,12 @@ let button_func = {
         button.style.display = "inline-block";
     },
 
+    appearMenuButton: function(buttonid) {
+        logging("INFO", buttonid + "-Button is now visible")
+        let button = document.getElementById(buttonid);
+        button.style.display = "block";
+    },
+
     clickedOnRecoveryButton: function() {
         logging("INFO", "Recovery-Button has been pressed");
         progressbar.recover_stamina();
@@ -52,6 +58,11 @@ let button_func = {
         area_func.switchMenuToWorld();
     },
 
+    clickedOnAttributesButton: function() {
+        logging("INFO", "Attributes-Button has been pressed");
+        area_func.switchMenuToAttributes();
+    },
+
     clickedOnDiaryButton: function() {
         logging("INFO", "Diary-Button has been pressed");
         area_func.switchMenuToDiary();
@@ -90,6 +101,11 @@ let button_func = {
     clickedOnDungeonFlowerBedButton: function() {
         logging("INFO", "DungeonFlowerBed-Button has been pressed");
         logging_area.logSomeText("not yet implemented");
+    },
+
+    clickedOnRaiseAttributeButton: function(attribute) {
+        logging("INFO", "Raise-Attributes-Button has been pressed for: " +  attribute);
+        hero.increaseAttribute(attribute);
     },
 
 };

@@ -5,6 +5,8 @@ let background_timer = {
 
         function scene() {
             progressbar.recover_stamina_fixed_amount(hero.staminaPerSecond);
+            progressbar.recover_health_fixed_amount(hero.healthPerSecond);
+            progressbar.recover_mana_fixed_amount(hero.manaPerSecond);
         }
     },
 };

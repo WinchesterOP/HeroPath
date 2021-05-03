@@ -29,6 +29,56 @@ tippy(
 );
 
 tippy(
+    "#attributes_strength", {
+        allowHTML: true,
+        content: 'Strength:' +
+            '<UL>' +
+            '<LI>' + ' Increases Attack Power' + 
+            '</UL>',
+    },
+);
+
+tippy(
+    "#attributes_constitution", {
+        allowHTML: true,
+        content: 'Constitution:' +
+            '<UL>' +
+            '<LI>' + ' Increases Defense' + 
+            '</UL>',
+    },
+);
+
+tippy(
+    "#attributes_dexterity", {
+        allowHTML: true,
+        content: 'Dexterity:' +
+            '<UL>' +
+            '<LI>' + ' Increases Evasion' + 
+            '</UL>',
+    },
+);
+
+tippy(
+    "#attributes_essence", {
+        allowHTML: true,
+        content: 'Essence:' +
+            '<UL>' +
+            '<LI>' + ' Increases Magic Attack' + 
+            '</UL>',
+    },
+);
+
+tippy(
+    "#attributes_luck", {
+        allowHTML: true,
+        content: 'Luck:' +
+            '<UL>' +
+            '<LI>' + ' Increases Critical Chance' + 
+            '</UL>',
+    },
+);
+
+tippy(
     "#restButton", {
         allowHTML: true,
         content: 'Restore some Health'

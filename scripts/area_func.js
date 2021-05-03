@@ -91,6 +91,16 @@ let area_func = {
         }
     },
 
+    switchMenuToAttributes: function() {
+        for (area_entry of area_func.menuButtonAreaArray) {
+            if (area_entry.id == "attributes_area") {
+                area_entry.style.display = "block";
+            } else {
+                area_entry.style.display = "none";
+            }
+        }
+    },
+
     switchMenuToDiary: function() {
         for (area_entry of area_func.menuButtonAreaArray) {
             if (area_entry.id == "diary_area") {
