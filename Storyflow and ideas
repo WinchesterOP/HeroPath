@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-03T20:45:55.296Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="Zj1xn0WL8t2BokYUU37k" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-03T20:52:22.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="X40EpdqB1xTgqK72GfCF" version="14.6.9" type="github">
   <diagram id="TYVINidy_r5RLT-9-Vnp" name="Page-1">
-    <mxGraphModel dx="6400" dy="6258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2743" dy="4018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,7 +12,7 @@
         <mxCell id="SvzfsY_5kxfyUdOhqigk-76" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#10739e;fillColor=#8D91A6;" vertex="1" parent="SvzfsY_5kxfyUdOhqigk-75">
           <mxGeometry width="1210" height="660" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;h1&gt;&lt;font style=&quot;font-size: 30px&quot;&gt;&lt;u&gt;Demon Continent&lt;/u&gt;&lt;/font&gt;&lt;/h1&gt;" tooltip="You will Graduate from Capital City as best student that is the reason that you get a recommendation to become a royal knight. you have to take some story quest to get this title.&#xa;&#xa;as soon as you are a royal knight you become quest which leads to to the demon king and the battle against him" id="SvzfsY_5kxfyUdOhqigk-77">
+        <UserObject label="&lt;h1&gt;&lt;font style=&quot;font-size: 30px&quot;&gt;&lt;u&gt;Demon Continent&lt;/u&gt;&lt;/font&gt;&lt;/h1&gt;" tooltip="Multiple Ending in this Location&#xa;&#xa;Ending 1: Kill the demon king but he summons the apocalyptic dragon which destroyes half the world&#xa;&#xa;Ending 2: Try to kill the apocalyptic dragon after summoning but the hero DIES&#xa;&#xa;Ending 3: Try to kill the apocalyptic dragon after summoning and WIN. Happy After Reincarnation is possible&#xa;&#xa;Ending 4: After Reincarnation it is possible to find a Summoner to summon the hero into the apocalyptic Dimension to kill the apocalyptic dragon before summoning&#xa;&#xa;Story: The plan of the Demon Lord is to destroy the whole world so that the demons can rebuild it. the demons tried to life peacefully but the humans could life beside lifeform which looks like monsters. the humans started wars. demons are stronger than humans but the huge amount of humans was to much for the demons to win. the demon lord save a few hunderd of his race inside magic crystal so that they will be restored after the apocalyptic dragon reseted the world. " id="SvzfsY_5kxfyUdOhqigk-77">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="SvzfsY_5kxfyUdOhqigk-75">
             <mxGeometry x="20" y="10" width="320" height="50" as="geometry" />
           </mxCell>
