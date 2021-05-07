@@ -17,7 +17,7 @@ let jobs = {
             area_func.appearStaminaProgressbar();
         }
 
-        if (progressbar.reduceStamina(jobs.swingSword_stamina_cost) == true) {
+        if (hero.reduceStamina(jobs.swingSword_stamina_cost) == true) {
             hero.gainEXP(jobs.swingSword_exp_gain);
             logging_area.logSomeText("You swung your Sword. Looks like you become better at swinging");
         } else {
@@ -27,7 +27,7 @@ let jobs = {
     },
 
     workingOnFarm: function() {
-        if (progressbar.reduceStamina(jobs.farmworking_stamina_cost) == true) {
+        if (hero.reduceStamina(jobs.farmworking_stamina_cost) == true) {
             hero.addtoCurrentGold(jobs.farmworking_gold_gain);
             hero.gainEXP(jobs.farmworking_exp_gain);
             logging_area.logSomeText("You gained some gold for your hard work");
@@ -38,7 +38,7 @@ let jobs = {
     },
 
     reinforceBody: function() {
-        if (progressbar.reduceMana(jobs.reinforceBody_mana_cost) == true) {
+        if (hero.reduceMana(jobs.reinforceBody_mana_cost) == true) {
             hero.increaseStaminaMax(jobs.reinforceBody_stamina_gain);
             hero.increaseHealthMax(jobs.reinforceBody_health_gain);
             jobs.reinforceBody_mana_cost *= 2;

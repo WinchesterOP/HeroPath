@@ -41,6 +41,16 @@ let area_func = {
         temp.style.display = "block";
     },
 
+    disableCharacterSheet: function() {
+        let temp = document.getElementById("menu_area");
+        temp.style.display = "none";
+    },
+
+    enableCharacterSheet: function() {
+        let temp = document.getElementById("menu_area");
+        temp.style.display = "block";
+    },
+
     switchToLittleTown: function() {
         for (area_entry of area_func.area_array) {
             if (area_entry.id == "littleTown_area") {
@@ -101,6 +111,16 @@ let area_func = {
         }
     },
 
+    switchMenuToBattle: function() {
+        for (area_entry of area_func.menuButtonAreaArray) {
+            if (area_entry.id == "battle_area") {
+                area_entry.style.display = "block";
+            } else {
+                area_entry.style.display = "none";
+            }
+        }
+    },
+
     switchMenuToDiary: function() {
         for (area_entry of area_func.menuButtonAreaArray) {
             if (area_entry.id == "diary_area") {
@@ -110,5 +130,7 @@ let area_func = {
             }
         }
     },
+
+
 
 };

@@ -100,12 +100,17 @@ let button_func = {
 
     clickedOnDungeonFlowerBedButton: function() {
         logging("INFO", "DungeonFlowerBed-Button has been pressed");
-        logging_area.logSomeText("not yet implemented");
+        battle.createBattleArea('Dungeon: Flower Bed');
     },
 
     clickedOnRaiseAttributeButton: function(attribute) {
         logging("INFO", "Raise-Attributes-Button has been pressed for: " +  attribute);
         hero.increaseAttribute(attribute);
+    },
+
+    clickedOnAttackButton: function(attribute) {
+        logging("INFO", "Attack-Button has been pressed");
+        battle.fightAttack();
     },
 
 };

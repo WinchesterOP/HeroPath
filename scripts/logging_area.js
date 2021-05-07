@@ -6,6 +6,17 @@ let logging_area = {
         loggingText.innerHTML = getTime() + ": " + textToAdd + '<br>' + newLoggingText;
     },
 
+    logSomeBattleText: function(textToAdd) {
+        let loggingText = document.getElementById("logging_area_battle_text");
+        let newLoggingText = logging_area.checkIfEntryIsFull(loggingText.innerHTML);
+        loggingText.innerHTML = getTime() + ": " + textToAdd + '<br>' + newLoggingText;
+    },
+
+    clearBattleText: function() {
+        let loggingText = document.getElementById("logging_area_battle_text");
+        loggingText.innerHTML = '';
+    },
+
     checkIfEntryIsFull: function(loggingText) {
         if ((loggingText.match(/<br>/g)||[]).length >= 6 ){
             return logging_area.trimEntry(loggingText);

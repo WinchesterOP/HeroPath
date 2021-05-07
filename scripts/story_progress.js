@@ -9,14 +9,11 @@ let story_progress = {
                 area_func.appearHealthProgressbar();
                 area_func.appearManaProgressbar();
                 area_func.appearExpDisplay();
-                button_func.appearButton("restButton");
-                button_func.appearButton("meditateButton");
-                button_func.appearButton("recoverButton");
                 button_func.appearButton("talkToFatherButton");
                 break;
             case 2:
                 button_func.appearMenuButton("attributesButton");
-                logging_area.logSomeText("<br>[UNLOCKED: Attributes]");
+                logging_area.logSomeText("[UNLOCKED: Attributes]");
                 
                 break;
             case 3: // Level 3 will trigger first quest event

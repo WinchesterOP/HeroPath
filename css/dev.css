@@ -2,6 +2,6 @@
     display: inline-block;
 }
 
-#progressbar_stamina, #progressbar_health, #progressbar_mana, .menuButton, #logging_area {
+.progress, .menuButton, #logging_area {
     display: block;
 }

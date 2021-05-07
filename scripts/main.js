@@ -19,5 +19,18 @@ do {
 
 */
 
-hero.firstInitialization();
+
+ // Get the attributes from hero and sets the progressbars on the character-sheet
+
+progressbar.setAllProgessbarMaxes();
+progressbar.refreshProgressbar(prog.healthBar, prog.healthNum, hero.health, hero.healthMax);
+progressbar.refreshProgressbar(prog.manaBar, prog.manaNum, hero.mana, hero.manaMax);
+progressbar.refreshProgressbar(prog.staminaBar, prog.staminaNum, hero.stamina, hero.staminaMax);
+hero.refreshGoldDisplay();
+area_func.getAllSwitchAreas();
+
+
 background_timer.startCounting();
+
+
+   
