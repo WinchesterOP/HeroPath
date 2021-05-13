@@ -95,10 +95,10 @@ let battle = {
         skillButton.innerHTML = 'Skill';
         itemButton.innerHTML = 'Item';
 
-        attackButton.onclick = function() { button_func.clickedOnAttackButton(); };
-        magicButton.onclick = function() { button_func.clickedOnAttackButton(); };
-        skillButton.onclick = function() { button_func.clickedOnAttackButton(); };
-        itemButton.onclick = function() { button_func.clickedOnAttackButton(); };
+        attackButton.onclick = function() { button.clickedOnAttackButton(); };
+        magicButton.onclick = function() { button.clickedOnAttackButton(); };
+        skillButton.onclick = function() { button.clickedOnAttackButton(); };
+        itemButton.onclick = function() { button.clickedOnAttackButton(); };
 
         battleButtons.appendChild(attackButton);
         battleButtons.appendChild(magicButton);
@@ -128,8 +128,8 @@ let battle = {
 
     fightEnemyAttack: function(index) {
         let damage = battle.calculateDamage(battle.enemyArray[index].attack, battle.partyArray[0].defense);
-        battle.reduceHealth('Party', battle.partyArray[0].hero_id, damage);
         logging_area.logSomeBattleText(this.enemyArray[0].name + ' attacked you with  ' + damage + ' Damage');
+        battle.reduceHealth('Party', battle.partyArray[0].hero_id, damage);
     },
 
     reduceHealth: function(memberType, id, damage) {

@@ -1,21 +1,21 @@
-let button_func = {
+let button = {
 
     vanishButton: function(buttonid) {
         logging("INFO", buttonid + "-Button is now invisible")
-        let button = document.getElementById(buttonid);
-        button.style.display = "none";
+        let buttonElement = document.getElementById(buttonid);
+        buttonElement.style.display = "none";
     },
 
     appearButton: function(buttonid) {
         logging("INFO", buttonid + "-Button is now visible")
-        let button = document.getElementById(buttonid);
-        button.style.display = "inline-block";
+        let buttonElement = document.getElementById(buttonid);
+        buttonElement.style.display = "inline-block";
     },
 
     appearMenuButton: function(buttonid) {
         logging("INFO", buttonid + "-Button is now visible")
-        let button = document.getElementById(buttonid);
-        button.style.display = "block";
+        let buttonElement = document.getElementById(buttonid);
+        buttonElement.style.display = "block";
     },
 
     clickedOnRecoveryButton: function() {
