@@ -1,16 +1,16 @@
 // The IDs for the progressbars in the character sheet
 const prog = {
-    healthBar:      'progressbarHealthParty0',
-    manaBar:        'progressbarManaParty0',
-    staminaBar:     'progressbarStaminaParty0',
+    healthBar: 'progressbarHealthParty0',
+    manaBar: 'progressbarManaParty0',
+    staminaBar: 'progressbarStaminaParty0',
 
-    healthMax:     'progressbarMaxHealthParty0',
-    manaMax:       'progressbarMaxManaParty0',
-    staminaMax:    'progressbarMaxStaminaParty0',
+    healthMax: 'progressbarMaxHealthParty0',
+    manaMax: 'progressbarMaxManaParty0',
+    staminaMax: 'progressbarMaxStaminaParty0',
 
-    healthNum:      'progressbarStateHealthParty0',
-    manaNum:        'progressbarStateManaParty0',
-    staminaNum:     'progressbarStateStaminaParty0',
+    healthNum: 'progressbarStateHealthParty0',
+    manaNum: 'progressbarStateManaParty0',
+    staminaNum: 'progressbarStateStaminaParty0',
 };
 
 let progressbar = {

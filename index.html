@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/attributes.css" />
     <link rel="stylesheet" type="text/css" href="css/battle.css" />
     <link rel="stylesheet" type="text/css" href="css/progressbar.css" />
-    
+
     <!-- to see everything during developing -->
     <!--<link rel="stylesheet" type="text/css" href="css/dev.css" />
     <!-- to see everything during developing -->
@@ -34,7 +34,7 @@
             <div id=progressbar_health class=progress>
                 <div id=progressbarHealthParty0 class=progressbar></div>
                 <div id=progressbarTextHealthParty0 class=progressbarText>Health:</div>
-                <div id=progressbarMaxHealthParty0 class=progressbarMax></div> 
+                <div id=progressbarMaxHealthParty0 class=progressbarMax></div>
                 <div id=progressbarStateHealthParty0 class=progressbarState>0</div>
             </div>
 
@@ -49,7 +49,7 @@
                 <div id=progressbarStaminaParty0 class=progressbar></div>
                 <div id=progressbarTextStaminaParty0 class=progressbarText>Stamina:</div>
                 <div id=progressbarMaxStaminaParty0 class=progressbarMax></div>
-                <div id=progressbarStateStaminaParty0 class=progressbarState>0</div>   
+                <div id=progressbarStateStaminaParty0 class=progressbarState>0</div>
             </div>
 
             <div id=money_exp_area>
@@ -57,13 +57,13 @@
                     <div id="money_placeholder"></div>
                     <div id="money_text">Gold: </div>
                     <div id="money_number">0</div>
-                </div>  
+                </div>
 
                 <div id=exp_area>
                     <div id=exp_text>next Lv.: </div>
                     <div id=exp_number>5</div>
-                </div>  
-             </div>
+                </div>
+            </div>
 
         </div>
 
@@ -108,7 +108,7 @@
             <button class="heroButton" id="talkToFarmerButton" onClick="button_func.clickedOnTalkToLittleTownFarmerButton()">Talk to Farmer</button>
             <button class="heroButton" id="farmworkingButton" onClick="button_func.clickedOnFarmworkingButton()">Farmworking</button>
             <button class="heroButton" id="dungeonFlowerBedButton" onClick="button_func.clickedOnDungeonFlowerBedButton()">Dungeon: Flower Bed</button>
-            
+
         </div>
 
         <div id=logging_area>
@@ -132,62 +132,62 @@
         <div id=attributes_area_stat_sheet>
 
             <div id="headline_attributes_area" class="headline">Attributes</div>
-                
+
             <div id=attributes_topline>
                 <div id="attributes_name">Name: Hero Name</div>
                 <div id="attributes_level">Level: 0</div>
                 <div id="attributes_remaining_points">Remaining Points: 0</div>
             </div>
-            
+
             <div class=attributes_block>
-                <div>    
+                <div>
                     <button id="attributes_strength" class="attributesButton" onClick="button_func.clickedOnRaiseAttributeButton('Strength')">Strength</button>
                     <div id="attributes_strength_points" class=attributesPoints>1</div>
                 </div>
 
-                <div>    
+                <div>
                     <button id="attributes_constitution" class="attributesButton" onClick="button_func.clickedOnRaiseAttributeButton('Constitution')">Constitution</button>
                     <div id="attributes_constitution_points" class=attributesPoints>1</div>
                 </div>
 
-                <div>    
+                <div>
                     <button id="attributes_essence" class="attributesButton" onClick="button_func.clickedOnRaiseAttributeButton('Essence')">Essence</button>
                     <div id="attributes_essence_points" class=attributesPoints>1</div>
                 </div>
 
-                <div>    
+                <div>
                     <button id="attributes_dexterity" class="attributesButton" onClick="button_func.clickedOnRaiseAttributeButton('Dexterity')">Dexterity</button>
                     <div id="attributes_dexterity_points" class=attributesPoints>1</div>
                 </div>
 
-                <div>    
+                <div>
                     <button id="attributes_luck" class="attributesButton" onClick="button_func.clickedOnRaiseAttributeButton('Luck')">Luck</button>
                     <div id="attributes_luck_points" class=attributesPoints>1</div>
                 </div>
-            </div>  
+            </div>
 
             <div id=attributes_block_right class=attributes_block>
-                <div>    
+                <div>
                     <div id=attributes_attack class=attributesStats>Attack:</div>
                     <div id="attributes_attack_value" class=attributesStatsValue>10</div>
                 </div>
 
-                <div>    
+                <div>
                     <div id=attributes_defense class=attributesStats>Defense:</div>
                     <div id="attributes_defense_value" class=attributesStatsValue>10</div>
                 </div>
 
-                <div>    
+                <div>
                     <div id=attributes_evasion class=attributesStats>Evasion:</div>
                     <div id="attributes_evasion_value" class=attributesStatsValue>10%</div>
                 </div>
 
-                <div>    
+                <div>
                     <div id=attributes_magic_attack class=attributesStats>Magic Attack:</div>
                     <div id="attributes_magic_attack_value" class=attributesStatsValue>10</div>
                 </div>
 
-                <div>    
+                <div>
                     <div id=attributes_critical_chance class=attributesStats>Critical Chance:</div>
                     <div id="attributes_critical_chance_value" class=attributesStatsValue>10%</div>
                 </div>
@@ -204,9 +204,9 @@
 
         <div id=navigation_area_diary>
 
-                <div id="headline_diary_area" class="headline">Diary</div>
-                <button class="heroButton" id="entriesButton" onClick="button_func.clickedOnEntriesButton()">Entries</button>
-                <button class="heroButton" id="questButton" onClick="button_func.clickedOnQuestButton()">Quest</button>
+            <div id="headline_diary_area" class="headline">Diary</div>
+            <button class="heroButton" id="entriesButton" onClick="button_func.clickedOnEntriesButton()">Entries</button>
+            <button class="heroButton" id="questButton" onClick="button_func.clickedOnQuestButton()">Quest</button>
 
         </div>
 
@@ -220,7 +220,7 @@
             </div>
 
             <div id=diary_quest_area class="switch_area_diary">Quest
-                    <div id=diary_quest_area_text></div>
+                <div id=diary_quest_area_text></div>
             </div>
 
         </div>
@@ -238,7 +238,7 @@
             <div id=battle_area_enemy></div>
 
         </div>
-        
+
         <div id=battle_area_buttons></div>
 
         <div id=logging_area_battle>
@@ -253,7 +253,7 @@
 
     </div>
 
-    
+
 
     <!-- *********** -->
     <!-- Script Area -->
@@ -266,7 +266,7 @@
     <script src="scripts/area_func.js"></script>
     <script src="scripts/button.js"></script>
     <script src="scripts/hero.js"></script>
-    <script src="scripts/jobs.js"></script>
+    <script src="scripts/activity.js"></script>
     <script src="scripts/logging_area.js"></script>
     <script src="scripts/functions_basic.js"></script>
     <script src="scripts/story_progress.js"></script>
