@@ -35,12 +35,12 @@ let button_func = {
 
     clickedOnFarmworkingButton: function() {
         logging("INFO", "Farmworking-Button has been pressed");
-        jobs.workingOnFarm();
+        activity.workingOnFarm();
     },
 
     clickedOnReinforceBodyButton: function() {
         logging("INFO", "ReinforceBody-Button has been pressed");
-        jobs.reinforceBody();
+        activity.reinforceBody();
     },
 
     clickedOnLittleTownButton: function() {
@@ -80,7 +80,7 @@ let button_func = {
 
     clickedOnSwordSwingButton: function() {
         logging("INFO", "SwordSwing-Button has been pressed");
-        jobs.swingSword();
+        activity.swingSword();
     },
 
     clickedOnTalkToFatherButton: function() {
@@ -104,7 +104,7 @@ let button_func = {
     },
 
     clickedOnRaiseAttributeButton: function(attribute) {
-        logging("INFO", "Raise-Attributes-Button has been pressed for: " +  attribute);
+        logging("INFO", "Raise-Attributes-Button has been pressed for: " + attribute);
         hero.increaseAttribute(attribute);
     },
 

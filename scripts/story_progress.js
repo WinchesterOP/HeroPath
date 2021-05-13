@@ -14,7 +14,7 @@ let story_progress = {
             case 2:
                 button_func.appearMenuButton("attributesButton");
                 logging_area.logSomeText("[UNLOCKED: Attributes]");
-                
+
                 break;
             case 3: // Level 3 will trigger first quest event
                 button_func.appearButton("talkToLadyButton");
@@ -24,7 +24,7 @@ let story_progress = {
             default:
                 logging("INFO", "No more level progress-steps");
                 break;
-        } 
+        }
     },
 
     talkToFather: function() {
@@ -50,8 +50,8 @@ let story_progress = {
                 logging("ERROR", "talkToFather has no more Options");
                 break;
         }
-          
-    },  
+
+    },
 
     talkToLittleTownFarmer: function() {
         switch (story_progress.level_littleTown_Farmer) {
@@ -73,7 +73,7 @@ let story_progress = {
                 logging("ERROR", "talkToFarmer has no more Options");
                 break;
         }
-          
+
     },
 
     talkToLittleTownLady: function() {
@@ -97,6 +97,6 @@ let story_progress = {
                 logging("ERROR", "talkToLady has no more Options");
                 break;
         }
-          
+
     },
 };

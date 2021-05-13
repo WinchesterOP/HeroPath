@@ -45,9 +45,7 @@ let attributes = {
                 element.innerHTML = value + '%';
                 break;
         }
-        
+
     },
 
 };
-
-

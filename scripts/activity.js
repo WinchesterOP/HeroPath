@@ -1,5 +1,5 @@
-let jobs = {
-    
+let activity = {
+
     //TODO: better way to track these variables
     firstSwing: true,
     swingSword_stamina_cost: 1,
@@ -11,14 +11,14 @@ let jobs = {
     reinforceBody_health_gain: 5,
     reinforceBody_stamina_gain: 5,
 
-    swingSword: function() {     
-        if (jobs.firstSwing) {
-            jobs.firstSwing = false;
+    swingSword: function() {
+        if (activity.firstSwing) {
+            activity.firstSwing = false;
             area_func.appearStaminaProgressbar();
         }
 
-        if (hero.reduceStamina(jobs.swingSword_stamina_cost) == true) {
-            hero.gainEXP(jobs.swingSword_exp_gain);
+        if (hero.reduceStamina(activity.swingSword_stamina_cost) == true) {
+            hero.gainEXP(activity.swingSword_exp_gain);
             logging_area.logSomeText("You swung your Sword. Looks like you become better at swinging");
         } else {
             logging_area.logSomeText("Not Enough Stamina");
@@ -27,9 +27,9 @@ let jobs = {
     },
 
     workingOnFarm: function() {
-        if (hero.reduceStamina(jobs.farmworking_stamina_cost) == true) {
-            hero.addtoCurrentGold(jobs.farmworking_gold_gain);
-            hero.gainEXP(jobs.farmworking_exp_gain);
+        if (hero.reduceStamina(activity.farmworking_stamina_cost) == true) {
+            hero.addtoCurrentGold(activity.farmworking_gold_gain);
+            hero.gainEXP(activity.farmworking_exp_gain);
             logging_area.logSomeText("You gained some gold for your hard work");
         } else {
             logging_area.logSomeText("Not Enough Stamina");
@@ -38,10 +38,10 @@ let jobs = {
     },
 
     reinforceBody: function() {
-        if (hero.reduceMana(jobs.reinforceBody_mana_cost) == true) {
-            hero.increaseStaminaMax(jobs.reinforceBody_stamina_gain);
-            hero.increaseHealthMax(jobs.reinforceBody_health_gain);
-            jobs.reinforceBody_mana_cost *= 2;
+        if (hero.reduceMana(activity.reinforceBody_mana_cost) == true) {
+            hero.increaseStaminaMax(activity.reinforceBody_stamina_gain);
+            hero.increaseHealthMax(activity.reinforceBody_health_gain);
+            activity.reinforceBody_mana_cost *= 2;
             logging_area.logSomeText("You reinforced your Body");
         } else {
             logging_area.logSomeText("Not Enough Mana");

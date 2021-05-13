@@ -37,18 +37,18 @@ let hero = {
     //TODO: better way to get the stats?
     getStats: function() {
         return {
-            name:               hero.name, 
-            health:             hero.health, 
-            healthMax:          hero.healthMax,
-            mana:               hero.mana, 
-            manaMax:            hero.manaMax,
-            stamina:            hero.stamina, 
-            staminaMax:         hero.staminaMax,
-            attack:             hero.attack,
-            magic_attack:       hero.magic_attack,
-            defense:            hero.defense,
-            evasion:            hero.evasion,
-            critical_chance:    hero.critical_chance,  
+            name: hero.name,
+            health: hero.health,
+            healthMax: hero.healthMax,
+            mana: hero.mana,
+            manaMax: hero.manaMax,
+            stamina: hero.stamina,
+            staminaMax: hero.staminaMax,
+            attack: hero.attack,
+            magic_attack: hero.magic_attack,
+            defense: hero.defense,
+            evasion: hero.evasion,
+            critical_chance: hero.critical_chance,
         };
     },
 
@@ -60,9 +60,9 @@ let hero = {
         heroname.innerHTML = "Name: " + name;
     },
 
-    <!-- **** -->
-    <!-- Gold -->
-    <!-- **** -->
+    /**
+     * <!-- Gold -->
+     */
 
     getCurrentGold: function() {
         return currentGold;
@@ -77,37 +77,36 @@ let hero = {
         let goldDisplay = document.getElementById("money_number");
         goldDisplay.innerHTML = hero.currentGold;
     },
-    
-    <!-- ********* -->
-    <!-- Level Up  -->
-    <!-- ********* -->
-    
+
+    /**
+     * <!-- Level Up  -->
+     */
 
     gainEXP: function(number) {
         hero.exp += number;
         if (hero.checkIfLevelUp(hero.exp)) {
             hero.levelUp();
-        }  
+        }
         hero.refreshExpDisplay();
     },
 
     refreshExpDisplay: function() {
         let element = document.getElementById("exp_number");
-        element.innerHTML = hero.exp_needed - hero.exp; 
+        element.innerHTML = hero.exp_needed - hero.exp;
     },
 
-    checkIfLevelUp: function(exp){
+    checkIfLevelUp: function(exp) {
         if (exp >= hero.exp_needed) {
             hero.exp_needed = ~~((hero.exp_needed * 1.5) + hero.exp);
             return true;
         } else {
             return false;
-        }     
+        }
     },
 
     levelUp: function() {
         hero.level++;
-        hero.setLevel(); 
+        hero.setLevel();
         hero.increaseAttributePoints(hero.attributePointsPerLevel);
         hero.healthMax += 10;
         hero.manaMax += 10;
@@ -115,7 +114,7 @@ let hero = {
         progressbar.setAllProgessbarMaxes();
         progressbar.refreshProgressbar(prog.healthBar, prog.healthNum, hero.health, hero.healthMax);
         progressbar.refreshProgressbar(prog.manaBar, prog.manaNum, hero.mana, hero.manaMax);
-        progressbar.refreshProgressbar(prog.staminaBar, prog.staminaNum, hero.stamina, hero.staminaMax); 
+        progressbar.refreshProgressbar(prog.staminaBar, prog.staminaNum, hero.stamina, hero.staminaMax);
         story_progress.checkLevelProgress(hero.level);
         logging("INFO", "You have reached Level: " + hero.level);
     },
@@ -128,23 +127,23 @@ let hero = {
         element.innerHTML = "Level: " + hero.level;
     },
 
-    <!-- ********** -->
-    <!-- Attributes -->
-    <!-- ********** -->
+    /**
+     * <!-- Attributes -->
+     */
 
     decreaseAttributePoints: function(number) {
         hero.attributePoints -= number;
-        
+
         let element = document.getElementById("attributes_remaining_points");
         element.innerHTML = "Remaining Points: " + hero.attributePoints;
-    },  
+    },
 
     increaseAttributePoints: function(number) {
         hero.attributePoints += number;
-        
+
         let element = document.getElementById("attributes_remaining_points");
         element.innerHTML = "Remaining Points: " + hero.attributePoints;
-    }, 
+    },
 
     increaseAttribute: function(attribute) {
 
@@ -179,14 +178,14 @@ let hero = {
             case "Essence":
                 hero.essence++;
                 hero.manaMax += 10;
-                hero.magic_attack +=1;
+                hero.magic_attack += 1;
                 hero.decreaseAttributePoints(1);
                 attributes.refreshAttributeDisplay("Essence", hero.essence);
                 attributes.refreshAttributeDisplay("Magic Attack", hero.magic_attack);
                 break;
             case "Luck":
                 hero.luck++;
-                hero.critical_chance +=1;
+                hero.critical_chance += 1;
                 hero.decreaseAttributePoints(1);
                 attributes.refreshAttributeDisplay("Luck", hero.luck);
                 attributes.refreshAttributeDisplay("Critical Chance", hero.critical_chance);
@@ -194,17 +193,17 @@ let hero = {
             default:
                 logging("ERROR", "clicked on invalid Attribute button");
                 break;
-        }  
+        }
         //TODO: put the progressbar function together
         progressbar.setAllProgessbarMaxes();
         progressbar.refreshProgressbar(prog.healthBar, prog.healthNum, hero.health, hero.healthMax);
         progressbar.refreshProgressbar(prog.manaBar, prog.staminaNum, hero.mana, hero.manaMax);
-        progressbar.refreshProgressbar(prog.staminaBar, prog.staminaNum, hero.stamina, hero.staminaMax); 
-    }, 
+        progressbar.refreshProgressbar(prog.staminaBar, prog.staminaNum, hero.stamina, hero.staminaMax);
+    },
 
-    <!-- ********************* -->
-    <!-- Health, Mana, Stamina -->
-    <!-- ********************* -->
+    /**
+     * <!-- Health, Mana, Stamina --> 
+     */
 
     increaseHealthMax: function(increasingNumber) {
         hero.healthMax += increasingNumber;
@@ -213,22 +212,20 @@ let hero = {
     },
 
     increaseHealth: function(increasingNumber) {
-        if ( (hero.health + increasingNumber) >= hero.healthMax ) {
+        if ((hero.health + increasingNumber) >= hero.healthMax) {
             hero.health = hero.healthMax;
         } else {
             hero.health += increasingNumber;
         }
-        
+
         progressbar.refreshProgressbar(prog.healthBar, prog.healthNum, hero.health, hero.healthMax);
     },
 
     reduceHealth: function(decreasingNumber) {
-        if ( (hero.health - decreasingNumber) < 0 ) {
-            hero.health = 0;
-        } else {
+        if ((hero.health - decreasingNumber) >= 0) {
             hero.health -= decreasingNumber;
         }
-        
+
         progressbar.refreshProgressbar(prog.healthBar, prog.healthNum, hero.health, hero.healthMax);
     },
 
@@ -239,17 +236,17 @@ let hero = {
     },
 
     increaseMana: function(increasingNumber) {
-        if ( (hero.mana + increasingNumber) >= hero.manaMax ) {
+        if ((hero.mana + increasingNumber) >= hero.manaMax) {
             hero.mana = hero.manaMax;
         } else {
             hero.mana += increasingNumber;
         }
-        
+
         progressbar.refreshProgressbar(prog.manaBar, prog.manaNum, hero.mana, hero.manaMax);
     },
 
     reduceMana: function(decreasingNumber) {
-        if ( (hero.mana - decreasingNumber) < 0 ) {
+        if ((hero.mana - decreasingNumber) < 0) {
             hero.mana = 0;
             progressbar.refreshProgressbar(prog.manaBar, prog.manaNum, hero.mana, hero.manaMax);
             return false;
@@ -267,19 +264,18 @@ let hero = {
     },
 
     increaseStamina: function(increasingNumber) {
-        if ( (hero.stamina + increasingNumber) >= hero.staminaMax ) {
+        if ((hero.stamina + increasingNumber) >= hero.staminaMax) {
             hero.stamina = hero.staminaMax;
         } else {
             hero.stamina += increasingNumber;
         }
-        
+
         progressbar.refreshProgressbar(prog.staminaBar, prog.staminaNum, hero.stamina, hero.staminaMax);
     },
 
     //TODO: better way to show true an false
     reduceStamina: function(decreasingNumber) {
-        if ( (hero.stamina - decreasingNumber) < 0 ) {
-            hero.stamina = 0;
+        if ((hero.stamina - decreasingNumber) < 0) {
             progressbar.refreshProgressbar(prog.staminaBar, prog.staminaNum, hero.stamina, hero.staminaMax);
             return false;
         } else {

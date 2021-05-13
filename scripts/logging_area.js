@@ -18,7 +18,7 @@ let logging_area = {
     },
 
     checkIfEntryIsFull: function(loggingText) {
-        if ((loggingText.match(/<br>/g)||[]).length >= 6 ){
+        if ((loggingText.match(/<br>/g) || []).length >= 6) {
             return logging_area.trimEntry(loggingText);
         } else {
             return loggingText;

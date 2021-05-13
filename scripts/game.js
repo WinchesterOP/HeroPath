@@ -4,7 +4,7 @@ let game = {
 
     setBattleMode: function(boolean) {
         game.battleMode = boolean;
-    },  
+    },
 
     checkBattleMode: function() {
         return game.battleMode;

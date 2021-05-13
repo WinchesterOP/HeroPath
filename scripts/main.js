@@ -20,7 +20,7 @@ do {
 */
 
 
- // Get the attributes from hero and sets the progressbars on the character-sheet
+// Get the attributes from hero and sets the progressbars on the character-sheet
 
 progressbar.setAllProgessbarMaxes();
 progressbar.refreshProgressbar(prog.healthBar, prog.healthNum, hero.health, hero.healthMax);
@@ -31,6 +31,3 @@ area_func.getAllSwitchAreas();
 
 
 background_timer.startCounting();
-
-
-   

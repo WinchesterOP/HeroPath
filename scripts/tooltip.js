@@ -1,12 +1,12 @@
 tippy(
     '#reinforceBodyButton', {
-        allowHTML: true, 
+        allowHTML: true,
         content: 'Cost:' +
             '<UL>' +
-            '<LI>' + jobs.reinforceBody_mana_cost + ' Mana' + 
+            '<LI>' + jobs.reinforceBody_mana_cost + ' Mana' +
             '</UL>' +
             'Effect:' +
-            '<UL>' + 
+            '<UL>' +
             '<LI>HealthMax +' + jobs.reinforceBody_health_gain +
             '<LI>StaminaMax +' + jobs.reinforceBody_stamina_gain +
             '</UL>',
@@ -18,10 +18,10 @@ tippy(
         allowHTML: true,
         content: 'Cost:' +
             '<UL>' +
-            '<LI>' + jobs.farmworking_stamina_cost + ' Stamina' + 
+            '<LI>' + jobs.farmworking_stamina_cost + ' Stamina' +
             '</UL>' +
             'Effect:' +
-            '<UL>' + 
+            '<UL>' +
             '<LI>Gold +' + jobs.farmworking_gold_gain +
             '<LI>Exp +' + jobs.farmworking_exp_gain +
             '</UL>',
@@ -33,7 +33,7 @@ tippy(
         allowHTML: true,
         content: 'Strength:' +
             '<UL>' +
-            '<LI>' + ' Increases Attack Power' + 
+            '<LI>' + ' Increases Attack Power' +
             '</UL>',
     },
 );
@@ -43,7 +43,7 @@ tippy(
         allowHTML: true,
         content: 'Constitution:' +
             '<UL>' +
-            '<LI>' + ' Increases Defense' + 
+            '<LI>' + ' Increases Defense' +
             '</UL>',
     },
 );
@@ -53,7 +53,7 @@ tippy(
         allowHTML: true,
         content: 'Dexterity:' +
             '<UL>' +
-            '<LI>' + ' Increases Evasion' + 
+            '<LI>' + ' Increases Evasion' +
             '</UL>',
     },
 );
@@ -63,7 +63,7 @@ tippy(
         allowHTML: true,
         content: 'Essence:' +
             '<UL>' +
-            '<LI>' + ' Increases Magic Attack' + 
+            '<LI>' + ' Increases Magic Attack' +
             '</UL>',
     },
 );
@@ -73,7 +73,7 @@ tippy(
         allowHTML: true,
         content: 'Luck:' +
             '<UL>' +
-            '<LI>' + ' Increases Critical Chance' + 
+            '<LI>' + ' Increases Critical Chance' +
             '</UL>',
     },
 );
@@ -112,4 +112,3 @@ tippy(
         content: 'Regeneration: ' + hero.staminaPerSecond + ' per second',
     },
 );
-
