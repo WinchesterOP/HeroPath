@@ -3,12 +3,12 @@ tippy(
         allowHTML: true,
         content: 'Cost:' +
             '<UL>' +
-            '<LI>' + jobs.reinforceBody_mana_cost + ' Mana' +
+            '<LI>' + activity.reinforceBody_mana_cost + ' Mana' +
             '</UL>' +
             'Effect:' +
             '<UL>' +
-            '<LI>HealthMax +' + jobs.reinforceBody_health_gain +
-            '<LI>StaminaMax +' + jobs.reinforceBody_stamina_gain +
+            '<LI>HealthMax +' + activity.reinforceBody_health_gain +
+            '<LI>StaminaMax +' + activity.reinforceBody_stamina_gain +
             '</UL>',
     },
 );
@@ -18,12 +18,12 @@ tippy(
         allowHTML: true,
         content: 'Cost:' +
             '<UL>' +
-            '<LI>' + jobs.farmworking_stamina_cost + ' Stamina' +
+            '<LI>' + activity.farmworking_stamina_cost + ' Stamina' +
             '</UL>' +
             'Effect:' +
             '<UL>' +
-            '<LI>Gold +' + jobs.farmworking_gold_gain +
-            '<LI>Exp +' + jobs.farmworking_exp_gain +
+            '<LI>Gold +' + activity.farmworking_gold_gain +
+            '<LI>Exp +' + activity.farmworking_exp_gain +
             '</UL>',
     },
 );

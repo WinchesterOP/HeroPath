@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/progressbar.css" />
 
     <!-- to see everything during developing -->
-    <!--<link rel="stylesheet" type="text/css" href="css/dev.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/dev.css" />
     <!-- to see everything during developing -->
 
     <title>Hero's Path</title>
@@ -69,10 +69,10 @@
 
         <div id="button_area">
             <div id="headline_button_area">Menu</div>
-            <button class="menuButton" id="worldButton" onClick="button_func.clickedOnWorldButton()">World</button>
-            <button class="menuButton" id="attributesButton" onClick="button_func.clickedOnAttributesButton()">Attributes</button>
-            <button class="menuButton" id="inventoryButton" onClick="button_func.clickedOnWorldButton()">Inventory</button>
-            <button class="menuButton" id="diaryButton" onClick="button_func.clickedOnDiaryButton()">Diary</button>
+            <button class="menuButton" id="worldButton" onClick="button.clickedOnWorldButton()">World</button>
+            <button class="menuButton" id="attributesButton" onClick="button.clickedOnAttributesButton()">Attributes</button>
+            <button class="menuButton" id="inventoryButton" onClick="button.clickedOnWorldButton()">Inventory</button>
+            <button class="menuButton" id="diaryButton" onClick="button.clickedOnDiaryButton()">Diary</button>
         </div>
 
     </div>
@@ -86,17 +86,17 @@
         <div id=navigation_area>
 
             <div id="headline_Navigation_area" class="headline">World</div>
-            <button class="heroButton" id="homeButton" onClick="button_func.clickedOnHomeButton()">Home</button>
-            <button class="heroButton" id="littleTownButton" onClick="button_func.clickedOnLittleTownButton()">Little Town</button>
+            <button class="heroButton" id="homeButton" onClick="button.clickedOnHomeButton()">Home</button>
+            <button class="heroButton" id="littleTownButton" onClick="button.clickedOnLittleTownButton()">Little Town</button>
 
         </div>
 
         <div id=home_area class="switch_area">
 
             <div id=headline_home_area class="headline">Home</div>
-            <button class="heroButton" id="talkToFatherButton" onClick="button_func.clickedOnTalkToFatherButton()">Talk to Father</button>
-            <button class="heroButton" id="swordSwingButton" onClick="button_func.clickedOnSwordSwingButton()">Sword swing</button>
-            <button class="heroButton" id="reinforceBodyButton" onClick="button_func.clickedOnReinforceBodyButton()">Reinforce Body</button>
+            <button class="heroButton" id="talkToFatherButton" onClick="button.clickedOnTalkToFatherButton()">Talk to Father</button>
+            <button class="heroButton" id="swordSwingButton" onClick="button.clickedOnSwordSwingButton()">Sword swing</button>
+            <button class="heroButton" id="reinforceBodyButton" onClick="button.clickedOnReinforceBodyButton()">Reinforce Body</button>
 
 
         </div>
@@ -104,10 +104,10 @@
         <div id=littleTown_area class="switch_area">
 
             <div id=headline_first_area class="headline">Little Town</div>
-            <button class="heroButton" id="talkToLadyButton" onClick="button_func.clickedOnTalkToLadyLittleTownButton()">Talk to Lady</button>
-            <button class="heroButton" id="talkToFarmerButton" onClick="button_func.clickedOnTalkToLittleTownFarmerButton()">Talk to Farmer</button>
-            <button class="heroButton" id="farmworkingButton" onClick="button_func.clickedOnFarmworkingButton()">Farmworking</button>
-            <button class="heroButton" id="dungeonFlowerBedButton" onClick="button_func.clickedOnDungeonFlowerBedButton()">Dungeon: Flower Bed</button>
+            <button class="heroButton" id="talkToLadyButton" onClick="button.clickedOnTalkToLadyLittleTownButton()">Talk to Lady</button>
+            <button class="heroButton" id="talkToFarmerButton" onClick="button.clickedOnTalkToLittleTownFarmerButton()">Talk to Farmer</button>
+            <button class="heroButton" id="farmworkingButton" onClick="button.clickedOnFarmworkingButton()">Farmworking</button>
+            <button class="heroButton" id="dungeonFlowerBedButton" onClick="button.clickedOnDungeonFlowerBedButton()">Dungeon: Flower Bed</button>
 
         </div>
 
@@ -141,27 +141,27 @@
 
             <div class=attributes_block>
                 <div>
-                    <button id="attributes_strength" class="attributesButton" onClick="button_func.clickedOnRaiseAttributeButton('Strength')">Strength</button>
+                    <button id="attributes_strength" class="attributesButton" onClick="button.clickedOnRaiseAttributeButton('Strength')">Strength</button>
                     <div id="attributes_strength_points" class=attributesPoints>1</div>
                 </div>
 
                 <div>
-                    <button id="attributes_constitution" class="attributesButton" onClick="button_func.clickedOnRaiseAttributeButton('Constitution')">Constitution</button>
+                    <button id="attributes_constitution" class="attributesButton" onClick="button.clickedOnRaiseAttributeButton('Constitution')">Constitution</button>
                     <div id="attributes_constitution_points" class=attributesPoints>1</div>
                 </div>
 
                 <div>
-                    <button id="attributes_essence" class="attributesButton" onClick="button_func.clickedOnRaiseAttributeButton('Essence')">Essence</button>
+                    <button id="attributes_essence" class="attributesButton" onClick="button.clickedOnRaiseAttributeButton('Essence')">Essence</button>
                     <div id="attributes_essence_points" class=attributesPoints>1</div>
                 </div>
 
                 <div>
-                    <button id="attributes_dexterity" class="attributesButton" onClick="button_func.clickedOnRaiseAttributeButton('Dexterity')">Dexterity</button>
+                    <button id="attributes_dexterity" class="attributesButton" onClick="button.clickedOnRaiseAttributeButton('Dexterity')">Dexterity</button>
                     <div id="attributes_dexterity_points" class=attributesPoints>1</div>
                 </div>
 
                 <div>
-                    <button id="attributes_luck" class="attributesButton" onClick="button_func.clickedOnRaiseAttributeButton('Luck')">Luck</button>
+                    <button id="attributes_luck" class="attributesButton" onClick="button.clickedOnRaiseAttributeButton('Luck')">Luck</button>
                     <div id="attributes_luck_points" class=attributesPoints>1</div>
                 </div>
             </div>
@@ -205,8 +205,8 @@
         <div id=navigation_area_diary>
 
             <div id="headline_diary_area" class="headline">Diary</div>
-            <button class="heroButton" id="entriesButton" onClick="button_func.clickedOnEntriesButton()">Entries</button>
-            <button class="heroButton" id="questButton" onClick="button_func.clickedOnQuestButton()">Quest</button>
+            <button class="heroButton" id="entriesButton" onClick="button.clickedOnEntriesButton()">Entries</button>
+            <button class="heroButton" id="questButton" onClick="button.clickedOnQuestButton()">Quest</button>
 
         </div>
 
@@ -232,7 +232,7 @@
 
     <div id=battle_area class=menuButtonArea>
 
-        <div>
+        <div id="battle_area_combination">
 
             <div id=battle_area_party></div>
             <div id=battle_area_enemy></div>

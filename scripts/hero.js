@@ -162,6 +162,7 @@ let hero = {
             case "Constitution":
                 hero.constitution++;
                 hero.defense += 1;
+                hero.healthPerSecond += 1;
                 hero.healthMax += 10;
                 hero.decreaseAttributePoints(1);
                 attributes.refreshAttributeDisplay("Defense", hero.defense);
@@ -169,6 +170,7 @@ let hero = {
                 break;
             case "Dexterity":
                 hero.dexterity++;
+                hero.staminaPerSecond += 1;
                 hero.staminaMax += 10;
                 hero.evasion += 1;
                 hero.decreaseAttributePoints(1);
@@ -177,6 +179,7 @@ let hero = {
                 break;
             case "Essence":
                 hero.essence++;
+                hero.manaPerSecond += 1;
                 hero.manaMax += 10;
                 hero.magic_attack += 1;
                 hero.decreaseAttributePoints(1);
@@ -222,11 +225,14 @@ let hero = {
     },
 
     reduceHealth: function(decreasingNumber) {
-        if ((hero.health - decreasingNumber) >= 0) {
+        if ((hero.health - decreasingNumber) < 0) {
+            progressbar.refreshProgressbar(prog.healthBar, prog.healthNum, hero.health, hero.healthMax);
+            return false;
+        } else {
             hero.health -= decreasingNumber;
+            progressbar.refreshProgressbar(prog.healthBar, prog.healthNum, hero.health, hero.healthMax);
+            return true;
         }
-
-        progressbar.refreshProgressbar(prog.healthBar, prog.healthNum, hero.health, hero.healthMax);
     },
 
     increaseManaMax: function(increasingNumber) {
@@ -247,7 +253,6 @@ let hero = {
 
     reduceMana: function(decreasingNumber) {
         if ((hero.mana - decreasingNumber) < 0) {
-            hero.mana = 0;
             progressbar.refreshProgressbar(prog.manaBar, prog.manaNum, hero.mana, hero.manaMax);
             return false;
         } else {
