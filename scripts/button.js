@@ -33,6 +33,11 @@ let button = {
         progressbar.recover_mana();
     },
 
+    clickedOnSaveButton: function() {
+        logging("INFO", "Save-Button has been pressed");
+        saveHandler.save();
+    },
+
     clickedOnFarmworkingButton: function() {
         logging("INFO", "Farmworking-Button has been pressed");
         activity.workingOnFarm();
