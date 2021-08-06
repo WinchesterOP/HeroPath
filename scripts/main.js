@@ -3,6 +3,9 @@
  */
 
 let result = false;
+let hero = new Hero();
+let saveHandler = new Savegame(); 
+//saveHandler.load();
 
 /*
 do {
