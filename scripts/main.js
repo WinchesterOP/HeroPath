@@ -4,8 +4,9 @@
 
 let result = false;
 let hero = new Hero();
-let saveHandler = new Savegame(); 
-//saveHandler.load();
+let story = new Story();
+let saveHandler = new Savegame();
+saveHandler.loadAll();
 
 /*
 do {

@@ -35,6 +35,47 @@ class Hero {
         this.currentGold = 0;
     }
     
+    loadHero(save) {
+        this.name = save.name;
+
+        this.level = save.level;
+        this.exp = save.exp;
+        this.exp_needed = save.exp_needed;
+
+        this.health = save.health;
+        this.healthMax = save.healthMax;
+        this.healthPerSecond = save.healthPerSecond;
+        this.mana = save.mana;
+        this.manaMax = save.manaMax;
+        this.manaPerSecond = save.manaPerSecond;
+        this.stamina = save.stamina;
+        this.staminaMax = save.staminaMax;
+        this.staminaPerSecond = save.staminaPerSecond;
+
+        this.attributePoints = save.attributePoints;
+        //this belongs under a config
+        this.attributePointsPerLevel = save.attributePointsPerLevel;
+
+        this.strength = save.strength;
+        this.constitution = save.constitution;
+        this.dexterity = save.dexterity;
+        this.essence = save.essence;
+        this.luck = save.luck;
+
+        this.attack = save.attack;
+        this.defense = save.defense;
+        this.evasion = save.evasion;
+        this.magic_attack = save.evasion;
+        this.critical_chance = save.critical_chance;
+
+        this.currentGold = save.currentGold;
+
+        this.setLevel();
+        this.refreshExpDisplay();
+        this.refreshGoldDisplay();
+        this.refreshAttributePoints();
+        this.refreshAttributeDisplay();
+    }
 
     //TODO: better way to get the stats?
     getStats() {
@@ -85,21 +126,21 @@ class Hero {
      */
 
     gainEXP(number) {
-        hero.exp += number;
-        if (hero.checkIfLevelUp(hero.exp)) {
-            hero.levelUp();
+        this.exp += number;
+        if (this.checkIfLevelUp(hero.exp)) {
+            this.levelUp();
         }
-        hero.refreshExpDisplay();
+        this.refreshExpDisplay();
     }
 
     refreshExpDisplay() {
         let element = document.getElementById("exp_number");
-        element.innerHTML = hero.exp_needed - hero.exp;
+        element.innerHTML = this.exp_needed - this.exp;
     }
 
     checkIfLevelUp(exp) {
         if (exp >= hero.exp_needed) {
-            hero.exp_needed = ~~((hero.exp_needed * 1.5) + hero.exp);
+            this.exp_needed = ~~((hero.exp_needed * 1.5) + hero.exp);
             return true;
         } else {
             return false;
@@ -134,17 +175,18 @@ class Hero {
      */
 
     decreaseAttributePoints(number) {
-        hero.attributePoints -= number;
-
-        let element = document.getElementById("attributes_remaining_points");
-        element.innerHTML = "Remaining Points: " + hero.attributePoints;
+        this.attributePoints -= number;
+        this.refreshAttributePoints();
     }
 
     increaseAttributePoints(number) {
-        hero.attributePoints += number;
+        this.attributePoints += number;
+        this.refreshAttributePoints();
+    }
 
+    refreshAttributePoints() {
         let element = document.getElementById("attributes_remaining_points");
-        element.innerHTML = "Remaining Points: " + hero.attributePoints;
+        element.innerHTML = "Remaining Points: " + this.attributePoints;
     }
 
     increaseAttribute(attribute) {
@@ -155,55 +197,78 @@ class Hero {
 
         switch (attribute) {
             case "Strength":
-                hero.strength++;
-                hero.attack += 1;
-                hero.decreaseAttributePoints(1);
-                attributes.refreshAttributeDisplay("Attack", hero.attack);
-                attributes.refreshAttributeDisplay("Strength", hero.strength);
+                this.strength++;
+                this.attack += 1;
                 break;
             case "Constitution":
-                hero.constitution++;
-                hero.defense += 1;
-                hero.healthPerSecond += 1;
-                hero.healthMax += 10;
-                hero.decreaseAttributePoints(1);
-                attributes.refreshAttributeDisplay("Defense", hero.defense);
-                attributes.refreshAttributeDisplay("Constitution", hero.constitution);
+                this.constitution++;
+                this.defense += 1;
+                this.healthPerSecond += 1;
+                this.healthMax += 10;
                 break;
             case "Dexterity":
-                hero.dexterity++;
-                hero.staminaPerSecond += 1;
-                hero.staminaMax += 10;
-                hero.evasion += 1;
-                hero.decreaseAttributePoints(1);
-                attributes.refreshAttributeDisplay("Dexterity", hero.dexterity);
-                attributes.refreshAttributeDisplay("Evasion", hero.evasion);
+                this.dexterity++;
+                this.staminaPerSecond += 1;
+                this.staminaMax += 10;
+                this.evasion += 1;
                 break;
             case "Essence":
-                hero.essence++;
-                hero.manaPerSecond += 1;
-                hero.manaMax += 10;
-                hero.magic_attack += 1;
-                hero.decreaseAttributePoints(1);
-                attributes.refreshAttributeDisplay("Essence", hero.essence);
-                attributes.refreshAttributeDisplay("Magic Attack", hero.magic_attack);
+                this.essence++;
+                this.manaPerSecond += 1;
+                this.manaMax += 10;
+                this.magic_attack += 1;
                 break;
             case "Luck":
-                hero.luck++;
-                hero.critical_chance += 1;
-                hero.decreaseAttributePoints(1);
-                attributes.refreshAttributeDisplay("Luck", hero.luck);
-                attributes.refreshAttributeDisplay("Critical Chance", hero.critical_chance);
+                this.luck++;
+                this.critical_chance += 1;
                 break;
             default:
                 logging("ERROR", "clicked on invalid Attribute button");
                 break;
         }
+
+        this.decreaseAttributePoints(1);
+        this.refreshAttributeDisplay();
+
         //TODO: put the progressbar function together
         progressbar.setAllProgessbarMaxes();
         progressbar.refreshProgressbar(prog.healthBar, prog.healthNum, hero.health, hero.healthMax);
         progressbar.refreshProgressbar(prog.manaBar, prog.staminaNum, hero.mana, hero.manaMax);
         progressbar.refreshProgressbar(prog.staminaBar, prog.staminaNum, hero.stamina, hero.staminaMax);
+    }
+
+    refreshAttributeDisplay() {
+        let element;
+
+        element = document.getElementById("attributes_strength_points");
+        element.innerHTML = this.strength;
+             
+        element = document.getElementById("attributes_constitution_points");
+        element.innerHTML = this.constitution;
+
+        element = document.getElementById("attributes_dexterity_points");
+        element.innerHTML = this.dexterity;
+
+        element = document.getElementById("attributes_essence_points");
+        element.innerHTML = this.essence;
+
+        element = document.getElementById("attributes_luck_points");
+        element.innerHTML = this.luck;
+
+        element = document.getElementById("attributes_attack_value");
+        element.innerHTML = this.attack;
+
+        element = document.getElementById("attributes_magic_attack_value");
+        element.innerHTML = this.magic_attack;
+
+        element = document.getElementById("attributes_defense_value");
+        element.innerHTML = this.defense;
+
+        element = document.getElementById("attributes_critical_chance_value");
+        element.innerHTML = this.critical_chance + '%';
+
+        element = document.getElementById("attributes_evasion_value");
+        element.innerHTML = this.evasion + '%';
     }
 
     /**

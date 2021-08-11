@@ -1,121 +1,133 @@
-let button = {
+class Button {
 
-    vanishButton: function(buttonid) {
+    constructor() {
+        this.talkToFatherVisible = false;
+        this.talkToLittleTownFarmerVisible = false;
+        this.talkToLittleTownLadyVisible = false;
+       
+    }
+
+    vanishButton(buttonid) {
         logging("INFO", buttonid + "-Button is now invisible")
         let buttonElement = document.getElementById(buttonid);
         buttonElement.style.display = "none";
-    },
+    }
 
-    appearButton: function(buttonid) {
+    appearButton(buttonid) {
         logging("INFO", buttonid + "-Button is now visible")
         let buttonElement = document.getElementById(buttonid);
         buttonElement.style.display = "inline-block";
-    },
+    }
 
-    appearMenuButton: function(buttonid) {
+    appearMenuButton(buttonid) {
         logging("INFO", buttonid + "-Button is now visible")
         let buttonElement = document.getElementById(buttonid);
         buttonElement.style.display = "block";
-    },
+    }
 
-    clickedOnRecoveryButton: function() {
+    clickedOnRecoveryButton() {
         logging("INFO", "Recovery-Button has been pressed");
         progressbar.recover_stamina();
-    },
+    }
 
-    clickedOnRestButton: function() {
+    clickedOnRestButton() {
         logging("INFO", "Rest-Button has been pressed");
         progressbar.recover_health();
-    },
+    }
 
-    clickedOnMeditateButton: function() {
+    clickedOnMeditateButton() {
         logging("INFO", "Meditate-Button has been pressed");
         progressbar.recover_mana();
-    },
+    }
 
-    clickedOnSaveButton: function() {
+    clickedOnSaveButton() {
         logging("INFO", "Save-Button has been pressed");
-        saveHandler.save();
-    },
+        saveHandler.saveAll();
+    }
 
-    clickedOnFarmworkingButton: function() {
+    clickedOnClearSaveButton() {
+        logging("INFO", "ClearSave-Button has been pressed");
+        saveHandler.clearAll();
+    }
+
+    clickedOnFarmworkingButton() {
         logging("INFO", "Farmworking-Button has been pressed");
         activity.workingOnFarm();
-    },
+    }
 
-    clickedOnReinforceBodyButton: function() {
+    clickedOnReinforceBodyButton() {
         logging("INFO", "ReinforceBody-Button has been pressed");
         activity.reinforceBody();
-    },
+    }
 
-    clickedOnLittleTownButton: function() {
+    clickedOnLittleTownButton() {
         logging("INFO", "LittleTown-Button has been pressed");
         area_func.switchToLittleTown();
-    },
+    }
 
-    clickedOnHomeButton: function() {
+    clickedOnHomeButton() {
         logging("INFO", "Home-Button has been pressed");
         area_func.switchToHome();
-    },
+    }
 
-    clickedOnWorldButton: function() {
+    clickedOnWorldButton() {
         logging("INFO", "World-Button has been pressed");
         area_func.switchMenuToWorld();
-    },
+    }
 
-    clickedOnAttributesButton: function() {
+    clickedOnAttributesButton() {
         logging("INFO", "Attributes-Button has been pressed");
         area_func.switchMenuToAttributes();
-    },
+    }
 
-    clickedOnDiaryButton: function() {
+    clickedOnDiaryButton() {
         logging("INFO", "Diary-Button has been pressed");
         area_func.switchMenuToDiary();
-    },
+    }
 
-    clickedOnEntriesButton: function() {
+    clickedOnEntriesButton() {
         logging("INFO", "Entries-Button has been pressed");
         area_func.switchToEntries();
-    },
+    }
 
-    clickedOnQuestButton: function() {
+    clickedOnQuestButton() {
         logging("INFO", "Quest-Button has been pressed");
         area_func.switchToQuest();
-    },
+    }
 
-    clickedOnSwordSwingButton: function() {
+    clickedOnSwordSwingButton() {
         logging("INFO", "SwordSwing-Button has been pressed");
         activity.swingSword();
-    },
+    }
 
-    clickedOnTalkToFatherButton: function() {
+    clickedOnTalkToFatherButton() {
         logging("INFO", "Talk-to-Father-Button has been pressed");
-        story_progress.talkToFather();
-    },
+        story.talkToFather();
+    }
 
-    clickedOnTalkToLittleTownFarmerButton: function() {
+    clickedOnTalkToLittleTownFarmerButton() {
         logging("INFO", "Talk-to-Farmer-Button has been pressed");
-        story_progress.talkToLittleTownFarmer();
-    },
+        story.talkToLittleTownFarmer();
+    }
 
-    clickedOnTalkToLadyLittleTownButton: function() {
+    clickedOnTalkToLadyLittleTownButton() {
         logging("INFO", "Talk-to-Lady-Button has been pressed");
-        story_progress.talkToLittleTownLady();
-    },
+        story.talkToLittleTownLady();
+    }
 
-    clickedOnDungeonFlowerBedButton: function() {
+    clickedOnDungeonFlowerBedButton() {
         logging("INFO", "DungeonFlowerBed-Button has been pressed");
         battle.createBattleArea('Dungeon: Flower Bed');
-    },
+    }
 
-    clickedOnRaiseAttributeButton: function(attribute) {
+    clickedOnRaiseAttributeButton(attribute) {
         logging("INFO", "Raise-Attributes-Button has been pressed for: " + attribute);
         hero.increaseAttribute(attribute);
-    },
+    }
 
-    clickedOnAttackButton: function(attribute) {
+    clickedOnAttackButton(attribute) {
         logging("INFO", "Attack-Button has been pressed");
         battle.fightAttack();
-    },
+    }
 
-};
+}
