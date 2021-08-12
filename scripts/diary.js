@@ -1,23 +1,42 @@
-let diary = {
-
-    addEntry: function(entryText) {
+class Diary {
+    constructor(quest = []){
+        this.entry = '';
+        this.quest = quest;
+    }
+    
+    loadEntry(save) {
         let diaryElement = document.getElementById("diary_entries_area_text");
-        diaryElement.innerHTML = " - " + entryText + '<br><br>' + diaryElement.innerHTML;
-    },
+        this.entry = save;
+        diaryElement.innerHTML = save;
+    }
 
-    addQuest: function(questName) {
-        var questlog = document.getElementById("diary_quest_area");
-        var newQuest = document.createElement('div');
+    addEntry(entryText) {
+        let diaryElement = document.getElementById("diary_entries_area_text");
+        this.entry = " - " + entryText + '<br><br>' + this.entry;
+        diaryElement.innerHTML = this.entry;
+    }
 
-        newQuest.id = questName;
+    addQuest(questName) {
+        
+        let questlog = document.getElementById("diary_quest_area");
+        let newQuest = document.createElement('div');
+
+        let questData = configQuest.getQuest(questName);
+
+
+        newQuest.id = questData.name;
         newQuest.className = 'questDIV';
-        newQuest.innerHTML = 'Lady in Distress:<br>' +
-            ' kill the slimes in the Dungeon: Flower Bed<br>' +
-            'Reward: ' +
-            config.quest_lady_in_distress_reward_exp +
-            ' EP + Flower x10';
+        newQuest.innerHTML =  questData.name 
+                            + ':<br>' 
+                            + questData.description 
+                            + '<br>' 
+                            + 'Reward:<br>' 
+                            + ' - ' + questData.reward_exp + ' EXP<br>' 
+                            + ' - ' + questData.reward_item + '<br>' 
+                            + ' - ' + questData.reward_gold + ' Gold<br>'
+                            ;
 
         questlog.appendChild(newQuest);
-    },
+    }
 
 };

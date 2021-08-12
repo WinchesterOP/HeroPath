@@ -15,6 +15,7 @@ let activity = {
         if (activity.firstSwing) {
             activity.firstSwing = false;
             area_func.appearStaminaProgressbar();
+            button.staminaProgressbar = true;
         }
 
         if (hero.reduceStamina(activity.swingSword_stamina_cost) == true) {

@@ -1,10 +1,75 @@
 class Button {
 
     constructor() {
+        this.saveVisible = true;
+        this.clearVisible = true;
+
+        this.attributesVisible = false;
+        this.inventoryVisible = false;
+        this.diaryVisible = false;
+        this.entriesVisible = false;
+        this.healthProgressbar = false;
+        this.manaProgressbar = false;
+        this.staminaProgressbar = false;
+        this.expDisplay = false;
+        this.goldVisible = false;
+        this.questVisible = false;
+
+        this.littleTownVisible = false;
+
+        this.dungeonFlowerBedVisible = false;
+        this.farmworkingVisible = false;
         this.talkToFatherVisible = false;
         this.talkToLittleTownFarmerVisible = false;
         this.talkToLittleTownLadyVisible = false;
-       
+    }
+
+    loadButton(save) {
+        this.attributesVisible = save.attributesVisible;
+        this.inventoryVisible = save.inventoryVisible;
+        this.diaryVisible = save.diaryVisible;
+        this.entriesVisible = save.entriesVisible;
+        this.healthProgressbar = save.healthProgressbar;
+        this.manaProgressbar = save.manaProgressbar;
+        this.staminaProgressbar = save.staminaProgressbar;
+        this.expDisplay = save.expDisplay;
+        this.goldVisible = save.goldVisible;
+        this.questVisible = save.questVisible;
+
+        this.littleTownVisible = save.littleTownVisible;
+
+        this.dungeonFlowerBedVisible = save.dungeonFlowerBedVisible;
+        this.farmworkingVisible = save.farmworkingVisible;
+        this.talkToFatherVisible = save.talkToFatherVisible;
+        this.talkToLittleTownFarmerVisible = save.talkToLittleTownFarmerVisible;
+        this.talkToLittleTownLadyVisible = save.talkToLittleTownLadyVisible;
+
+        this.setButtonVisibility();
+    }
+
+    setButtonVisibility() {
+        if (this.saveVisible) this.appearMenuButton("saveButton");
+        if (this.clearVisible) this.appearMenuButton("clearSaveButton");
+
+        if (this.attributesVisible) this.appearMenuButton("attributesButton");
+        if (this.inventoryVisible) this.appearMenuButton("inventoryButton");
+        if (this.diaryVisible) this.appearMenuButton("diaryButton");
+        if (this.entriesVisible) this.appearButton("entriesButton");
+        if (this.healthProgressbar) area_func.appearHealthProgressbar();
+        if (this.manaProgressbar) area_func.appearManaProgressbar();
+        if (this.staminaProgressbar) area_func.appearStaminaProgressbar();
+        if (this.expDisplay) area_func.appearExpDisplay();
+        if (this.goldVisible) area_func.appearGold();
+        if (this.questVisible) this.appearButton("questButton");
+                
+
+        if (this.littleTownVisible) this.appearButton("littleTownButton");
+        
+        if (this.dungeonFlowerBedVisible) this.appearButton("dungeonFlowerBedButton");
+        if (this.farmworkingVisible) this.appearButton("farmworkingButton");
+        if (this.talkToFatherVisible) this.appearButton("talkToFatherButton");
+        if (this.talkToLittleTownFarmerVisible) this.appearMenuButton("attributesButton");
+        if (this.talkToLittleTownLadyVisible) this.appearMenuButton("attributesButton");
     }
 
     vanishButton(buttonid) {
@@ -25,29 +90,14 @@ class Button {
         buttonElement.style.display = "block";
     }
 
-    clickedOnRecoveryButton() {
-        logging("INFO", "Recovery-Button has been pressed");
-        progressbar.recover_stamina();
-    }
-
-    clickedOnRestButton() {
-        logging("INFO", "Rest-Button has been pressed");
-        progressbar.recover_health();
-    }
-
-    clickedOnMeditateButton() {
-        logging("INFO", "Meditate-Button has been pressed");
-        progressbar.recover_mana();
-    }
-
     clickedOnSaveButton() {
         logging("INFO", "Save-Button has been pressed");
-        saveHandler.saveAll();
+        Savegame.saveAll();
     }
 
     clickedOnClearSaveButton() {
         logging("INFO", "ClearSave-Button has been pressed");
-        saveHandler.clearAll();
+        Savegame.clearAll();
     }
 
     clickedOnFarmworkingButton() {

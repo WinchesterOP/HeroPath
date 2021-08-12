@@ -17,13 +17,16 @@ class Story {
                 area_func.appearHealthProgressbar();
                 area_func.appearManaProgressbar();
                 area_func.appearExpDisplay();
+                button.healthProgressbar = true;
+                button.manaProgressbar = true;
+                button.expDisplay = true;
                 button.appearButton("talkToFatherButton");
                 button.talkToFatherVisible = true;
                 break;
             case 2:
                 button.appearMenuButton("attributesButton");
+                button.attributesVisible = true;
                 logging_area.logSomeText("[UNLOCKED: Attributes]");
-
                 break;
             case 3: // Level 3 will trigger first quest event
                 button.appearButton("talkToLadyButton");
@@ -48,6 +51,11 @@ class Story {
                 button.appearButton("diaryButton");
                 button.appearButton("entriesButton");
                 area_func.appearEntryDisplay();
+                button.talkToFatherVisible = false;
+                button.talkToLittleTownFarmerVisible = true;
+                button.littleTownVisible = true;
+                button.diaryVisible = true;
+                button.entriesVisible = true;
                 this.levelFatherTalk++;                
                 break;
             case 1:
@@ -71,7 +79,10 @@ class Story {
                 button.vanishButton("talkToFarmerButton");
                 button.appearButton("farmworkingButton");
                 area_func.appearGold();
-                this.levelLittleTownFarmer++;
+                button.talkToLittleTownFarmerVisible = false;
+                button.farmworkingVisible = true;
+                button.levelLittleTownFarmer++;
+                button.goldVisible = true;
                 break;
             case 1:
                 break;
@@ -91,10 +102,13 @@ class Story {
             case 0:
                 logging_area.logSomeText("Lady:Could you please help me with my flower bed? Some slimes showed up last night and are now slowly eating all my plants. Could you please scare them away?<br>[UNLOCKED: Dungeon: Flower Bed]<br>[NEW QUEST!!!]");
                 diary.addEntry("A lady in the small town is in distress. Her beloved flowers are threatened by slime. I must put an end to this misery.");
-                diary.addQuest("Lady in Distress");
+                diary.addQuest("ladyInDistress");
                 button.vanishButton("talkToLadyButton");
                 button.appearButton("questButton");
                 button.appearButton("dungeonFlowerBedButton");
+                button.talkToLittleTownLadyVisible = false;
+                button.questVisible = true;
+                button.dungeonFlowerBedVisible = true;
                 this.levelLittleTownLady++;
                 break;
             case 1:

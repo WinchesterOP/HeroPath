@@ -148,17 +148,17 @@ class Hero {
     }
 
     levelUp() {
-        hero.level++;
-        hero.setLevel();
-        hero.increaseAttributePoints(hero.attributePointsPerLevel);
-        hero.healthMax += 10;
-        hero.manaMax += 10;
-        hero.staminaMax += 10;
+        this.level++;
+        this.setLevel();
+        this.increaseAttributePoints(hero.attributePointsPerLevel);
+        this.healthMax += 10;
+        this.manaMax += 10;
+        this.staminaMax += 10;
         progressbar.setAllProgessbarMaxes();
-        progressbar.refreshProgressbar(prog.healthBar, prog.healthNum, hero.health, hero.healthMax);
-        progressbar.refreshProgressbar(prog.manaBar, prog.manaNum, hero.mana, hero.manaMax);
-        progressbar.refreshProgressbar(prog.staminaBar, prog.staminaNum, hero.stamina, hero.staminaMax);
-        story_progress.checkLevelProgress(hero.level);
+        progressbar.refreshProgressbar(prog.healthBar, prog.healthNum, this.health, this.healthMax);
+        progressbar.refreshProgressbar(prog.manaBar, prog.manaNum, this.mana, this.manaMax);
+        progressbar.refreshProgressbar(prog.staminaBar, prog.staminaNum, this.stamina, this.staminaMax);
+        story.checkLevelProgress(this.level);
         logging("INFO", "You have reached Level: " + hero.level);
     }
 

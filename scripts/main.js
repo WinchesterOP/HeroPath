@@ -5,8 +5,9 @@
 let result = false;
 let hero = new Hero();
 let story = new Story();
-let saveHandler = new Savegame();
-saveHandler.loadAll();
+let diary = new Diary(0);
+let button = new Button();
+Savegame.loadAll();
 
 /*
 do {

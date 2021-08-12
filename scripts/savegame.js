@@ -3,15 +3,23 @@ class Savegame {
 
     }
 
-    save(item) {
+    static save(item) {
         switch (item) {
-            case 'heroSave': 
+            case 'hero': 
                 localStorage.setItem(item, JSON.stringify(hero));
                 logging("INFO", "Hero has been saved")
                 break;
-            case 'storySave':
+            case 'story':
                 localStorage.setItem(item, JSON.stringify(story));
                 logging("INFO", "Story has been saved")
+                break;
+            case 'button':
+                localStorage.setItem(item, JSON.stringify(button));
+                logging("INFO", "Button has been saved")
+                break;
+            case 'entry':
+                localStorage.setItem(item, JSON.stringify(diary.entry));
+                logging("INFO", "Entries has been saved")
                 break;
             default:
                 logging("ERROR", "DEFAULT-Savegame");
@@ -19,33 +27,59 @@ class Savegame {
         } 
     }
 
-    load(item) {
-        if (localStorage.getItem(item) === null){
-            logging("INFO", "there is no Savedata")
-        } else if (item == 'heroSave') {
-            hero.loadHero(JSON.parse(localStorage.getItem(item)));
-        } else if (item == 'storySave') {
-            story.loadStory(JSON.parse(localStorage.getItem(item)));
-        }
+    static load(item) {
+
+        if (localStorage.getItem(item) === null) {
+            logging("INFO", "there is no Savedata");
+            return;
+        } 
+
+        switch (item) {
+            case 'hero': 
+                hero.loadHero(JSON.parse(localStorage.getItem(item)));
+                logging("INFO", "Hero has been loaded")
+                break;
+            case 'story':
+                story.loadStory(JSON.parse(localStorage.getItem(item)));
+                logging("INFO", "Story has been loaded")
+                break;
+            case 'button':
+                button.loadButton(JSON.parse(localStorage.getItem(item)));
+                logging("INFO", "Button has been loaded")
+                break;  
+            case 'entry':
+                diary.loadEntry(JSON.parse(localStorage.getItem(item)));
+                logging("INFO", "Entry has been loaded")
+                break; 
+            default:
+                logging("INFO", "there is no Savedata")
+                break;
+        } 
     }
 
-    clear(item) {
+    static clear(item) {
         localStorage.removeItem(item);
     }
 
-    saveAll() {
-        this.save('heroSave');
-        this.save('storySave');
+    static saveAll() {
+        this.save('hero');
+        this.save('story');
+        this.save('button');
+        this.save('entry');
     }
 
-    loadAll() {
-        this.load('heroSave');
-        this.load('storySave');
+    static loadAll() {
+        this.load('hero');
+        this.load('story');
+        this.load('button');
+        this.load('entry');
     }
 
-    clearAll() {
-        this.clear('heroSave');
-        this.clear('storySave');
+    static clearAll() {
+        this.clear('hero');
+        this.clear('story');
+        this.clear('button');
+        this.clear('entry');
     } 
 
 

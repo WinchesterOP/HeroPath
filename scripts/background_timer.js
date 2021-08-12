@@ -16,7 +16,7 @@ let background_timer = {
 
             // Auto-Save
             if (saveTimer == 15) {
-                saveHandler.saveAll();
+                Savegame.saveAll();
                 saveTimer = 0;
             } else {
                 saveTimer++;
