@@ -7,15 +7,15 @@ class Hero {
         this.exp = 0;
         this.exp_needed = 5;
 
-        this.health = 10;
-        this.healthMax = 10;
-        this.healthPerSecond = 1;
-        this.mana = 10;
-        this.manaMax = 10;
-        this.manaPerSecond = 1;
-        this.stamina = 10;
-        this.staminaMax = 10;
-        this.staminaPerSecond = 1;
+        this.health = 100;
+        this.healthMax = 100;
+        this.healthPerSecond = 10;
+        this.mana = 100;
+        this.manaMax = 100;
+        this.manaPerSecond = 10;
+        this.stamina = 100;
+        this.staminaMax = 100;
+        this.staminaPerSecond = 10;
 
         this.attributePoints = 0;
         this.attributePointsPerLevel = 5;

@@ -21,6 +21,10 @@ class Savegame {
                 localStorage.setItem(item, JSON.stringify(diary.entry));
                 logging("INFO", "Entries has been saved")
                 break;
+            case 'quest':
+                localStorage.setItem(item, JSON.stringify(diary.quest));
+                logging("INFO", "Quests has been saved")
+                break;
             default:
                 logging("ERROR", "DEFAULT-Savegame");
                 break;
@@ -51,6 +55,10 @@ class Savegame {
                 diary.loadEntry(JSON.parse(localStorage.getItem(item)));
                 logging("INFO", "Entry has been loaded")
                 break; 
+            case 'quest':
+                diary.loadQuest(JSON.parse(localStorage.getItem(item)));
+                logging("INFO", "Quest has been loaded")
+                break; 
             default:
                 logging("INFO", "there is no Savedata")
                 break;
@@ -66,6 +74,7 @@ class Savegame {
         this.save('story');
         this.save('button');
         this.save('entry');
+        this.save('quest');
     }
 
     static loadAll() {
@@ -73,6 +82,7 @@ class Savegame {
         this.load('story');
         this.load('button');
         this.load('entry');
+        this.load('quest');
     }
 
     static clearAll() {
@@ -80,6 +90,7 @@ class Savegame {
         this.clear('story');
         this.clear('button');
         this.clear('entry');
+        this.clear('quest');
     } 
 
 

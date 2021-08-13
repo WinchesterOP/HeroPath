@@ -1,13 +1,19 @@
 class Diary {
-    constructor(quest = []){
+    constructor(){
         this.entry = '';
-        this.quest = quest;
+        this.quest = new Array();
     }
     
     loadEntry(save) {
         let diaryElement = document.getElementById("diary_entries_area_text");
         this.entry = save;
         diaryElement.innerHTML = save;
+    }
+
+    loadQuest(save) {
+        this.quest = save;
+
+        this.quest.forEach(element => this.addQuest(element.name));
     }
 
     addEntry(entryText) {
@@ -22,6 +28,7 @@ class Diary {
         let newQuest = document.createElement('div');
 
         let questData = configQuest.getQuest(questName);
+        this.quest.push(questData);
 
 
         newQuest.id = questData.name;

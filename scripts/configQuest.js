@@ -8,8 +8,6 @@ let configQuest = {
         reward_gold:    10,
     },
 
-    
-
     getQuest: function(quest) {
         return configQuest[quest];
 
