@@ -1,0 +1,21 @@
+#first_area {
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 40px;
+    background-color: #03fc6f;
+}
+
+#farmworking {
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#jobs_first_area {
+    border-style: solid;
+    border-width: 2px;
+    width: 300px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #ddd;
+}

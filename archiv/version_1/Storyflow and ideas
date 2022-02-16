@@ -1,0 +1,878 @@
+<mxfile host="app.diagrams.net" modified="2021-05-03T20:54:22.623Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="jDqu7D3TK-Mo7rHV35vL" version="14.6.9" type="github">
+  <diagram id="TYVINidy_r5RLT-9-Vnp" name="Page-1">
+    <mxGraphModel dx="1129" dy="3030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" tooltip="The alchemist uses the slimes to create magic crystals. he doesnt know that they are destroying the environment inside the &quot;Little Town&quot;. He will try to buy your silent.&#xa;&#xa;Decision:&#xa;- Take the Money&#xa;- Talk to the City Guard" id="SvzfsY_5kxfyUdOhqigk-75">
+          <mxCell style="group;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" connectable="0" parent="1">
+            <mxGeometry x="3830" y="-1090" width="1210" height="660" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-76" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#10739e;fillColor=#8D91A6;" vertex="1" parent="SvzfsY_5kxfyUdOhqigk-75">
+          <mxGeometry width="1210" height="660" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;h1&gt;&lt;font style=&quot;font-size: 30px&quot;&gt;&lt;u&gt;Demon Continent&lt;/u&gt;&lt;/font&gt;&lt;/h1&gt;" tooltip="Multiple Ending in this Location&#xa;&#xa;Ending 1: Kill the demon king but he summons the apocalyptic dragon which destroyes half the world&#xa;&#xa;Ending 2: Try to kill the apocalyptic dragon after summoning but the hero DIES&#xa;&#xa;Ending 3: Try to kill the apocalyptic dragon after summoning and WIN. Happy After Reincarnation is possible&#xa;&#xa;Ending 4: After Reincarnation it is possible to find a Summoner to summon the hero into the apocalyptic Dimension to kill the apocalyptic dragon before summoning&#xa;&#xa;Story: The plan of the Demon Lord is to destroy the whole world so that the demons can rebuild it. the demons tried to life peacefully but the humans could life beside lifeform which looks like monsters. the humans started wars. demons are stronger than humans but the huge amount of humans was to much for the demons to win. the demon lord save a few hunderd of his race inside magic crystal so that they will be restored after the apocalyptic dragon reseted the world. " id="SvzfsY_5kxfyUdOhqigk-77">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="SvzfsY_5kxfyUdOhqigk-75">
+            <mxGeometry x="20" y="10" width="320" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SvzfsY_5kxfyUdOhqigk-75" source="GDXc2WCULTkVBbkMAAXe-25" target="GDXc2WCULTkVBbkMAAXe-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GDXc2WCULTkVBbkMAAXe-25" value="Later Ideas:" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;sketch=0;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="SvzfsY_5kxfyUdOhqigk-75" vertex="1">
+          <mxGeometry x="50" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SvzfsY_5kxfyUdOhqigk-75" source="GDXc2WCULTkVBbkMAAXe-26" target="GDXc2WCULTkVBbkMAAXe-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GDXc2WCULTkVBbkMAAXe-26" value="Defeat Demon Lord&lt;br&gt;(demon lord castle)" style="rounded=0;whiteSpace=wrap;html=1;" parent="SvzfsY_5kxfyUdOhqigk-75" vertex="1">
+          <mxGeometry x="220" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GDXc2WCULTkVBbkMAAXe-28" value="apocalyptic Dragon is summoned&lt;br&gt;(Demon lord Castle)" style="rounded=0;whiteSpace=wrap;html=1;" parent="SvzfsY_5kxfyUdOhqigk-75" vertex="1">
+          <mxGeometry x="430" y="70" width="211" height="80" as="geometry" />
+        </mxCell>
+        <UserObject label="" tooltip="The alchemist uses the slimes to create magic crystals. he doesnt know that they are destroying the environment inside the &quot;Little Town&quot;. He will try to buy your silent.&#xa;&#xa;Decision:&#xa;- Take the Money&#xa;- Talk to the City Guard" id="SvzfsY_5kxfyUdOhqigk-42">
+          <mxCell style="group;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" connectable="0" parent="1">
+            <mxGeometry x="2275" y="-1380" width="1210" height="660" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="SvzfsY_5kxfyUdOhqigk-42">
+          <mxGeometry width="1210" height="660" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;h1&gt;&lt;font style=&quot;font-size: 30px&quot;&gt;&lt;u&gt;Capital City&lt;/u&gt;&lt;/font&gt;&lt;/h1&gt;" tooltip="You will Graduate from Capital City as best student that is the reason that you get a recommendation to become a royal knight. you have to take some story quest to get this title.&#xa;&#xa;as soon as you are a royal knight you become quest which leads to to the demon king and the battle against him" id="SvzfsY_5kxfyUdOhqigk-44">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="SvzfsY_5kxfyUdOhqigk-42">
+            <mxGeometry x="20" y="10" width="250" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="SvzfsY_5kxfyUdOhqigk-42" source="U1btN6UJld-qCHmEUZ8K-35" target="U1btN6UJld-qCHmEUZ8K-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="SvzfsY_5kxfyUdOhqigk-42" source="U1btN6UJld-qCHmEUZ8K-35" target="RebIsJpTSPGbqB_T1sYM-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-35" value="become Royal Knight&lt;br&gt;(Capital City)" style="rounded=0;whiteSpace=wrap;html=1;" parent="SvzfsY_5kxfyUdOhqigk-42" vertex="1">
+          <mxGeometry x="85.00349211858202" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SvzfsY_5kxfyUdOhqigk-42" source="U1btN6UJld-qCHmEUZ8K-36" target="U1btN6UJld-qCHmEUZ8K-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-36" value="several Events later" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="SvzfsY_5kxfyUdOhqigk-42" vertex="1">
+          <mxGeometry x="290.254058516013" y="510" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-38" value="Get the Request to help out in the Kingdom of Baldur&lt;br&gt;(Capital City)" style="rounded=0;whiteSpace=wrap;html=1;" parent="SvzfsY_5kxfyUdOhqigk-42" vertex="1">
+          <mxGeometry x="570.2459537468376" y="520" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="SvzfsY_5kxfyUdOhqigk-42" source="RebIsJpTSPGbqB_T1sYM-13" target="RebIsJpTSPGbqB_T1sYM-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RebIsJpTSPGbqB_T1sYM-13" value="&lt;div&gt;Talk to Chief of Guard&lt;br&gt;(Capital City)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="SvzfsY_5kxfyUdOhqigk-42" vertex="1">
+          <mxGeometry x="90.25" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SvzfsY_5kxfyUdOhqigk-42" source="RebIsJpTSPGbqB_T1sYM-16" target="MIuwq38nCLDG81LJy97M-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RebIsJpTSPGbqB_T1sYM-16" value="Examine theft of ore&lt;br&gt;(Royal mines)" style="rounded=0;whiteSpace=wrap;html=1;" parent="SvzfsY_5kxfyUdOhqigk-42" vertex="1">
+          <mxGeometry x="85" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-25" value="you find a strange note&lt;br&gt;(Royal mines)" style="rounded=0;whiteSpace=wrap;html=1;" parent="SvzfsY_5kxfyUdOhqigk-42" vertex="1">
+          <mxGeometry x="260.25" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RebIsJpTSPGbqB_T1sYM-22" value="You&#39;re a mage and you can read it" style="rounded=0;whiteSpace=wrap;html=1;" parent="SvzfsY_5kxfyUdOhqigk-42" vertex="1">
+          <mxGeometry x="490.24999999999994" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RebIsJpTSPGbqB_T1sYM-28" value="Combination&lt;br&gt;needed" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#7F00FF;gradientColor=none;" parent="SvzfsY_5kxfyUdOhqigk-42" vertex="1">
+          <mxGeometry x="475.0023253648451" y="280" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="SvzfsY_5kxfyUdOhqigk-42" source="RebIsJpTSPGbqB_T1sYM-22" target="RebIsJpTSPGbqB_T1sYM-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="SvzfsY_5kxfyUdOhqigk-42" source="MIuwq38nCLDG81LJy97M-25" target="RebIsJpTSPGbqB_T1sYM-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="" tooltip="The alchemist uses the slimes to create magic crystals. he doesnt know that they are destroying the environment inside the &quot;Little Town&quot;. He will try to buy your silent.&#xa;&#xa;Decision:&#xa;- Take the Money&#xa;- Talk to the City Guard" id="SvzfsY_5kxfyUdOhqigk-1">
+          <mxCell style="group" vertex="1" connectable="0" parent="1">
+            <mxGeometry x="895.08" y="-914" width="1210" height="660" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="SvzfsY_5kxfyUdOhqigk-1">
+          <mxGeometry width="1210" height="660" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;h1&gt;&lt;font style=&quot;font-size: 30px&quot;&gt;&lt;u&gt;Academic City&lt;/u&gt;&lt;/font&gt;&lt;/h1&gt;" tooltip="In Academic City the hero has to choose which class he will take. This will lead to different Skills and Abilities&#xa;&#xa;In Planing: Every class schould get his own Quest storyline. But after every School the hero becomes a Royal Knight. the other Option is to dont Enroll in academic City and become a craftsman -&gt; unlocks the crafting bar and a unique storyline.&#xa;&#xa;Craftsman storyline could unlock to find the summoner which is needed for the demon king story line&#xa;&#xa;After Reincarnation: It is possible to take an other class to learn all skills and abilities" id="SvzfsY_5kxfyUdOhqigk-24">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="SvzfsY_5kxfyUdOhqigk-1">
+            <mxGeometry x="20" y="10" width="250" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SvzfsY_5kxfyUdOhqigk-1" source="U1btN6UJld-qCHmEUZ8K-27" target="GDXc2WCULTkVBbkMAAXe-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-27" value="Later Ideas:" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;sketch=0;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="SvzfsY_5kxfyUdOhqigk-1" vertex="1">
+          <mxGeometry x="39.996383806467065" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SvzfsY_5kxfyUdOhqigk-1" source="GDXc2WCULTkVBbkMAAXe-22" target="GDXc2WCULTkVBbkMAAXe-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-34" value="Choose the Thief School" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SvzfsY_5kxfyUdOhqigk-31">
+          <mxGeometry x="0.3573" y="-1" relative="1" as="geometry">
+            <mxPoint x="-31" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SvzfsY_5kxfyUdOhqigk-1" source="GDXc2WCULTkVBbkMAAXe-22" target="GDXc2WCULTkVBbkMAAXe-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-35" value="Choose the Mage School" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SvzfsY_5kxfyUdOhqigk-32">
+          <mxGeometry x="0.4272" y="1" relative="1" as="geometry">
+            <mxPoint x="-43" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GDXc2WCULTkVBbkMAAXe-22" value="enroll in academy&lt;br&gt;(Academic City)" style="rounded=0;whiteSpace=wrap;html=1;" parent="SvzfsY_5kxfyUdOhqigk-1" vertex="1">
+          <mxGeometry x="239.99638380646707" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="SvzfsY_5kxfyUdOhqigk-1" source="GDXc2WCULTkVBbkMAAXe-16" target="GDXc2WCULTkVBbkMAAXe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GDXc2WCULTkVBbkMAAXe-16" value="Chose Class: Thief&lt;br&gt;(Academic City)" style="rounded=0;whiteSpace=wrap;html=1;" parent="SvzfsY_5kxfyUdOhqigk-1" vertex="1">
+          <mxGeometry x="610" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="SvzfsY_5kxfyUdOhqigk-1" source="GDXc2WCULTkVBbkMAAXe-15" target="GDXc2WCULTkVBbkMAAXe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GDXc2WCULTkVBbkMAAXe-15" value="Chose Class: Mage&lt;br&gt;(Academic City)" style="rounded=0;whiteSpace=wrap;html=1;" parent="SvzfsY_5kxfyUdOhqigk-1" vertex="1">
+          <mxGeometry x="610" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SvzfsY_5kxfyUdOhqigk-1" source="GDXc2WCULTkVBbkMAAXe-11" target="GDXc2WCULTkVBbkMAAXe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GDXc2WCULTkVBbkMAAXe-11" value="several Events later" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="SvzfsY_5kxfyUdOhqigk-1" vertex="1">
+          <mxGeometry x="719.9985565545264" y="300" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.625;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="SvzfsY_5kxfyUdOhqigk-1" source="GDXc2WCULTkVBbkMAAXe-9" target="GDXc2WCULTkVBbkMAAXe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GDXc2WCULTkVBbkMAAXe-9" value="Chose Class: Warrior&lt;br&gt;(Academic City)" style="rounded=0;whiteSpace=wrap;html=1;" parent="SvzfsY_5kxfyUdOhqigk-1" vertex="1">
+          <mxGeometry x="610" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SvzfsY_5kxfyUdOhqigk-1" source="GDXc2WCULTkVBbkMAAXe-22" target="GDXc2WCULTkVBbkMAAXe-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-36" value="Choose the Warrior School" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SvzfsY_5kxfyUdOhqigk-33">
+          <mxGeometry x="0.6837" y="1" relative="1" as="geometry">
+            <mxPoint x="-62" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GDXc2WCULTkVBbkMAAXe-4" value="Graduate from School&lt;br&gt;(Academic City)" style="rounded=0;whiteSpace=wrap;html=1;" parent="SvzfsY_5kxfyUdOhqigk-1" vertex="1">
+          <mxGeometry x="1014.919775517364" y="184" width="120" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="" tooltip="The alchemist uses the slimes to create magic crystals. he doesnt know that they are destroying the environment inside the &quot;Little Town&quot;. He will try to buy your silent.&#xa;&#xa;Decision:&#xa;- Take the Money&#xa;- Talk to the City Guard" id="UM4djdvXOkDpDbPwOgBW-4">
+          <mxCell style="group" parent="1" vertex="1" connectable="0">
+            <mxGeometry x="390" y="-25" width="900" height="610" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="UM4djdvXOkDpDbPwOgBW-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="UM4djdvXOkDpDbPwOgBW-4" vertex="1">
+          <mxGeometry width="900" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="UM4djdvXOkDpDbPwOgBW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="UM4djdvXOkDpDbPwOgBW-4" source="irx26XRdqh6CpXdz-TXo-7" target="irx26XRdqh6CpXdz-TXo-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Start:&lt;br&gt;Third Level-Up" tooltip="The alchemist uses the slimes to create magic crystals. he doesnt know that they are destroying the environment inside the &quot;Little Town&quot;. He will try to buy your silent.&#xa;&#xa;Decision:&#xa;- Take the Money&#xa;- Talk to the City Guard" id="irx26XRdqh6CpXdz-TXo-7">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;sketch=0;fillColor=#7F00FF;" parent="UM4djdvXOkDpDbPwOgBW-4" vertex="1">
+            <mxGeometry x="30" y="80" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="UM4djdvXOkDpDbPwOgBW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="UM4djdvXOkDpDbPwOgBW-4" source="irx26XRdqh6CpXdz-TXo-8" target="irx26XRdqh6CpXdz-TXo-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-8" value="Talk to Lady&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="UM4djdvXOkDpDbPwOgBW-4" vertex="1">
+          <mxGeometry x="210" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UM4djdvXOkDpDbPwOgBW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="UM4djdvXOkDpDbPwOgBW-4" source="irx26XRdqh6CpXdz-TXo-10" target="MIuwq38nCLDG81LJy97M-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-10" value="Dungeon: Flower Bed&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="UM4djdvXOkDpDbPwOgBW-4" vertex="1">
+          <mxGeometry x="377" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UM4djdvXOkDpDbPwOgBW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="UM4djdvXOkDpDbPwOgBW-4" source="MIuwq38nCLDG81LJy97M-1" target="MIuwq38nCLDG81LJy97M-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-1" value="Follow the slime trail&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="UM4djdvXOkDpDbPwOgBW-4" vertex="1">
+          <mxGeometry x="550" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-2" value="Dungeon: Slimy Cave&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="UM4djdvXOkDpDbPwOgBW-4" vertex="1">
+          <mxGeometry x="730" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="UM4djdvXOkDpDbPwOgBW-4" source="MIuwq38nCLDG81LJy97M-4" target="MIuwq38nCLDG81LJy97M-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-122" value="Take money from alchemist and ignore his experiments" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SvzfsY_5kxfyUdOhqigk-121">
+          <mxGeometry x="0.2837" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="UM4djdvXOkDpDbPwOgBW-4" source="MIuwq38nCLDG81LJy97M-4" target="MIuwq38nCLDG81LJy97M-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-124" value="Tell the city guard of the experiments of the alchemist" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SvzfsY_5kxfyUdOhqigk-123">
+          <mxGeometry x="0.4535" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-4" value="Meet Alchemist &lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="UM4djdvXOkDpDbPwOgBW-4" vertex="1">
+          <mxGeometry x="730" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="UM4djdvXOkDpDbPwOgBW-4" source="MIuwq38nCLDG81LJy97M-2" target="MIuwq38nCLDG81LJy97M-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-8" value="tell lady that the smiles are always coming back&lt;br&gt;&lt;br&gt;no quest reward&lt;br&gt;&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="UM4djdvXOkDpDbPwOgBW-4" vertex="1">
+          <mxGeometry x="30" y="180" width="190" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-10" value="talk to lady to achieve quest reward&lt;br&gt;&lt;br&gt;dungeon flower bed and slimy cave are vanishing&lt;br&gt;&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="UM4djdvXOkDpDbPwOgBW-4" vertex="1">
+          <mxGeometry x="670" y="432.5" width="180" height="130" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;h1&gt;&lt;font style=&quot;font-size: 30px&quot;&gt;&lt;u&gt;Little Town&lt;/u&gt;&lt;/font&gt;&lt;/h1&gt;" tooltip="The alchemist uses the slimes to create magic crystals. he doesnt know that they are destroying the environment inside the &quot;Little Town&quot;. He will try to buy your silent.&#xa;&#xa;Decision:&#xa;- Take the Money&#xa;- Talk to the City Guard" id="UM4djdvXOkDpDbPwOgBW-2">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="UM4djdvXOkDpDbPwOgBW-4" vertex="1">
+            <mxGeometry x="20" y="10" width="190" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-2" value="Talk to Father&lt;br&gt;(Home)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2044.810845963657" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-3" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="irx26XRdqh6CpXdz-TXo-1" target="irx26XRdqh6CpXdz-TXo-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1555" y="33" as="sourcePoint" />
+            <mxPoint x="1685" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2104.810845963657" y="52" />
+              <mxPoint x="2104.810845963657" y="128" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-1" value="Start:&lt;br&gt;First Level-Up" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;sketch=0;fillColor=#7F00FF;" parent="1" vertex="1">
+          <mxGeometry x="2044.810845963657" y="-25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="irx26XRdqh6CpXdz-TXo-5" target="U1btN6UJld-qCHmEUZ8K-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2103.207230642438" y="532" />
+              <mxPoint x="2100" y="608" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-5" value="Talk to Farmer&lt;br&gt;(Little Town)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2043.207230642438" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="irx26XRdqh6CpXdz-TXo-6" value="" style="endArrow=classic;html=1;noEdgeStyle=1;orthogonal=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="irx26XRdqh6CpXdz-TXo-2" target="irx26XRdqh6CpXdz-TXo-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1565" y="40" as="sourcePoint" />
+            <mxPoint x="1725" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2104.810845963657" y="292" />
+              <mxPoint x="2103.207230642438" y="368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-1" target="U1btN6UJld-qCHmEUZ8K-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2472.9263831732965" y="52" />
+              <mxPoint x="2472.9263831732965" y="128" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-1" value="Start:&lt;br&gt;5% Chance to meet Ranger in Dungeon: Dark Forest" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;sketch=0;fillColor=#7F00FF;" parent="1" vertex="1">
+          <mxGeometry x="2382.9263831732965" y="-30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-2" target="U1btN6UJld-qCHmEUZ8K-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2397.1947873799727" y="532" />
+              <mxPoint x="2320" y="608" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-2" value="Asking him to join the Party&lt;br&gt;(Woodlands)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2337.1947873799727" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-3" target="U1btN6UJld-qCHmEUZ8K-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2437.9263831732965" y="292" />
+              <mxPoint x="2397.1947873799727" y="368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-3" target="U1btN6UJld-qCHmEUZ8K-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2507.9263831732965" y="292" />
+              <mxPoint x="2547.1947873799727" y="368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-3" value="Decision:&lt;br&gt;Asking him to Join the Party" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="2397.9263831732965" y="140" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-4" target="U1btN6UJld-qCHmEUZ8K-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2547.1947873799727" y="532" />
+              <mxPoint x="2540" y="608" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-4" value="Say thank you for the help and part ways&lt;br&gt;(Woodlands)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2487.1947873799727" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-10" target="U1btN6UJld-qCHmEUZ8K-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2540" y="712" />
+              <mxPoint x="2455" y="750" />
+              <mxPoint x="2455" y="930" />
+              <mxPoint x="2455" y="930" />
+              <mxPoint x="2455" y="1140" />
+              <mxPoint x="2455" y="1140" />
+              <mxPoint x="2455" y="1330" />
+              <mxPoint x="2455" y="1330" />
+              <mxPoint x="2455" y="1520" />
+              <mxPoint x="2455" y="1520" />
+              <mxPoint x="2455" y="1700" />
+              <mxPoint x="2455" y="1700" />
+              <mxPoint x="2455" y="1880" />
+              <mxPoint x="2455" y="1880" />
+              <mxPoint x="2455" y="2040" />
+              <mxPoint x="2499.217002329376" y="2078" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-10" value="several Events later" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="2445" y="620" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-12" target="U1btN6UJld-qCHmEUZ8K-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2320" y="712" />
+              <mxPoint x="2267.584741095584" y="750" />
+              <mxPoint x="2267.584741095584" y="930" />
+              <mxPoint x="2238.8323253648455" y="968" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-12" value="several Events later" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="2225" y="620" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-24" target="U1btN6UJld-qCHmEUZ8K-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2157.584741095584" y="892" />
+              <mxPoint x="2188.8323253648455" y="968" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-15" target="U1btN6UJld-qCHmEUZ8K-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2100" y="712" />
+              <mxPoint x="2157.584741095584" y="788" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-15" value="several Events later" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="2005" y="620" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-17" target="U1btN6UJld-qCHmEUZ8K-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2215.079909634107" y="1292" />
+              <mxPoint x="2215.079909634107" y="1368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-17" value="Ranger says that he know a secret Hideout of Rangers&lt;br&gt;(Fallen Ruins)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2105.079909634107" y="1190" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-20" target="U1btN6UJld-qCHmEUZ8K-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2213.8323253648455" y="1102" />
+              <mxPoint x="2215.079909634107" y="1178" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-20" value="Combination&lt;br&gt;needed" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#7F00FF;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2158.8323253648455" y="980" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-22" value="New Location: Ranger Hideout&lt;br&gt;(Fallen Ruins)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2105.079909634107" y="1380" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-24" value="Arrive&lt;br&gt;(Fallen Ruins)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2097.584741095584" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-26" target="U1btN6UJld-qCHmEUZ8K-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2558.9578489776627" y="2002" />
+              <mxPoint x="2549.217002329376" y="2078" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-26" target="U1btN6UJld-qCHmEUZ8K-60" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3599.571358816964" y="1800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2628.9578489776627" y="2002" />
+              <mxPoint x="2785" y="2040" />
+              <mxPoint x="2785" y="2250" />
+              <mxPoint x="2785" y="2250" />
+              <mxPoint x="2785" y="2420" />
+              <mxPoint x="2785" y="2420" />
+              <mxPoint x="2785" y="2590" />
+              <mxPoint x="2785" y="2590" />
+              <mxPoint x="2785" y="2830" />
+              <mxPoint x="2785" y="2830" />
+              <mxPoint x="2785" y="3000" />
+              <mxPoint x="2785" y="3000" />
+              <mxPoint x="2785" y="3226" />
+              <mxPoint x="2785" y="3226" />
+              <mxPoint x="2785" y="3466" />
+              <mxPoint x="2785" y="3466" />
+              <mxPoint x="2785" y="3636" />
+              <mxPoint x="2785" y="3636" />
+              <mxPoint x="2785" y="3806" />
+              <mxPoint x="2785" y="3806" />
+              <mxPoint x="2785" y="3976" />
+              <mxPoint x="2729.416666666667" y="4014" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-26" value="Help Baron Fight against Mindflayer Army&lt;br&gt;(Kingdom of Baldur)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2518.9578489776627" y="1930" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-28" target="U1btN6UJld-qCHmEUZ8K-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2524.217002329376" y="2212" />
+              <mxPoint x="2524.905095199543" y="2288" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-28" value="Combination&lt;br&gt;needed" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#7F00FF;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2469.217002329376" y="2090" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-31" target="U1btN6UJld-qCHmEUZ8K-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2524.905095199543" y="2382" />
+              <mxPoint x="2526.8275475997716" y="2458" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-31" value="Ranger is one of the Leaders of Mindflayer Army&lt;br&gt;(Dungeon: Battlefield of Baldur)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2427.405095199543" y="2300" width="195" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-41" target="U1btN6UJld-qCHmEUZ8K-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2526.8275475997716" y="2552" />
+              <mxPoint x="2528.75" y="2628" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-41" value="Defeat Ranger and he is pleading for mercy.&amp;nbsp;&lt;br&gt;(Dungeon: Battlefield of Baldur)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2429.3275475997716" y="2470" width="195" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-43" target="U1btN6UJld-qCHmEUZ8K-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2493.75" y="2792" />
+              <mxPoint x="2417.5" y="2868" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-43" target="U1btN6UJld-qCHmEUZ8K-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2563.75" y="2792" />
+              <mxPoint x="2642.5" y="2868" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-43" value="Decision:&lt;br&gt;Kill him or let him live" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="2453.75" y="2640" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-45" target="U1btN6UJld-qCHmEUZ8K-60" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2417.5" y="2962" />
+              <mxPoint x="2305" y="3000" />
+              <mxPoint x="2305" y="3226" />
+              <mxPoint x="2305" y="3226" />
+              <mxPoint x="2305" y="3466" />
+              <mxPoint x="2305" y="3466" />
+              <mxPoint x="2305" y="3636" />
+              <mxPoint x="2305" y="3636" />
+              <mxPoint x="2305" y="3806" />
+              <mxPoint x="2305" y="3806" />
+              <mxPoint x="2305" y="3976" />
+              <mxPoint x="2606.083333333333" y="4014" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-45" value="You Kill Him&amp;nbsp;&lt;br&gt;(Dungeon: Battlefield of Baldur)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2320" y="2880" width="195" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-47" target="U1btN6UJld-qCHmEUZ8K-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2642.5" y="2962" />
+              <mxPoint x="2545" y="3038" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-47" value="You let him live&lt;br&gt;(Dungeon: Battlefield of Baldur)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2545" y="2880" width="195" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-49" target="U1btN6UJld-qCHmEUZ8K-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2545" y="3188" />
+              <mxPoint x="2545" y="3264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-49" value="He tells you that the Baron is the leader of the mindflayer. He manipulated the neighbour kingdom to attack him so that Capital City will help him gain more territory&amp;nbsp;&lt;br&gt;(Dungeon: Battlefield of Baldur)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2425" y="3050" width="240" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-51" target="U1btN6UJld-qCHmEUZ8K-53" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2510" y="3428" />
+              <mxPoint x="2432.5" y="3504" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-51" target="U1btN6UJld-qCHmEUZ8K-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2580" y="3428" />
+              <mxPoint x="2657.5" y="3504" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-51" value="Decision:&lt;br&gt;believe him or say that it is a terrible lie" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="2470" y="3276" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-53" target="U1btN6UJld-qCHmEUZ8K-68" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2432.5" y="3598" />
+              <mxPoint x="2432.5" y="3674" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-53" value="believe him&lt;br&gt;(Dungeon: Battlefield of Baldur)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2335" y="3516" width="195" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-54" target="U1btN6UJld-qCHmEUZ8K-57" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2657.5" y="3598" />
+              <mxPoint x="2657.5" y="3674" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-54" value="DONT believe him&lt;br&gt;(Dungeon: Battlefield of Baldur)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2560" y="3516" width="195" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-71" target="U1btN6UJld-qCHmEUZ8K-60" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2657.5" y="3938" />
+              <mxPoint x="2667.75" y="4012" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-57" target="U1btN6UJld-qCHmEUZ8K-71" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2657.5" y="3768" />
+              <mxPoint x="2657.5" y="3844" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-57" value="Ranger leaves and never comes back. He will die on the battlefield&lt;br&gt;(Dungeon: Battlefield of Baldur)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2560" y="3686" width="195" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-60" target="U1btN6UJld-qCHmEUZ8K-66" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2667.75" y="4148" />
+              <mxPoint x="2688.75" y="4224" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-60" value="After Dungeon you have deafeated the Mindflayer army&lt;br&gt;(Dungeon: Battlefield of Baldur)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2570.25" y="4046" width="195" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-66" value="World Change:&lt;br&gt;Dungeon: Battlefield of Baldur (vanished)&lt;br&gt;New Questline in Kingdom of Baldur&lt;br&gt;New Location: Ruins of Cyseal" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;shadow=0;glass=0;sketch=0;gradientColor=none;fillColor=#FFFF00;strokeWidth=12;" parent="1" vertex="1">
+          <mxGeometry x="2549.25" y="4236" width="279" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-68" target="U1btN6UJld-qCHmEUZ8K-69" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2432.5" y="3768" />
+              <mxPoint x="2432.5" y="3844" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-68" value="Ranger joins Team&lt;br&gt;(Dungeon: Battlefield of Baldur)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2335" y="3686" width="195" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-69" target="U1btN6UJld-qCHmEUZ8K-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2432.5" y="3938" />
+              <mxPoint x="2411.5" y="4014" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-69" value="Spy on Baron of Baldur&lt;br&gt;(Kingdom of Baldur)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2335" y="3856" width="195" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-70" target="U1btN6UJld-qCHmEUZ8K-76" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2411.5" y="4148" />
+              <mxPoint x="2390.5" y="4224" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-70" value="you see the Baron talking to a mindflayer. The mindflayer should take a weak troop to fight agsinst the royal knight. he also thanks the demon lord for the mindflayer support&lt;br&gt;(Kingdom of Baldur)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2282.75" y="4026" width="257.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-71" value="last Boss of the Dungeon is the Mindflayer&lt;br&gt;(Dungeon: Battlefield of Baldur)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2560" y="3856" width="195" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="U1btN6UJld-qCHmEUZ8K-76" target="U1btN6UJld-qCHmEUZ8K-78" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2390.5" y="4398" />
+              <mxPoint x="2390.5" y="4474" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-76" value="Fight against the Baron and the Mindflayer&lt;br&gt;(Dungeon: Throne Room)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2261.75" y="4256" width="257.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="U1btN6UJld-qCHmEUZ8K-78" value="World Change:&lt;br&gt;Dungeon: Battlefield of Baldur (vanished)&lt;br&gt;Kingdom&amp;nbsp;of Baldur (vanished)&lt;br&gt;New Location: Ruins of Baldur&lt;br&gt;New Location: Kingdom of Cyseal" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;shadow=0;glass=0;sketch=0;gradientColor=none;fillColor=#FFFF00;strokeWidth=12;" parent="1" vertex="1">
+          <mxGeometry x="2251" y="4486" width="279" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.88;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="GDXc2WCULTkVBbkMAAXe-7" target="U1btN6UJld-qCHmEUZ8K-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GDXc2WCULTkVBbkMAAXe-7" value="several Events later" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="2129.996647427757" y="-550" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="GDXc2WCULTkVBbkMAAXe-29" target="GDXc2WCULTkVBbkMAAXe-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GDXc2WCULTkVBbkMAAXe-29" value="World Change:&lt;br&gt;Several Locations will be destroyed (vanished)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;shadow=0;glass=0;sketch=0;gradientColor=none;fillColor=#FFFF00;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="4479.99806712963" y="-1280" width="279" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GDXc2WCULTkVBbkMAAXe-32" target="GDXc2WCULTkVBbkMAAXe-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5417" y="-1020" />
+              <mxPoint x="5160" y="-1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-118" value="Dies in battle against apocalyptic dragon" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SvzfsY_5kxfyUdOhqigk-117">
+          <mxGeometry x="-0.0261" y="1" relative="1" as="geometry">
+            <mxPoint x="48" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GDXc2WCULTkVBbkMAAXe-32" target="gjbwj-8g8M3SsiGOUzL0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-120" value="Win against apocalyptic dragon and save the world" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SvzfsY_5kxfyUdOhqigk-119">
+          <mxGeometry x="-0.8674" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GDXc2WCULTkVBbkMAAXe-32" value="fight the apocalyptic Dragon&lt;br&gt;&lt;br&gt;there has to be a Notification that Dead means really dead in this fight&lt;br&gt;&lt;br&gt;(Mount End)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5275.002453703703" y="-1240" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GDXc2WCULTkVBbkMAAXe-37" value="Reincarnation" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#33FFFF;" parent="1" vertex="1">
+          <mxGeometry x="5100" y="-810" width="130" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gjbwj-8g8M3SsiGOUzL0-9" target="gjbwj-8g8M3SsiGOUzL0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-9" value="World Change:&lt;br&gt;Story End&amp;nbsp;&lt;br&gt;Maybe new Side Quest?&lt;br&gt;Option to live happly ever after and die" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;shadow=0;glass=0;sketch=0;gradientColor=none;fillColor=#FFFF00;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="3995.4971604938273" y="1200" width="279" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-11" value="Reincarnation" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#33FFFF;" parent="1" vertex="1">
+          <mxGeometry x="4069.9971604938273" y="1440" width="130" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gjbwj-8g8M3SsiGOUzL0-13" target="gjbwj-8g8M3SsiGOUzL0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-13" value="Combination&lt;br&gt;needed" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#7F00FF;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="4080" y="955" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gjbwj-8g8M3SsiGOUzL0-19" target="gjbwj-8g8M3SsiGOUzL0-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-106" value="Hero gets killed in battle" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SvzfsY_5kxfyUdOhqigk-105">
+          <mxGeometry x="-0.3103" relative="1" as="geometry">
+            <mxPoint x="80" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gjbwj-8g8M3SsiGOUzL0-19" target="gjbwj-8g8M3SsiGOUzL0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-108" value="Hero kills the apocalyptic dragon and saves the world" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SvzfsY_5kxfyUdOhqigk-107">
+          <mxGeometry x="0.1397" y="1" relative="1" as="geometry">
+            <mxPoint x="51" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-19" value="Fight the apocalyptic dragon&lt;br&gt;&lt;br&gt;there has to be a Notification that Dead means really dead in this fight&lt;br&gt;&lt;br&gt;(apocalyptic dimension)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4320" y="620" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-23" value="Reincarnation" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#33FFFF;" parent="1" vertex="1">
+          <mxGeometry x="4610" y="955" width="130" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gjbwj-8g8M3SsiGOUzL0-25" target="gjbwj-8g8M3SsiGOUzL0-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-25" value="Later Ideas:" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;sketch=0;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="4185" y="-314" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gjbwj-8g8M3SsiGOUzL0-26" target="gjbwj-8g8M3SsiGOUzL0-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-26" value="several Events later" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="4350" y="480" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gjbwj-8g8M3SsiGOUzL0-28" target="gjbwj-8g8M3SsiGOUzL0-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-28" value="Start:&lt;br&gt;After 3rd Reincarnation you have seen the apocalyptic summon often enough" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;sketch=0;fillColor=#7F00FF;" parent="1" vertex="1">
+          <mxGeometry x="4459" y="-290" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gjbwj-8g8M3SsiGOUzL0-29" target="gjbwj-8g8M3SsiGOUzL0-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-29" value="find a special summoner&amp;nbsp;&lt;br&gt;&lt;br&gt;(???)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4130" y="-180" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gjbwj-8g8M3SsiGOUzL0-30" target="gjbwj-8g8M3SsiGOUzL0-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-30" value="Combination&lt;br&gt;needed" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#7F00FF;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="4360.003333333333" y="-30" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gjbwj-8g8M3SsiGOUzL0-34" target="gjbwj-8g8M3SsiGOUzL0-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-34" value="several Events later" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="4320" y="180" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gjbwj-8g8M3SsiGOUzL0-36" target="gjbwj-8g8M3SsiGOUzL0-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjbwj-8g8M3SsiGOUzL0-36" value="open the portal to the dimension of apocalyptic&lt;br&gt;(???)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4310" y="330" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RebIsJpTSPGbqB_T1sYM-17" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1665" y="660" as="sourcePoint" />
+            <mxPoint x="1665" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MIuwq38nCLDG81LJy97M-8" target="MIuwq38nCLDG81LJy97M-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MIuwq38nCLDG81LJy97M-10" target="MIuwq38nCLDG81LJy97M-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="MIuwq38nCLDG81LJy97M-11" target="MIuwq38nCLDG81LJy97M-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-11" value="several Events later" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="517" y="1430" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MIuwq38nCLDG81LJy97M-14" target="MIuwq38nCLDG81LJy97M-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-14" value="the alchemist is the boss of the dungeon&lt;br&gt;(Dungeon: Magic crystal factory)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="1780" width="183" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MIuwq38nCLDG81LJy97M-16" target="MIuwq38nCLDG81LJy97M-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-16" value="several Events later" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="260" y="1455" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MIuwq38nCLDG81LJy97M-17" target="MIuwq38nCLDG81LJy97M-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-17" value="the alchemist reconises you and allows you to enter the magic crystal factory&lt;br&gt;(magic crystal factory)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="1700" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MIuwq38nCLDG81LJy97M-20" target="MIuwq38nCLDG81LJy97M-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-20" value="several Events later" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="460" y="1920" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-23" value="the crystal of the magic crystal factory are used for the demon king to store his tribe inside after the apocalypse&lt;br&gt;(???)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="2080" width="183" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="boRZlfxLPIgqehDlfSLX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MIuwq38nCLDG81LJy97M-27" target="MIuwq38nCLDG81LJy97M-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="boRZlfxLPIgqehDlfSLX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MIuwq38nCLDG81LJy97M-27" target="MIuwq38nCLDG81LJy97M-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1042" y="1760" />
+              <mxPoint x="837" y="1760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MIuwq38nCLDG81LJy97M-27" value="find the magic crystal factory&lt;br&gt;(Dungeon: Magic crystal factory)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="950" y="1565" width="183" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GDXc2WCULTkVBbkMAAXe-4" target="GDXc2WCULTkVBbkMAAXe-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GDXc2WCULTkVBbkMAAXe-15" target="RebIsJpTSPGbqB_T1sYM-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RebIsJpTSPGbqB_T1sYM-28" target="MIuwq38nCLDG81LJy97M-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2805" y="287" />
+              <mxPoint x="1470" y="287" />
+              <mxPoint x="1470" y="1565" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U1btN6UJld-qCHmEUZ8K-38" target="U1btN6UJld-qCHmEUZ8K-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2930" y="1730" />
+              <mxPoint x="2594" y="1730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GDXc2WCULTkVBbkMAAXe-28" target="GDXc2WCULTkVBbkMAAXe-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SvzfsY_5kxfyUdOhqigk-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GDXc2WCULTkVBbkMAAXe-26" target="gjbwj-8g8M3SsiGOUzL0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

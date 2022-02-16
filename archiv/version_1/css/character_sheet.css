@@ -1,0 +1,105 @@
+#menu_area {
+    background-color: #adb3b3;
+    padding: 20px;
+    width: 600px;
+    border-style: solid;
+}
+
+#character_sheet {
+    display: inline-block;
+}
+
+#button_area {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+
+#headline_character_sheet {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#headline_button_area {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#character_name {
+    border-style: solid;
+    border-width: 2px;
+    width: 230px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    background-color: #ddd;
+}
+
+#character_level {
+    border-style: solid;
+    border-width: 2px;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: #ddd;
+}
+
+#money {
+    border-style: solid;
+    border-width: 2px;
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+    display: none;
+}
+
+#money_text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#money_number {
+    display: inline-block;
+    text-align: center;
+}
+
+#exp_area {
+    border-style: solid;
+    border-width: 2px;
+    width: 162px;
+    height: 40px;
+    background-color: #ddd;
+    margin-left: 10px;
+    display: none;
+}
+
+#exp_text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#exp_number {
+    float: right;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+}
+
+
