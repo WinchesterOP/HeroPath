@@ -1,0 +1,1441 @@
+{
+    "seed": 225625,
+    "warseed": 215630,
+    "resource": {
+        "RNA": {
+            "name": "RNA",
+            "display": false,
+            "amount": 700,
+            "max": 20100,
+            "diff": 0,
+            "delta": 0,
+            "rate": 1,
+            "crates": 0,
+            "containers": 0
+        },
+        "DNA": {
+            "name": "DNA",
+            "display": false,
+            "amount": 11875.25,
+            "max": 40100,
+            "diff": 0,
+            "delta": 0,
+            "rate": 1,
+            "crates": 0,
+            "containers": 0
+        },
+        "Money": {
+            "name": "$",
+            "display": true,
+            "amount": 3511158,
+            "max": 3511158,
+            "diff": 7845.3,
+            "delta": 0,
+            "rate": 1,
+            "stackable": false,
+            "crates": 0,
+            "containers": 0
+        }
+
+    },
+    "evolution": {
+        "dna": 1,
+        "membrane": {
+            "count": 500
+        },
+        "organelles": {
+            "count": 500
+        },
+        "nucleus": {
+            "count": 500
+        },
+        "eukaryotic_cell": {
+            "count": 500
+        },
+        "mitochondria": {
+            "count": 7
+        },
+        "sexual_reproduction": {
+            "count": 1
+        },
+        "phagocytosis": {
+            "count": 1
+        },
+        "final": 100,
+        "multicellular": {
+            "count": 1
+        },
+        "bilateral_symmetry": {
+            "count": 1
+        },
+        "athropods": {
+            "count": 1
+        },
+        "sentience": {
+            "count": 1
+        }
+    },
+    "tech": {
+        "primitive": 3,
+        "wsc": 0,
+        "housing": 3,
+        "agriculture": 7,
+        "mining": 4,
+        "science": 8,
+        "military": 4,
+        "axe": 5,
+        "currency": 6,
+        "storage": 5,
+        "banking": 9,
+        "farm": 1,
+        "govern": 3,
+        "cement": 5,
+        "foundry": 8,
+        "theatre": 3,
+        "smelting": 6,
+        "armor": 3,
+        "pickaxe": 5,
+        "spy": 5,
+        "hammer": 4,
+        "hoe": 4,
+        "queue": 3,
+        "saw": 2,
+        "mercs": 2,
+        "trade": 3,
+        "container": 4,
+        "reproduction": 1,
+        "alumina": 1,
+        "medic": 1,
+        "r_queue": 1,
+        "explosives": 3,
+        "high_tech": 8,
+        "boot_camp": 1,
+        "steel_container": 3,
+        "housing_reduction": 1,
+        "home_safe": 1,
+        "mine_conveyor": 1,
+        "broadcast": 2,
+        "gov_soc": 1,
+        "gov_corp": 1,
+        "oil": 6,
+        "v_train": 1,
+        "titanium": 1,
+        "alloy": 1,
+        "wharf": 1,
+        "copper": 1,
+        "genetics": 2,
+        "gambling": 2,
+        "uranium": 1,
+        "polymer": 2,
+        "gov_fed": 1,
+        "factory": 2,
+        "stock_exchange": 1,
+        "monument": 1
+    },
+    "city": {
+        "ptrait": "none",
+        "morale": {
+            "current": 165,
+            "cap": 225,
+            "potential": 165,
+            "unemployed": -12,
+            "stress": -132,
+            "entertain": 156,
+            "leadership": 0,
+            "season": 5,
+            "weather": -2,
+            "warmonger": 0,
+            "rev": 0,
+            "tax": 10,
+            "shrine": 0,
+            "broadcast": 40,
+            "vr": 0,
+            "zoo": 0
+        },
+        "sun": 0,
+        "cold": 0,
+        "hot": 0,
+        "calendar": {
+            "day": 38,
+            "year": 10,
+            "season": 0,
+            "weather": 0,
+            "temp": 1,
+            "moon": 19,
+            "wind": 0,
+            "orbit": 365
+        },
+        "powered": true,
+        "power": 174,
+        "biome": "grassland",
+        "geology": {},
+        "market": {
+            "qty": 10,
+            "mtrade": 650,
+            "trade": 331,
+            "active": true
+        },
+        "power_total": 564,
+        "basic_housing": {
+            "count": 80,
+            "time": "3d 16h",
+            "bn": "Lumber"
+        },
+        "farm": {
+            "count": 31,
+            "time": "0s",
+            "bn": false
+        },
+        "rock_quarry": {
+            "count": 50,
+            "on": 20,
+            "asbestos": 50,
+            "time": "20d 23h",
+            "bn": "Lumber"
+        },
+        "university": {
+            "count": 150,
+            "time": "344197783955566950000d 8h",
+            "bn": "Money"
+        },
+        "garrison": {
+            "count": 200,
+            "on": 90,
+            "time": "5.852477530029331e+28d 0h",
+            "bn": "Money"
+        },
+        "lumber_yard": {
+            "count": 50,
+            "time": "45921187d 7h",
+            "bn": "Lumber"
+        },
+        "shed": {
+            "count": 100,
+            "time": "11208823d 6h",
+            "bn": "Cement"
+        },
+        "silo": {
+            "count": 50,
+            "time": "27d 6h",
+            "bn": "Lumber"
+        },
+        "bank": {
+            "count": 50,
+            "time": "18d 0h",
+            "bn": "Stone"
+        },
+        "mine": {
+            "count": 50,
+            "on": 30,
+            "time": "1039d 15h",
+            "bn": "Money"
+        },
+        "cement_plant": {
+            "count": 50,
+            "on": 10,
+            "time": "2822d 0h",
+            "bn": "Money"
+        },
+        "foundry": {
+            "count": 20,
+            "crafting": 8,
+            "Plywood": 2,
+            "Brick": 2,
+            "Bronze": 0,
+            "Wrought_Iron": 2,
+            "Sheet_Metal": 2,
+            "Mythril": 0,
+            "Aerogel": 0,
+            "Nanoweave": 0,
+            "Scarletite": 0,
+            "Quantium": 0,
+            "time": "0s",
+            "bn": false
+        },
+        "amphitheatre": {
+            "count": 100,
+            "time": "22104012523520260000d 8h",
+            "bn": "Stone"
+        },
+        "mill": {
+            "count": 100,
+            "on": 0,
+            "time": "165564991d 15h",
+            "bn": "Cement"
+        },
+        "cottage": {
+            "count": 50,
+            "time": "0s",
+            "bn": false
+        },
+        "smelter": {
+            "count": 50,
+            "cap": 50,
+            "Wood": 50,
+            "Coal": 0,
+            "Oil": 0,
+            "Star": 0,
+            "StarCap": 0,
+            "Inferno": 0,
+            "Iron": 14,
+            "Steel": 36,
+            "Iridium": 0,
+            "time": "23d 5h",
+            "bn": "Iron"
+        },
+        "library": {
+            "count": 200,
+            "time": "31753781943901d 2h",
+            "bn": "Plywood"
+        },
+        "sawmill": {
+            "count": 50,
+            "on": 50,
+            "time": "23d 18h",
+            "bn": "Cement"
+        },
+        "coal_mine": {
+            "count": 50,
+            "on": 30,
+            "time": "15845d 15h",
+            "bn": "Wrought_Iron"
+        },
+        "trade": {
+            "count": 150,
+            "time": "1185572397263113d 12h",
+            "bn": "Lumber"
+        },
+        "storage_yard": {
+            "count": 100,
+            "time": "15623311242d 20h",
+            "bn": "Wrought_Iron"
+        },
+        "metal_refinery": {
+            "count": 100,
+            "on": 0,
+            "time": "482466913d 8h",
+            "bn": "Steel"
+        },
+        "hospital": {
+            "count": 80,
+            "time": "59483648d 17h",
+            "bn": "Aluminium"
+        },
+        "wardenclyffe": {
+            "count": 150,
+            "on": 20,
+            "time": "27259832134d 19h",
+            "bn": "Sheet_Metal"
+        },
+        "boot_camp": {
+            "count": 80,
+            "time": "1434029557d 7h",
+            "bn": "Brick"
+        },
+        "warehouse": {
+            "count": 80,
+            "time": "408840d 6h",
+            "bn": "Sheet_Metal"
+        },
+        "coal_power": {
+            "count": 50,
+            "on": 50,
+            "time": "6d 15h",
+            "bn": "Cement"
+        },
+        "apartment": {
+            "count": 100,
+            "on": 30,
+            "time": "435898688d 19h",
+            "bn": "Cement"
+        },
+        "factory": {
+            "count": 50,
+            "on": 30,
+            "Lux": 15,
+            "Furs": 0,
+            "Alloy": 15,
+            "Polymer": 0,
+            "Nano": 0,
+            "Stanene": 0,
+            "time": "2777d 7h",
+            "bn": "Titanium"
+        },
+        "oil_well": {
+            "count": 300,
+            "time": "1.9250030515903057e+50d 8h",
+            "bn": "Cement"
+        },
+        "oil_depot": {
+            "count": 300,
+            "time": "7.444352625442832e+46d 0h",
+            "bn": "Sheet_Metal"
+        },
+        "oil_power": {
+            "count": 50,
+            "on": 50,
+            "time": "335d 3h",
+            "bn": "Aluminium"
+        },
+        "wharf": {
+            "count": 50,
+            "time": "4152d 16h",
+            "bn": "Lumber"
+        },
+        "biolab": {
+            "count": 50,
+            "time": "410d 19h",
+            "bn": "Alloy",
+            "on": 10
+        },
+        "casino": {
+            "count": 50,
+            "on": 20,
+            "time": "7588113d 19h",
+            "bn": "Plywood"
+        },
+        "fission_power": {
+            "count": 1,
+            "on": 1,
+            "time": "2m 23s",
+            "bn": "Titanium"
+        }
+    },
+    "space": {
+        "spc_casino": {
+            "count": 0,
+            "on": 0,
+            "time": "0s"
+        }
+    },
+    "interstellar": {},
+    "portal": {},
+    "civic": {
+        "govern": {
+            "type": "socialist",
+            "rev": 631,
+            "fr": 0
+        },
+        "foreign": {
+            "gov0": {
+                "unrest": 0,
+                "hstl": 100,
+                "mil": 100,
+                "eco": 75,
+                "spy": 3,
+                "esp": 0,
+                "trn": 0,
+                "sab": 0,
+                "act": "none",
+                "occ": true,
+                "anx": false,
+                "buy": false,
+                "name": {
+                    "s0": 10,
+                    "s1": "Menzel"
+                }
+            },
+            "gov1": {
+                "unrest": 0,
+                "hstl": 23,
+                "mil": 144,
+                "eco": 100,
+                "spy": 3,
+                "esp": 0,
+                "trn": 0,
+                "sab": 0,
+                "act": "none",
+                "occ": true,
+                "anx": false,
+                "buy": false,
+                "name": {
+                    "s0": 6,
+                    "s1": "Sun"
+                }
+            },
+            "gov2": {
+                "unrest": 0,
+                "hstl": 41,
+                "mil": 250,
+                "eco": 150,
+                "spy": 2,
+                "esp": 0,
+                "trn": 0,
+                "sab": 0,
+                "act": "influence",
+                "occ": false,
+                "anx": false,
+                "buy": false,
+                "name": {
+                    "s0": 4,
+                    "s1": "Menzel"
+                }
+            }
+        },
+        "new": 0,
+        "d_job": "unemployed",
+        "unemployed": {
+            "job": "unemployed",
+            "display": true,
+            "workers": 12,
+            "max": -1,
+            "impact": 0,
+            "name": "Unemployed",
+            "assigned": 4,
+            "stress": 0
+        },
+        "hunter": {
+            "job": "hunter",
+            "display": false,
+            "workers": 0,
+            "max": -1,
+            "impact": 0,
+            "name": "Hunter",
+            "assigned": 0,
+            "stress": 0
+        },
+        "forager": {
+            "job": "forager",
+            "display": false,
+            "workers": 0,
+            "max": -1,
+            "impact": 0,
+            "name": "Forager",
+            "assigned": 0,
+            "stress": 0
+        },
+        "farmer": {
+            "job": "farmer",
+            "display": true,
+            "workers": 5,
+            "max": -1,
+            "impact": 0.82,
+            "name": "Farmer",
+            "assigned": 5,
+            "stress": 5
+        },
+        "lumberjack": {
+            "job": "lumberjack",
+            "display": true,
+            "workers": 15,
+            "max": -1,
+            "impact": 1,
+            "name": "Lumberjack",
+            "assigned": 15,
+            "stress": 5
+        },
+        "quarry_worker": {
+            "job": "quarry_worker",
+            "display": true,
+            "workers": 40,
+            "max": -1,
+            "impact": 1,
+            "name": "Quarry Worker",
+            "assigned": 40,
+            "stress": 5
+        },
+        "crystal_miner": {
+            "job": "crystal_miner",
+            "display": false,
+            "workers": 0,
+            "max": -1,
+            "impact": 0.1,
+            "name": "Crystal Miner",
+            "assigned": 0,
+            "stress": 5
+        },
+        "scavenger": {
+            "job": "scavenger",
+            "display": false,
+            "workers": 0,
+            "max": -1,
+            "impact": 0.12,
+            "name": "Scavenger",
+            "assigned": 0,
+            "stress": 5
+        },
+        "miner": {
+            "job": "miner",
+            "display": true,
+            "workers": 190,
+            "max": 200,
+            "impact": 1,
+            "name": "Miner",
+            "assigned": 190,
+            "stress": 4
+        },
+        "coal_miner": {
+            "job": "coal_miner",
+            "display": true,
+            "workers": 80,
+            "max": 200,
+            "impact": 0.2,
+            "name": "Coal Miner",
+            "assigned": 80,
+            "stress": 4
+        },
+        "craftsman": {
+            "job": "craftsman",
+            "display": true,
+            "workers": 8,
+            "max": 80,
+            "impact": 1,
+            "name": "Craftsman",
+            "assigned": 0,
+            "stress": 5
+        },
+        "cement_worker": {
+            "job": "cement_worker",
+            "display": true,
+            "workers": 50,
+            "max": 400,
+            "impact": 0.4,
+            "name": "Cement Plant Worker",
+            "assigned": 50,
+            "stress": 5
+        },
+        "entertainer": {
+            "job": "entertainer",
+            "display": true,
+            "workers": 200,
+            "max": 600,
+            "impact": 1,
+            "name": "Entertainer",
+            "assigned": 200,
+            "stress": 10
+        },
+        "priest": {
+            "job": "priest",
+            "display": false,
+            "workers": 0,
+            "max": 0,
+            "impact": 1,
+            "name": "Priest",
+            "assigned": 0,
+            "stress": 3
+        },
+        "professor": {
+            "job": "professor",
+            "display": true,
+            "workers": 60,
+            "max": 600,
+            "impact": 2.5,
+            "name": "Professor",
+            "assigned": 60,
+            "stress": 6
+        },
+        "scientist": {
+            "job": "scientist",
+            "display": true,
+            "workers": 40,
+            "max": 600,
+            "impact": 1,
+            "name": "Scientist",
+            "assigned": 40,
+            "stress": 5
+        },
+        "banker": {
+            "job": "banker",
+            "display": true,
+            "workers": 65,
+            "max": 200,
+            "impact": 0.1,
+            "name": "Banker",
+            "assigned": 65,
+            "stress": 6
+        },
+        "colonist": {
+            "job": "colonist",
+            "display": false,
+            "workers": 0,
+            "max": 0,
+            "impact": 1,
+            "name": "Colonist",
+            "assigned": 0,
+            "stress": 5
+        },
+        "titan_colonist": {
+            "job": "titan_colonist",
+            "display": false,
+            "workers": 0,
+            "max": 0,
+            "impact": 1,
+            "name": "Bug Colonist",
+            "assigned": 0,
+            "stress": 5
+        },
+        "space_miner": {
+            "job": "space_miner",
+            "display": false,
+            "workers": 0,
+            "max": 0,
+            "impact": 1,
+            "name": "Space Miner",
+            "assigned": 0,
+            "stress": 5
+        },
+        "hell_surveyor": {
+            "job": "hell_surveyor",
+            "display": false,
+            "workers": 0,
+            "max": 0,
+            "impact": 1,
+            "name": "Surveyor",
+            "assigned": 0,
+            "stress": 1
+        },
+        "archaeologist": {
+            "job": "archaeologist",
+            "display": false,
+            "workers": 0,
+            "max": 0,
+            "impact": 1,
+            "name": "Archaeologist",
+            "assigned": 0,
+            "stress": 1
+        },
+        "crew": {
+            "job": "crew",
+            "display": false,
+            "workers": 0,
+            "max": 0,
+            "impact": 1,
+            "name": "Ship Crew",
+            "assigned": 0,
+            "stress": 4
+        },
+        "garrison": {
+            "display": true,
+            "disabled": false,
+            "rate": 10.9375,
+            "progress": 32.8125,
+            "tactic": 4,
+            "workers": 603,
+            "wounded": 0,
+            "raid": 319,
+            "max": 680,
+            "mercs": true,
+            "fatigue": 0,
+            "protest": 0,
+            "m_use": 0,
+            "crew": 0
+        },
+        "mad": {
+            "display": false,
+            "armed": true
+        },
+        "taxes": {
+            "tax_rate": 10,
+            "display": true
+        }
+    },
+    "race": {
+        "species": "antid",
+        "gods": "none",
+        "old_gods": "none",
+        "seeded": false,
+        "Plasmid": {
+            "count": 0,
+            "anti": 0
+        },
+        "Phage": {
+            "count": 0
+        },
+        "Dark": {
+            "count": 0
+        },
+        "Harmony": {
+            "count": 0
+        },
+        "AICore": {
+            "count": 0
+        },
+        "deterioration": 0,
+        "gene_fortify": 0,
+        "universe": "standard",
+        "minor": {},
+        "mutation": 0,
+        "p_mutation": 0,
+        "purgatory": {
+            "city": {},
+            "space": {},
+            "portal": {},
+            "tech": {}
+        },
+        "high_pop": 1,
+        "fast_growth": 1,
+        "high_metabolism": 1,
+        "hivemind": 1,
+        "tunneler": 1
+    },
+    "genes": {
+        "minor": {}
+    },
+    "blood": {},
+    "stats": {
+        "start": 1644916310934,
+        "days": 3687,
+        "tdays": 0,
+        "dark": 0,
+        "reset": 0,
+        "plasmid": 0,
+        "antiplasmid": 0,
+        "universes": 0,
+        "phage": 0,
+        "starved": 129,
+        "tstarved": 0,
+        "died": 478,
+        "tdied": 0,
+        "sac": 0,
+        "tsac": 0,
+        "know": 4783592,
+        "tknow": 0,
+        "portals": 0,
+        "dkills": 0,
+        "attacks": 16,
+        "cfood": 47,
+        "tfood": 47,
+        "cstone": 47,
+        "tstone": 47,
+        "clumber": 186,
+        "tlumber": 186,
+        "mad": 0,
+        "bioseed": 0,
+        "cataclysm": 0,
+        "blackhole": 0,
+        "ascend": 0,
+        "descend": 0,
+        "aiappoc": 0,
+        "harmony": 0,
+        "blood": 0,
+        "cores": 0,
+        "artifact": 0,
+        "spire": {},
+        "banana": {
+            "b1": {
+                "l": false,
+                "h": false,
+                "a": false,
+                "e": false,
+                "m": false,
+                "mg": false
+            },
+            "b2": {
+                "l": false,
+                "h": false,
+                "a": false,
+                "e": false,
+                "m": false,
+                "mg": false
+            },
+            "b3": {
+                "l": false,
+                "h": false,
+                "a": false,
+                "e": false,
+                "m": false,
+                "mg": false
+            },
+            "b4": {
+                "l": false,
+                "h": false,
+                "a": false,
+                "e": false,
+                "m": false,
+                "mg": false
+            },
+            "b5": {
+                "l": false,
+                "h": false,
+                "a": false,
+                "e": false,
+                "m": false,
+                "mg": false
+            }
+        },
+        "achieve": {
+            "mass_starvation": {
+                "l": 1
+            },
+            "red_tactics": {
+                "l": 1
+            },
+            "warmonger": {
+                "l": 1
+            },
+            "paradise": {
+                "l": 1
+            }
+        },
+        "feat": {},
+        "current": 1645039877634
+    },
+    "event": {
+        "t": 582,
+        "l": "mine_collapse"
+    },
+    "m_event": {
+        "t": 647,
+        "l": "tremor"
+    },
+    "new": false,
+    "version": "1.2.11",
+    "power": [
+        "city:transmitter",
+        "prtl_ruins:arcology",
+        "city:apartment",
+        "int_alpha:habitat",
+        "int_alpha:luxury_condo",
+        "spc_red:spaceport",
+        "spc_titan:titan_spaceport",
+        "spc_titan:electrolysis",
+        "int_alpha:starport",
+        "spc_dwarf:shipyard",
+        "spc_titan:ai_core2",
+        "spc_eris:drone_control",
+        "spc_titan:ai_colonist",
+        "int_blackhole:s_gate",
+        "gxy_gateway:starbase",
+        "spc_triton:fob",
+        "spc_enceladus:operating_base",
+        "spc_enceladus:zero_g_lab",
+        "spc_titan:sam",
+        "gxy_gateway:ship_dock",
+        "prtl_ruins:hell_forge",
+        "int_neutron:stellar_forge",
+        "int_neutron:citadel",
+        "city:coal_mine",
+        "spc_moon:moon_base",
+        "spc_red:red_tower",
+        "spc_home:nav_beacon",
+        "int_proxima:xfer_station",
+        "gxy_stargate:telemetry_beacon",
+        "int_nebula:nexus",
+        "gxy_stargate:gateway_depot",
+        "spc_dwarf:elerium_contain",
+        "spc_gas:gas_mining",
+        "spc_belt:space_station",
+        "spc_gas_moon:outpost",
+        "gxy_gorddon:embassy",
+        "gxy_gorddon:dormitory",
+        "gxy_alien1:resort",
+        "spc_gas_moon:oil_extractor",
+        "int_alpha:int_factory",
+        "city:factory",
+        "spc_red:red_factory",
+        "spc_dwarf:world_controller",
+        "prtl_fortress:turret",
+        "prtl_badlands:war_drone",
+        "city:wardenclyffe",
+        "city:biolab",
+        "city:mine",
+        "city:rock_quarry",
+        "city:cement_plant",
+        "city:sawmill",
+        "city:mass_driver",
+        "int_neutron:neutron_miner",
+        "prtl_fortress:war_droid",
+        "prtl_pit:soul_forge",
+        "gxy_chthonian:excavator",
+        "int_blackhole:far_reach",
+        "prtl_badlands:sensor_drone",
+        "prtl_badlands:attractor",
+        "city:metal_refinery",
+        "gxy_stargate:gateway_station",
+        "gxy_alien1:vitreloy_plant",
+        "gxy_alien2:foothold",
+        "gxy_gorddon:symposium",
+        "int_blackhole:mass_ejector",
+        "city:casino",
+        "spc_hell:spc_casino",
+        "prtl_fortress:repair_droid",
+        "gxy_stargate:defense_platform",
+        "prtl_ruins:guard_post",
+        "prtl_lake:cooling_tower",
+        "prtl_lake:harbour",
+        "prtl_spire:purifier",
+        "prtl_ruins:archaeology",
+        "prtl_pit:gun_emplacement",
+        "prtl_gate:gate_turret",
+        "prtl_pit:soul_attractor",
+        "prtl_gate:infernite_mine",
+        "int_sirius:ascension_trigger",
+        "spc_kuiper:orichalcum_mine",
+        "spc_kuiper:elerium_mine",
+        "spc_kuiper:uranium_mine",
+        "spc_kuiper:neutronium_mine",
+        "spc_dwarf:m_relay"
+    ],
+    "support": {
+        "moon": [
+            "spc_moon:helium_mine",
+            "spc_moon:iridium_mine",
+            "spc_moon:observatory"
+        ],
+        "red": [
+            "spc_red:living_quarters",
+            "spc_red:exotic_lab",
+            "spc_red:red_mine",
+            "spc_red:fabrication",
+            "spc_red:biodome",
+            "spc_red:vr_center"
+        ],
+        "belt": [
+            "spc_belt:elerium_ship",
+            "spc_belt:iridium_ship",
+            "spc_belt:iron_ship"
+        ],
+        "alpha": [
+            "int_alpha:fusion",
+            "int_alpha:mining_droid",
+            "int_alpha:processing",
+            "int_alpha:laboratory",
+            "int_alpha:g_factory",
+            "int_alpha:exchange",
+            "int_alpha:zoo"
+        ],
+        "nebula": [
+            "int_nebula:harvester",
+            "int_nebula:elerium_prospector"
+        ],
+        "gateway": [
+            "gxy_gateway:bolognium_ship",
+            "gxy_gateway:dreadnought",
+            "gxy_gateway:cruiser_ship",
+            "gxy_gateway:frigate_ship",
+            "gxy_gateway:corvette_ship",
+            "gxy_gateway:scout_ship"
+        ],
+        "alien2": [
+            "gxy_alien2:armed_miner",
+            "gxy_alien2:ore_processor",
+            "gxy_alien2:scavenger"
+        ],
+        "lake": [
+            "prtl_lake:bireme",
+            "prtl_lake:transport"
+        ],
+        "spire": [
+            "prtl_spire:port",
+            "prtl_spire:base_camp",
+            "prtl_spire:mechbay"
+        ],
+        "titan": [
+            "spc_titan:titan_quarters",
+            "spc_titan:titan_mine",
+            "spc_titan:g_factory",
+            "spc_titan:decoder"
+        ],
+        "enceladus": [
+            "spc_enceladus:water_freighter",
+            "spc_enceladus:operating_base",
+            "spc_enceladus:zero_g_lab"
+        ],
+        "eris": [
+            "spc_eris:shock_trooper",
+            "spc_eris:tank"
+        ]
+    },
+    "settings": {
+        "civTabs": 7,
+        "showEvolve": false,
+        "showCiv": true,
+        "showCity": true,
+        "showIndustry": true,
+        "showPowerGrid": true,
+        "showResearch": true,
+        "showCivic": true,
+        "showMil": true,
+        "showResources": true,
+        "showMarket": true,
+        "showStorage": true,
+        "showAlchemy": false,
+        "showGenetics": true,
+        "showSpace": false,
+        "showAchieve": true,
+        "animated": true,
+        "disableReset": false,
+        "font": "standard",
+        "q_merge": "merge_nearby",
+        "cLabels": true,
+        "theme": "gruvboxDark",
+        "locale": "en-US",
+        "icon": "star",
+        "showMechLab": false,
+        "showShipYard": false,
+        "showGovernor": false,
+        "space": {
+            "home": true,
+            "moon": false,
+            "red": false,
+            "hell": false,
+            "sun": false,
+            "gas": false,
+            "gas_moon": false,
+            "belt": false,
+            "dwarf": false,
+            "blackhole": false,
+            "sirius": false,
+            "stargate": false,
+            "gateway": false,
+            "gorddon": false,
+            "alien1": false,
+            "alien2": false,
+            "chthonian": false,
+            "alpha": false,
+            "proxima": false,
+            "nebula": false,
+            "neutron": false,
+            "titan": false,
+            "enceladus": false,
+            "triton": false,
+            "kuiper": false,
+            "eris": false
+        },
+        "showDeep": false,
+        "showGalactic": false,
+        "showPortal": false,
+        "showOuter": false,
+        "portal": {
+            "fortress": false,
+            "badlands": false,
+            "pit": false,
+            "ruins": false,
+            "gate": false,
+            "lake": false,
+            "spire": false
+        },
+        "touch": false,
+        "msgFilters": {
+            "all": {
+                "unlocked": true,
+                "vis": true,
+                "max": 60,
+                "save": 3
+            },
+            "progress": {
+                "unlocked": true,
+                "vis": true,
+                "max": 60,
+                "save": 3
+            },
+            "events": {
+                "unlocked": true,
+                "vis": true,
+                "max": 60,
+                "save": 3
+            },
+            "major_events": {
+                "unlocked": true,
+                "vis": true,
+                "max": 60,
+                "save": 3
+            },
+            "minor_events": {
+                "unlocked": true,
+                "vis": true,
+                "max": 60,
+                "save": 3
+            },
+            "queue": {
+                "unlocked": true,
+                "vis": true,
+                "max": 60,
+                "save": 3
+            },
+            "building_queue": {
+                "unlocked": true,
+                "vis": true,
+                "max": 60,
+                "save": 3
+            },
+            "research_queue": {
+                "unlocked": true,
+                "vis": true,
+                "max": 60,
+                "save": 3
+            },
+            "combat": {
+                "unlocked": true,
+                "vis": true,
+                "max": 60,
+                "save": 3
+            },
+            "spy": {
+                "unlocked": true,
+                "vis": true,
+                "max": 60,
+                "save": 3
+            },
+            "achievements": {
+                "unlocked": true,
+                "vis": true,
+                "max": 60,
+                "save": 3
+            },
+            "hell": {
+                "unlocked": false,
+                "vis": false,
+                "max": 60,
+                "save": 3
+            }
+        },
+        "msgQueueHeight": "calc(100vh - 95.938px - 6rem)",
+        "buildQueueHeight": 95.938,
+        "showEjector": false,
+        "showCargo": false,
+        "resTabs": 0,
+        "govTabs": 1,
+        "marketTabs": 1,
+        "spaceTabs": 0,
+        "statsTabs": 0,
+        "govTabs2": 0,
+        "pause": false,
+        "mKeys": true,
+        "keyMap": {
+            "x10": "Control",
+            "x25": "Shift",
+            "x100": "Alt",
+            "q": "q",
+            "showCiv": "1",
+            "showCivic": "2",
+            "showResearch": "3",
+            "showResources": "4",
+            "showGenetics": "5",
+            "showAchieve": "6",
+            "settings": "7"
+        },
+        "qAny": false,
+        "sPackOn": true,
+        "qAny_res": false,
+        "sPackMsg": "No string pack chosen",
+        "expose": false,
+        "tabLoad": false,
+        "boring": false,
+        "mtorder": [],
+        "affix": "si",
+        "at": 11395,
+        "arpa": {
+            "arpaTabs": 0,
+            "physics": true,
+            "genetics": true,
+            "crispr": false,
+            "blood": false
+        }
+    },
+    "queue": {
+        "display": true,
+        "queue": [],
+        "rename": false,
+        "max": 8,
+        "pause": false
+    },
+    "r_queue": {
+        "display": true,
+        "queue": [],
+        "max": 3,
+        "pause": false
+    },
+    "lastMsg": {
+        "all": [{
+                "m": "Your army was victorious! 39 soldiers died in the conflict.",
+                "c": "success"
+            },
+            {
+                "m": "Gained $454301, 163127 Lumber, 178913 Copper, 164881 Cement, 91211 Steel.",
+                "c": "warning"
+            },
+            {
+                "m": "Some low grade tremors have shook your region, no damage was reported.",
+                "c": "warning"
+            }
+        ],
+        "progress": [{
+                "m": "Your scientists have unlocked the secrets of the atom. The atomic age has begun.",
+                "c": "info"
+            },
+            {
+                "m": "Polymer is now available for manufacture.",
+                "c": "info"
+            },
+            {
+                "m": "Electricity is a major advancement for your people, the future possibilities are endless.",
+                "c": "info"
+            }
+        ],
+        "queue": [],
+        "building_queue": [],
+        "research_queue": [],
+        "combat": [{
+                "m": "Your army was victorious! 39 soldiers died in the conflict.",
+                "c": "success"
+            },
+            {
+                "m": "Gained $454301, 163127 Lumber, 178913 Copper, 164881 Cement, 91211 Steel.",
+                "c": "warning"
+            },
+            {
+                "m": "Your army was victorious! 102 soldiers died in the conflict.",
+                "c": "success"
+            }
+        ],
+        "spy": [{
+                "m": "You have weakened the army of Sun Union by 3 with a covert operation.",
+                "c": "success"
+            },
+            {
+                "m": "You have improved your relations with Menzel States by 1% using covert means.",
+                "c": "success"
+            },
+            {
+                "m": "A spy failed their mission in the Menzel Dynasty.",
+                "c": "danger"
+            }
+        ],
+        "events": [{
+                "m": "Some low grade tremors have shook your region, no damage was reported.",
+                "c": "warning"
+            },
+            {
+                "m": "A cave in has killed a miner.",
+                "c": "caution"
+            },
+            {
+                "m": "A pick pocket has stolen $4 from you.",
+                "c": "warning"
+            }
+        ],
+        "major_events": [{
+                "m": "A cave in has killed a miner.",
+                "c": "caution"
+            },
+            {
+                "m": "A fire has broken out destroying 14.770 lumber.",
+                "c": "caution"
+            },
+            {
+                "m": "Your scientists have become inspired. Knowledge generation has been doubled temporarily.",
+                "c": "caution"
+            }
+        ],
+        "minor_events": [{
+                "m": "Some low grade tremors have shook your region, no damage was reported.",
+                "c": "warning"
+            },
+            {
+                "m": "A pick pocket has stolen $4 from you.",
+                "c": "warning"
+            },
+            {
+                "m": "You uncovered some primitive tools buried in the ground. They'll make excellent museum pieces.",
+                "c": "warning"
+            }
+        ],
+        "achievements": [{
+                "m": "Achievement Unlocked! Paradise",
+                "c": "special"
+            },
+            {
+                "m": "Achievement Unlocked! Heir of Genghis Khan",
+                "c": "special"
+            },
+            {
+                "m": "Achievement Unlocked! Red Tactician",
+                "c": "special"
+            }
+        ],
+        "hell": []
+    },
+    "starDock": {},
+    "galaxy": {},
+    "pillars": {},
+    "govern": {
+        "governor": {},
+        "candidate": [],
+        "policy": {}
+    },
+    "special": {
+        "gift": {},
+        "egg": {
+            "2022": {
+                "egg1": false,
+                "egg2": false,
+                "egg3": false,
+                "egg4": false,
+                "egg5": false,
+                "egg6": false,
+                "egg7": false,
+                "egg8": false,
+                "egg9": false,
+                "egg10": false,
+                "egg11": false,
+                "egg12": false,
+                "egg13": false,
+                "egg14": false,
+                "egg15": false
+            }
+        },
+        "trick": {
+            "2022": {
+                "trick1": false,
+                "trick2": false,
+                "trick3": false,
+                "trick4": false,
+                "trick5": false,
+                "trick6": false,
+                "trick7": false,
+                "treat1": false,
+                "treat2": false,
+                "treat3": false,
+                "treat4": false,
+                "treat5": false,
+                "treat6": false,
+                "treat7": false
+            },
+            "trick1": false,
+            "trick2": false,
+            "trick3": false,
+            "trick4": false,
+            "trick5": false,
+            "trick6": false,
+            "trick7": false,
+            "trick8": false,
+            "trick9": false,
+            "trick10": false,
+            "trick11": false,
+            "trick12": false
+        }
+    },
+    "arpa": {
+        "lhc": {
+            "complete": 1,
+            "rank": 0
+        },
+        "railway": {
+            "complete": 52,
+            "rank": 0
+        },
+        "launch_facility": {
+            "complete": 4,
+            "rank": 0
+        },
+        "sequence": {
+            "max": 50000,
+            "progress": 7170,
+            "time": 42830,
+            "on": true,
+            "boost": false,
+            "auto": false,
+            "labs": 10
+        },
+        "stock_exchange": {
+            "complete": 0,
+            "rank": 1
+        },
+        "m_type": "Sculpture",
+        "monument": {
+            "complete": 0,
+            "rank": 0
+        }
+    }
+}
