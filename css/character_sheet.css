@@ -1,14 +1,3 @@
-#menu_area {
-    background-color: #adb3b3;
-    padding: 20px;
-    width: 600px;
-    border-style: solid;
-}
-
-#character_sheet {
-    display: inline-block;
-}
-
 #button_area {
     display: inline-block;
     float: right;
@@ -99,7 +88,4 @@
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
-
 }
-
-

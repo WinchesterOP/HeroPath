@@ -1,7 +1,10 @@
-.heroButton, #exp_area, #money {
+.heroButton,
+#exp_area,
+#money {
     display: inline-block;
 }
 
-.progress, .menuButton, #logging_area {
+.progress,
+#logging_area {
     display: block;
 }

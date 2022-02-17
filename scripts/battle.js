@@ -1,5 +1,4 @@
 let battle = {
-
     partyMemberCounter: 0,
     enemyCounter: 0,
     partyArray: [],
@@ -9,7 +8,7 @@ let battle = {
     fightButtons: false,
     reward: { gold: 0, exp: 0 },
 
-    createBattleArea: function(location) {
+    createBattleArea: function (location) {
         let enemies = this.getEnemies(location);
 
         area_func.disableCharacterSheet();
@@ -21,10 +20,12 @@ let battle = {
             battle.createBattleAreaEnemyField(enemies[i]);
         }
 
-        if (!battle.fightButtons) { battle.createFightButtons(); }
+        if (!battle.fightButtons) {
+            battle.createFightButtons();
+        }
     },
 
-    getEnemies: function(location) {
+    getEnemies: function (location) {
         let enemies = configEnemy.getEnemiesOffLocation(location);
         let returnEnemies = [];
         let enemyTypes = enemies.length;
@@ -32,16 +33,17 @@ let battle = {
 
         if (enemyTypes > 1) {
             for (i = 0; i + 1 <= enemyCount; i++) {
-                returnEnemies[i] = enemies[Math.floor(Math.random() * enemyTypes)];
+                returnEnemies[i] =
+                    enemies[Math.floor(Math.random() * enemyTypes)];
             }
         } else {
-            returnEnemies[0] = enemies[0]
+            returnEnemies[0] = enemies[0];
         }
 
         return returnEnemies;
     },
 
-    clearBattleArea: function() {
+    clearBattleArea: function () {
         this.setHeroBars();
         this.deleteAllDivs();
         battle.partyMemberCounter = 0;
@@ -55,12 +57,12 @@ let battle = {
         this.reward = { gold: 0, exp: 0 };
     },
 
-    deleteAllDivs: function() {
-        let divToDelete = document.getElementById('partyDIV1');
+    deleteAllDivs: function () {
+        let divToDelete = document.getElementById("partyDIV1");
         divToDelete.remove();
 
         for (i = 0; i < 4; i++) {
-            divToDelete = document.getElementById(('enemyDIV' + i));
+            divToDelete = document.getElementById("enemyDIV" + i);
 
             if (divToDelete) {
                 divToDelete.remove();
@@ -68,7 +70,7 @@ let battle = {
         }
     },
 
-    setHeroBars: function() {
+    setHeroBars: function () {
         let stats = hero.getStats();
         let remainHealth = this.partyArray[0].health;
         let remainMana = this.partyArray[0].mana;
@@ -78,27 +80,35 @@ let battle = {
         hero.reduceStamina(stats.stamina - remainStamina);
     },
 
-    createFightButtons: function() {
+    createFightButtons: function () {
         let battleButtons = document.getElementById("battle_area_buttons");
-        let attackButton = document.createElement('button');
-        let magicButton = document.createElement('button');
-        let skillButton = document.createElement('button');
-        let itemButton = document.createElement('button');
+        let attackButton = document.createElement("button");
+        let magicButton = document.createElement("button");
+        let skillButton = document.createElement("button");
+        let itemButton = document.createElement("button");
 
-        attackButton.className = 'battleButton';
-        magicButton.className = 'battleButton';
-        skillButton.className = 'battleButton';
-        itemButton.className = 'battleButton';
+        attackButton.className = "battleButton";
+        magicButton.className = "battleButton";
+        skillButton.className = "battleButton";
+        itemButton.className = "battleButton";
 
-        attackButton.innerHTML = 'Attack';
-        magicButton.innerHTML = 'Magic';
-        skillButton.innerHTML = 'Skill';
-        itemButton.innerHTML = 'Item';
+        attackButton.innerHTML = "Attack";
+        magicButton.innerHTML = "Magic";
+        skillButton.innerHTML = "Skill";
+        itemButton.innerHTML = "Item";
 
-        attackButton.onclick = function() { button.clickedOnAttackButton(); };
-        magicButton.onclick = function() { button.clickedOnAttackButton(); };
-        skillButton.onclick = function() { button.clickedOnAttackButton(); };
-        itemButton.onclick = function() { button.clickedOnAttackButton(); };
+        attackButton.onclick = function () {
+            button.clickedOnAttackButton();
+        };
+        magicButton.onclick = function () {
+            button.clickedOnAttackButton();
+        };
+        skillButton.onclick = function () {
+            button.clickedOnAttackButton();
+        };
+        itemButton.onclick = function () {
+            button.clickedOnAttackButton();
+        };
 
         battleButtons.appendChild(attackButton);
         battleButtons.appendChild(magicButton);
@@ -108,8 +118,7 @@ let battle = {
         battle.fightButtons = true;
     },
 
-    fightEnemyRound: function() {
-
+    fightEnemyRound: function () {
         for (index of battle.enemyArray.keys()) {
             if (game.checkBattleMode()) {
                 battle.fightEnemyAttack(index);
@@ -118,55 +127,79 @@ let battle = {
     },
 
     //TODO: right now only the first one will be attacked
-    fightAttack: function() {
-        let damage = battle.calculateDamage(battle.partyArray[0].attack, battle.enemyArray[0].defense);
-        logging_area.logSomeBattleText('You have dealt ' + damage + ' Damage to ' + this.enemyArray[0].name);
-        battle.reduceHealth('Enemy', battle.enemyArray[0].enemy_id, damage);
+    fightAttack: function () {
+        let damage = battle.calculateDamage(
+            battle.partyArray[0].attack,
+            battle.enemyArray[0].defense
+        );
+        logging_area.logSomeBattleText(
+            "You have dealt " + damage + " Damage to " + this.enemyArray[0].name
+        );
+        battle.reduceHealth("Enemy", battle.enemyArray[0].enemy_id, damage);
 
         battle.fightEnemyRound();
     },
 
-    fightEnemyAttack: function(index) {
-        let damage = battle.calculateDamage(battle.enemyArray[index].attack, battle.partyArray[0].defense);
-        logging_area.logSomeBattleText(this.enemyArray[0].name + ' attacked you with  ' + damage + ' Damage');
-        battle.reduceHealth('Party', battle.partyArray[0].hero_id, damage);
+    fightEnemyAttack: function (index) {
+        let damage = battle.calculateDamage(
+            battle.enemyArray[index].attack,
+            battle.partyArray[0].defense
+        );
+        logging_area.logSomeBattleText(
+            this.enemyArray[0].name +
+                " attacked you with  " +
+                damage +
+                " Damage"
+        );
+        battle.reduceHealth("Party", battle.partyArray[0].hero_id, damage);
     },
 
-    reduceHealth: function(memberType, id, damage) {
-        let progressbarID = 'progressbarHealth' + memberType + id;
-        let progressbarNumber = 'progressbarStateHealth' + memberType + id;
+    reduceHealth: function (memberType, id, damage) {
+        let progressbarID = "progressbarHealth" + memberType + id;
+        let progressbarNumber = "progressbarStateHealth" + memberType + id;
 
         switch (memberType) {
-            case 'Enemy':
+            case "Enemy":
                 let enemyHealthMax = battle.enemyArray[0].healthMax;
                 battle.enemyArray[0].health -= damage;
 
                 if (battle.enemyArray[0].health <= 0) {
                     this.reward.gold += this.enemyArray[0].gold;
                     this.reward.exp += this.enemyArray[0].exp;
-                    logging_area.logSomeBattleText(this.enemyArray[0].name + ' had died');
+                    logging_area.logSomeBattleText(
+                        this.enemyArray[0].name + " had died"
+                    );
                     battle.deleteEnemy(battle.enemyArray[0].enemy_id);
                 } else {
-                    progressbar.refreshProgressbar(progressbarID, progressbarNumber, battle.enemyArray[0].health, enemyHealthMax);
+                    progressbar.refreshProgressbar(
+                        progressbarID,
+                        progressbarNumber,
+                        battle.enemyArray[0].health,
+                        enemyHealthMax
+                    );
                 }
                 break;
-            case 'Party':
+            case "Party":
                 let heroHealthMax = battle.partyArray[0].healthMax;
                 battle.partyArray[0].health -= damage;
 
                 if (battle.partyArray[0].health <= 0) {
                     battle.clearBattleArea();
-                    logging_area.logSomeText('You have lost the fight');
+                    logging_area.logSomeText("You have lost the fight");
                 } else {
-                    progressbar.refreshProgressbar(progressbarID, progressbarNumber, battle.partyArray[0].health, heroHealthMax);
+                    progressbar.refreshProgressbar(
+                        progressbarID,
+                        progressbarNumber,
+                        battle.partyArray[0].health,
+                        heroHealthMax
+                    );
                 }
                 break;
-        };
-
+        }
     },
 
-    deleteEnemy: function(enemy_id) {
-        let enemyToDelete = document.getElementById('enemyDIV' + enemy_id);
+    deleteEnemy: function (enemy_id) {
+        let enemyToDelete = document.getElementById("enemyDIV" + enemy_id);
         enemyToDelete.remove();
         battle.enemyCounter--;
         battle.enemyArray.shift();
@@ -175,20 +208,23 @@ let battle = {
     },
 
     /**
-     * Damage formula 
+     * Damage formula
      * percentage from config * 2     example: 20 * 2 = 40
      * Random of 40                   example: 13
      * minus of 20 to get minus       example: -7
      * so we have to take -7 percent of the damage
      */
-    calculateDamage: function(attack, defense) {
+    calculateDamage: function (attack, defense) {
         let damage = attack - defense;
 
-        let percentage = (Math.floor(Math.random() * (config.damagePercentage * 2)) + 1) - config.damagePercentage;
+        let percentage =
+            Math.floor(Math.random() * (config.damagePercentage * 2)) +
+            1 -
+            config.damagePercentage;
         let modifier = 100;
 
         modifier += percentage;
-        damage *= (modifier / 100);
+        damage *= modifier / 100;
 
         if (damage >= 0) {
             return ~~damage;
@@ -197,31 +233,37 @@ let battle = {
         }
     },
 
-    checkIfLastEnemy: function() {
+    checkIfLastEnemy: function () {
         if (battle.enemyArray.length == 0) {
             this.getReward();
             this.clearBattleArea();
-            logging_area.logSomeText('You have won the fight');
+            logging_area.logSomeText("You have won the fight");
         }
     },
 
-    getReward: function() {
+    getReward: function () {
         hero.addtoCurrentGold(this.reward.gold);
         hero.gainEXP(this.reward.exp);
-        logging_area.logSomeText('In this fight you got ' + this.reward.gold + ' Gold and ' + this.reward.exp + ' Exp');
+        logging_area.logSomeText(
+            "In this fight you got " +
+                this.reward.gold +
+                " Gold and " +
+                this.reward.exp +
+                " Exp"
+        );
     },
 
-    createBattleAreaPartyMemberField: function() {
+    createBattleAreaPartyMemberField: function () {
         battle.partyMemberCounter++;
 
         let battleArea = document.getElementById("battle_area_party");
-        let partyMemberField = document.createElement('div');
-        partyMemberField.id = 'partyDIV' + battle.partyMemberCounter;
-        partyMemberField.className = 'partyDIV';
+        let partyMemberField = document.createElement("div");
+        partyMemberField.id = "partyDIV" + battle.partyMemberCounter;
+        partyMemberField.className = "partyDIV";
 
         battleArea.appendChild(partyMemberField);
 
-        battle.createMember(partyMemberField, 'Party');
+        battle.createMember(partyMemberField, "Party");
 
         let heroStats = hero.getStats();
         let heroMember = {
@@ -241,7 +283,8 @@ let battle = {
         };
         battle.partyArray.push(heroMember);
 
-        battle.fillMember(heroMember.name,
+        battle.fillMember(
+            heroMember.name,
             heroMember.health,
             heroMember.mana,
             heroMember.stamina,
@@ -249,12 +292,11 @@ let battle = {
             heroMember.manaMax,
             heroMember.staminaMax,
             heroMember.hero_id,
-            'Party'
+            "Party"
         );
     },
 
-    createBattleAreaEnemyField: function(enemyName) {
-
+    createBattleAreaEnemyField: function (enemyName) {
         battle.enemyCounter++;
         let enemyStats = configEnemy.getEnemy(enemyName);
         let enemy = {
@@ -276,18 +318,19 @@ let battle = {
         };
 
         let battleArea = document.getElementById("battle_area_enemy");
-        let enemyField = document.createElement('div');
+        let enemyField = document.createElement("div");
 
-        enemyField.id = 'enemyDIV' + battle.enemyCounter;
-        enemyField.className = 'enemyDIV';
+        enemyField.id = "enemyDIV" + battle.enemyCounter;
+        enemyField.className = "enemyDIV";
 
         battle.enemyArray.push(enemy);
 
-        battle.createMember(enemyField, 'Enemy');
+        battle.createMember(enemyField, "Enemy");
 
         battleArea.appendChild(enemyField);
 
-        battle.fillMember(enemy.name,
+        battle.fillMember(
+            enemy.name,
             enemy.health,
             enemy.mana,
             enemy.stamina,
@@ -295,67 +338,87 @@ let battle = {
             enemy.manaMax,
             enemy.staminaMax,
             enemy.enemy_id,
-            'Enemy'
+            "Enemy"
         );
     },
 
-    fillMember: function(name, health, mana, stamina, healthMax, manaMax, staminaMax, id, type) {
+    fillMember: function (
+        name,
+        health,
+        mana,
+        stamina,
+        healthMax,
+        manaMax,
+        staminaMax,
+        id,
+        type
+    ) {
         let element;
-        let memberName = 'MemberName' + type + id;
-        let healthMaxID = 'progressbarMaxHealth' + type + id;
-        let healthStateID = 'progressbarStateHealth' + type + id;
-        let healthBar = 'progressbarHealth' + type + id;
-        let manaMaxID = 'progressbarMaxMana' + type + id;
-        let manaStateID = 'progressbarStateMana' + type + id;
-        let manaBar = 'progressbarMana' + type + id;
-        let staminaMaxID = 'progressbarMaxStamina' + type + id;
-        let staminaStateID = 'progressbarStateStamina' + type + id;
-        let staminaBar = 'progressbarStamina' + type + id;
+        let memberName = "MemberName" + type + id;
+        let healthMaxID = "progressbarMaxHealth" + type + id;
+        let healthStateID = "progressbarStateHealth" + type + id;
+        let healthBar = "progressbarHealth" + type + id;
+        let manaMaxID = "progressbarMaxMana" + type + id;
+        let manaStateID = "progressbarStateMana" + type + id;
+        let manaBar = "progressbarMana" + type + id;
+        let staminaMaxID = "progressbarMaxStamina" + type + id;
+        let staminaStateID = "progressbarStateStamina" + type + id;
+        let staminaBar = "progressbarStamina" + type + id;
 
         element = document.getElementById(memberName);
         element.innerHTML = name;
 
         element = document.getElementById(healthMaxID);
-        element.innerHTML = ' / ' + healthMax;
+        element.innerHTML = " / " + healthMax;
 
         element = document.getElementById(healthStateID);
         element.innerHTML = health;
 
         element = document.getElementById(manaMaxID);
-        element.innerHTML = ' / ' + manaMax;
+        element.innerHTML = " / " + manaMax;
 
         element = document.getElementById(manaStateID);
         element.innerHTML = mana;
 
         element = document.getElementById(staminaMaxID);
-        element.innerHTML = ' / ' + staminaMax;
+        element.innerHTML = " / " + staminaMax;
 
         element = document.getElementById(staminaStateID);
         element.innerHTML = stamina;
 
-        progressbar.refreshProgressbar(healthBar, healthStateID, health, healthMax);
+        progressbar.refreshProgressbar(
+            healthBar,
+            healthStateID,
+            health,
+            healthMax
+        );
         progressbar.refreshProgressbar(manaBar, manaStateID, mana, manaMax);
-        progressbar.refreshProgressbar(staminaBar, staminaStateID, stamina, staminaMax);
+        progressbar.refreshProgressbar(
+            staminaBar,
+            staminaStateID,
+            stamina,
+            staminaMax
+        );
     },
 
-    createMember: function(MemberField, memberType) {
-        let name = document.createElement('div');
-        let healthBar = document.createElement('div');
-        let manaBar = document.createElement('div');
-        let staminaBar = document.createElement('div');
+    createMember: function (MemberField, memberType) {
+        let name = document.createElement("div");
+        let healthBar = document.createElement("div");
+        let manaBar = document.createElement("div");
+        let staminaBar = document.createElement("div");
 
         switch (memberType) {
-            case 'Enemy':
-                name.id = 'MemberName' + memberType + battle.enemyCounter;
+            case "Enemy":
+                name.id = "MemberName" + memberType + battle.enemyCounter;
                 break;
-            case 'Party':
-                name.id = 'MemberName' + memberType + battle.partyMemberCounter;
+            case "Party":
+                name.id = "MemberName" + memberType + battle.partyMemberCounter;
                 break;
         }
 
-        battle.createProgressbar(healthBar, 'Health', memberType);
-        battle.createProgressbar(manaBar, 'Mana', memberType);
-        battle.createProgressbar(staminaBar, 'Stamina', memberType);
+        battle.createProgressbar(healthBar, "Health", memberType);
+        battle.createProgressbar(manaBar, "Mana", memberType);
+        battle.createProgressbar(staminaBar, "Stamina", memberType);
 
         MemberField.appendChild(name);
         MemberField.appendChild(healthBar);
@@ -364,34 +427,57 @@ let battle = {
     },
 
     //TODO: way to long and many doubles
-    createProgressbar: function(memberProgressbar, type, memberType) {
-        let progressbar = document.createElement('div');
-        let progressbarText = document.createElement('div');
-        let progressbarMax = document.createElement('div');
-        let progressbarState = document.createElement('div');
+    createProgressbar: function (memberProgressbar, type, memberType) {
+        let progressbar = document.createElement("div");
+        let progressbarText = document.createElement("div");
+        let progressbarMax = document.createElement("div");
+        let progressbarState = document.createElement("div");
 
         switch (memberType) {
-            case 'Enemy':
-                progressbar.id = 'progressbar' + type + memberType + battle.enemyCounter;
-                progressbar.className = 'progressbar';
-                progressbarText.id = 'progressbarText' + type + memberType + battle.enemyCounter;
-                progressbarText.className = 'progressbarText';
-                progressbarText.innerHTML = type + ':';
-                progressbarMax.id = 'progressbarMax' + type + memberType + battle.enemyCounter;
-                progressbarMax.className = 'progressbarMax';
-                progressbarState.id = 'progressbarState' + type + memberType + battle.enemyCounter;
-                progressbarState.className = 'progressbarState';
+            case "Enemy":
+                progressbar.id =
+                    "progressbar" + type + memberType + battle.enemyCounter;
+                progressbar.className = "progressbar";
+                progressbarText.id =
+                    "progressbarText" + type + memberType + battle.enemyCounter;
+                progressbarText.className = "progressbarText";
+                progressbarText.innerHTML = type + ":";
+                progressbarMax.id =
+                    "progressbarMax" + type + memberType + battle.enemyCounter;
+                progressbarMax.className = "progressbarMax";
+                progressbarState.id =
+                    "progressbarState" +
+                    type +
+                    memberType +
+                    battle.enemyCounter;
+                progressbarState.className = "progressbarState";
                 break;
-            case 'Party':
-                progressbar.id = 'progressbar' + type + memberType + battle.partyMemberCounter;
-                progressbar.className = 'progressbar';
-                progressbarText.id = 'progressbarText' + type + memberType + battle.partyMemberCounter;
-                progressbarText.className = 'progressbarText';
-                progressbarText.innerHTML = type + ':';
-                progressbarMax.id = 'progressbarMax' + type + memberType + battle.partyMemberCounter;
-                progressbarMax.className = 'progressbarMax';
-                progressbarState.id = 'progressbarState' + type + memberType + battle.partyMemberCounter;
-                progressbarState.className = 'progressbarState';
+            case "Party":
+                progressbar.id =
+                    "progressbar" +
+                    type +
+                    memberType +
+                    battle.partyMemberCounter;
+                progressbar.className = "progressbar";
+                progressbarText.id =
+                    "progressbarText" +
+                    type +
+                    memberType +
+                    battle.partyMemberCounter;
+                progressbarText.className = "progressbarText";
+                progressbarText.innerHTML = type + ":";
+                progressbarMax.id =
+                    "progressbarMax" +
+                    type +
+                    memberType +
+                    battle.partyMemberCounter;
+                progressbarMax.className = "progressbarMax";
+                progressbarState.id =
+                    "progressbarState" +
+                    type +
+                    memberType +
+                    battle.partyMemberCounter;
+                progressbarState.className = "progressbarState";
                 break;
         }
 

@@ -1,6 +1,5 @@
 class Hero {
-
-    constructor(){
+    constructor() {
         this.name = "No Name";
 
         this.level = 0;
@@ -34,7 +33,7 @@ class Hero {
 
         this.currentGold = 0;
     }
-    
+
     loadHero(save) {
         this.name = save.name;
 
@@ -102,7 +101,7 @@ class Hero {
         heroname = document.getElementById("attributes_name");
         heroname.innerHTML = "Name: " + name;
     }
-    
+
     /**
      * <!-- Gold -->
      */
@@ -140,7 +139,7 @@ class Hero {
 
     checkIfLevelUp(exp) {
         if (exp >= hero.exp_needed) {
-            this.exp_needed = ~~((hero.exp_needed * 1.5) + hero.exp);
+            this.exp_needed = ~~(hero.exp_needed * 1.5 + hero.exp);
             return true;
         } else {
             return false;
@@ -155,9 +154,24 @@ class Hero {
         this.manaMax += 10;
         this.staminaMax += 10;
         progressbar.setAllProgessbarMaxes();
-        progressbar.refreshProgressbar(prog.healthBar, prog.healthNum, this.health, this.healthMax);
-        progressbar.refreshProgressbar(prog.manaBar, prog.manaNum, this.mana, this.manaMax);
-        progressbar.refreshProgressbar(prog.staminaBar, prog.staminaNum, this.stamina, this.staminaMax);
+        progressbar.refreshProgressbar(
+            prog.healthBar,
+            prog.healthNum,
+            this.health,
+            this.healthMax
+        );
+        progressbar.refreshProgressbar(
+            prog.manaBar,
+            prog.manaNum,
+            this.mana,
+            this.manaMax
+        );
+        progressbar.refreshProgressbar(
+            prog.staminaBar,
+            prog.staminaNum,
+            this.stamina,
+            this.staminaMax
+        );
         story.checkLevelProgress(this.level);
         logging("INFO", "You have reached Level: " + hero.level);
     }
@@ -190,7 +204,6 @@ class Hero {
     }
 
     increaseAttribute(attribute) {
-
         if (hero.attributePoints <= 0) {
             return;
         }
@@ -232,9 +245,24 @@ class Hero {
 
         //TODO: put the progressbar function together
         progressbar.setAllProgessbarMaxes();
-        progressbar.refreshProgressbar(prog.healthBar, prog.healthNum, hero.health, hero.healthMax);
-        progressbar.refreshProgressbar(prog.manaBar, prog.staminaNum, hero.mana, hero.manaMax);
-        progressbar.refreshProgressbar(prog.staminaBar, prog.staminaNum, hero.stamina, hero.staminaMax);
+        progressbar.refreshProgressbar(
+            prog.healthBar,
+            prog.healthNum,
+            hero.health,
+            hero.healthMax
+        );
+        progressbar.refreshProgressbar(
+            prog.manaBar,
+            prog.staminaNum,
+            hero.mana,
+            hero.manaMax
+        );
+        progressbar.refreshProgressbar(
+            prog.staminaBar,
+            prog.staminaNum,
+            hero.stamina,
+            hero.staminaMax
+        );
     }
 
     refreshAttributeDisplay() {
@@ -242,7 +270,7 @@ class Hero {
 
         element = document.getElementById("attributes_strength_points");
         element.innerHTML = this.strength;
-             
+
         element = document.getElementById("attributes_constitution_points");
         element.innerHTML = this.constitution;
 
@@ -265,39 +293,59 @@ class Hero {
         element.innerHTML = this.defense;
 
         element = document.getElementById("attributes_critical_chance_value");
-        element.innerHTML = this.critical_chance + '%';
+        element.innerHTML = this.critical_chance + "%";
 
         element = document.getElementById("attributes_evasion_value");
-        element.innerHTML = this.evasion + '%';
+        element.innerHTML = this.evasion + "%";
     }
 
     /**
-     * <!-- Health, Mana, Stamina --> 
+     * <!-- Health, Mana, Stamina -->
      */
 
     increaseHealthMax(increasingNumber) {
         hero.healthMax += increasingNumber;
         progressbar.setProgessbarMax(prog.health, hero.healthMax);
-        progressbar.refreshProgressbar(prog.health, prog.healthNum, hero.health, hero.healthMax);
+        progressbar.refreshProgressbar(
+            prog.health,
+            prog.healthNum,
+            hero.health,
+            hero.healthMax
+        );
     }
 
     increaseHealth(increasingNumber) {
-        if ((hero.health + increasingNumber) >= hero.healthMax) {
+        if (hero.health + increasingNumber >= hero.healthMax) {
             hero.health = hero.healthMax;
         } else {
             hero.health += increasingNumber;
         }
 
-        progressbar.refreshProgressbar(prog.healthBar, prog.healthNum, hero.health, hero.healthMax);
+        progressbar.refreshProgressbar(
+            prog.healthBar,
+            prog.healthNum,
+            hero.health,
+            hero.healthMax
+        );
     }
 
     reduceHealth(decreasingNumber) {
-        if ((hero.health - decreasingNumber) < 0) {
-            progressbar.refreshProgressbar(prog.healthBar, prog.healthNum, hero.health, hero.healthMax);
+        if (hero.health - decreasingNumber < 0) {
+            progressbar.refreshProgressbar(
+                prog.healthBar,
+                prog.healthNum,
+                hero.health,
+                hero.healthMax
+            );
             return false;
         } else {
             hero.health -= decreasingNumber;
-            progressbar.refreshProgressbar(prog.healthBar, prog.healthNum, hero.health, hero.healthMax);
+            progressbar.refreshProgressbar(
+                prog.healthBar,
+                prog.healthNum,
+                hero.health,
+                hero.healthMax
+            );
             return true;
         }
     }
@@ -305,26 +353,46 @@ class Hero {
     increaseManaMax(increasingNumber) {
         hero.manaMax += increasingNumber;
         progressbar.setProgessbarMax(prog.mana, hero.manaMax);
-        progressbar.refreshProgressbar(prog.manaBar, prog.staminaNum, hero.mana, hero.manaMax);
+        progressbar.refreshProgressbar(
+            prog.manaBar,
+            prog.staminaNum,
+            hero.mana,
+            hero.manaMax
+        );
     }
 
     increaseMana(increasingNumber) {
-        if ((hero.mana + increasingNumber) >= hero.manaMax) {
+        if (hero.mana + increasingNumber >= hero.manaMax) {
             hero.mana = hero.manaMax;
         } else {
             hero.mana += increasingNumber;
         }
 
-        progressbar.refreshProgressbar(prog.manaBar, prog.manaNum, hero.mana, hero.manaMax);
+        progressbar.refreshProgressbar(
+            prog.manaBar,
+            prog.manaNum,
+            hero.mana,
+            hero.manaMax
+        );
     }
 
     reduceMana(decreasingNumber) {
-        if ((hero.mana - decreasingNumber) < 0) {
-            progressbar.refreshProgressbar(prog.manaBar, prog.manaNum, hero.mana, hero.manaMax);
+        if (hero.mana - decreasingNumber < 0) {
+            progressbar.refreshProgressbar(
+                prog.manaBar,
+                prog.manaNum,
+                hero.mana,
+                hero.manaMax
+            );
             return false;
         } else {
             hero.mana -= decreasingNumber;
-            progressbar.refreshProgressbar(prog.manaBar, prog.manaNum, hero.mana, hero.manaMax);
+            progressbar.refreshProgressbar(
+                prog.manaBar,
+                prog.manaNum,
+                hero.mana,
+                hero.manaMax
+            );
             return true;
         }
     }
@@ -332,29 +400,48 @@ class Hero {
     increaseStaminaMax(increasingNumber) {
         hero.StaminaMax += increasingNumber;
         progressbar.setProgessbarMax(prog.stamina, hero.staminaMax);
-        progressbar.refreshProgressbar(prog.staminaBar, prog.staminaNum, hero.stamina, hero.staminaMax);
+        progressbar.refreshProgressbar(
+            prog.staminaBar,
+            prog.staminaNum,
+            hero.stamina,
+            hero.staminaMax
+        );
     }
 
     increaseStamina(increasingNumber) {
-        if ((hero.stamina + increasingNumber) >= hero.staminaMax) {
+        if (hero.stamina + increasingNumber >= hero.staminaMax) {
             hero.stamina = hero.staminaMax;
         } else {
             hero.stamina += increasingNumber;
         }
 
-        progressbar.refreshProgressbar(prog.staminaBar, prog.staminaNum, hero.stamina, hero.staminaMax);
+        progressbar.refreshProgressbar(
+            prog.staminaBar,
+            prog.staminaNum,
+            hero.stamina,
+            hero.staminaMax
+        );
     }
 
     //TODO: better way to show true an false
     reduceStamina(decreasingNumber) {
-        if ((hero.stamina - decreasingNumber) < 0) {
-            progressbar.refreshProgressbar(prog.staminaBar, prog.staminaNum, hero.stamina, hero.staminaMax);
+        if (hero.stamina - decreasingNumber < 0) {
+            progressbar.refreshProgressbar(
+                prog.staminaBar,
+                prog.staminaNum,
+                hero.stamina,
+                hero.staminaMax
+            );
             return false;
         } else {
             hero.stamina -= decreasingNumber;
-            progressbar.refreshProgressbar(prog.staminaBar, prog.staminaNum, hero.stamina, hero.staminaMax);
+            progressbar.refreshProgressbar(
+                prog.staminaBar,
+                prog.staminaNum,
+                hero.stamina,
+                hero.staminaMax
+            );
             return true;
         }
     }
-
 }
