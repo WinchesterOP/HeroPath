@@ -1,21 +1,20 @@
-#attributes_area {
-    display: none;
-    width: 646px;
+#attributeTab {
+   display: none;
+   width: 646px;
 }
 
 #attributes_area_stat_sheet {
-    border-style: solid;
-    border-width: 2px;
-    height: 400px;
-    text-margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: #ff3f14;
-    display: block;
+   border-style: solid;
+   border-width: 2px;
+   height: 400px;
+   text-margin-left: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   background-color: #ff3f14;
+   display: block;
 }
 
 #attributes_topline {
-
    border-style: solid;
    border-width: 2px;
    background-color: #f5947f;
@@ -24,30 +23,29 @@
    margin: auto;
    margin-bottom: 40px;
    padding: 10px 10px;
-    
 }
 
 .attributes_block {
-   display: inline-block; 
+   display: inline-block;
 }
 
-
-#attributes_name, #attributes_level, #attributes_remaining_points {
-    display: inline-block;
-    text-align: center;
+#attributes_name,
+#attributes_level,
+#attributes_remaining_points {
+   display: inline-block;
+   text-align: center;
 }
 
-#attributes_name  {
-    display: inline-block;
-    float: left;
+#attributes_name {
+   display: inline-block;
+   float: left;
 }
 
-#attributes_level  {
-    display: inline-block;
+#attributes_level {
+   display: inline-block;
 }
 
-
-#attributes_remaining_points { 
+#attributes_remaining_points {
    float: right;
 }
 
@@ -85,10 +83,8 @@
 }
 
 #attributes_block_right {
-    margin-left: 30px;
-    border-style: solid;
-    border-width: 1px;
-    background-color: #f5947f;
+   margin-left: 30px;
+   border-style: solid;
+   border-width: 1px;
+   background-color: #f5947f;
 }
-
-

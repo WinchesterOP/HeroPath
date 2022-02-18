@@ -1,41 +1,38 @@
 #main {
-    background-color: #484848;
-    width: 100%;
-    border-style: solid;
-    box-sizing: border-box;
+   background-color: #484848;
+   width: 100%;
+   border-style: solid;
+   box-sizing: border-box;
 }
 
-#ressourceColumn {
-    background-color: #adb3b3;
-    width: 20%;
-    border-style: solid;
-    display: inline-block;
+#ressourceColumn,
+#messageColumn,
+#mainColumn {
+   background-color: #adb3b3;
+   width: 20%;
+   border-style: solid;
+   display: inline-block;
+   vertical-align: top;
 }
 
 #mainColumn {
-    background-color: #adb3b3;
-    width: 45%;
-    border-style: solid;
-    display: inline-block;
+   width: 45%;
 }
 
-#messageColumn {
-    background-color: #adb3b3;
-    width: 20%;
-    border-style: solid;
-    display: inline-block;
+#ressourceColumn {
+   width: 15%;
 }
 
-#mainColumnFirstLine {
-    background-color: #2c8a8a;
-    width: 95%;
-    border-style: solid;
-    display: block;
+#worldTab,
+#attributeTab,
+#diaryTab {
+   display: none;
 }
 
-#mainColumnSecondLine {
-    background-color: #2c8a8a;
-    width: 300px;
-    border-style: solid;
-    display: block;
+#tabsFirstLine,
+#tabsSecondLine {
+   background-color: #2c8a8a;
+   width: 95%;
+   border-style: solid;
+   display: block;
 }

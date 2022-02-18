@@ -1,321 +1,275 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <!-- Design -->
-    <link rel="stylesheet" type="text/css" href="css/character_sheet.css" />
-    <link rel="stylesheet" type="text/css" href="css/home_area.css" />
-    <link rel="stylesheet" type="text/css" href="css/littleTown_area.css" />
-    <link rel="stylesheet" type="text/css" href="css/logging_area.css" />
-    <link rel="stylesheet" type="text/css" href="css/navigation_area.css" />
-    <link rel="stylesheet" type="text/css" href="css/button.css" />
-    <link rel="stylesheet" type="text/css" href="css/diary.css" />
-    <link rel="stylesheet" type="text/css" href="css/attributes.css" />
-    <link rel="stylesheet" type="text/css" href="css/battle.css" />
-    <link rel="stylesheet" type="text/css" href="css/progressbar.css" />
+   <!-- Design -->
+   <link rel="stylesheet" type="text/css" href="css/ressources.css" />
+   <link rel="stylesheet" type="text/css" href="css/home_area.css" />
+   <link rel="stylesheet" type="text/css" href="css/littleTown_area.css" />
+   <link rel="stylesheet" type="text/css" href="css/logging_area.css" />
+   <link rel="stylesheet" type="text/css" href="css/navigation_area.css" />
+   <link rel="stylesheet" type="text/css" href="css/button.css" />
+   <link rel="stylesheet" type="text/css" href="css/diary.css" />
+   <link rel="stylesheet" type="text/css" href="css/attributes.css" />
+   <link rel="stylesheet" type="text/css" href="css/battle.css" />
+   <link rel="stylesheet" type="text/css" href="css/progressbar.css" />
 
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+   <link rel="stylesheet" type="text/css" href="css/main.css" />
 
-    <!-- to see everything during developing -->
-    <link rel="stylesheet" type="text/css" href="css/dev.css" />
-    <!-- to see everything during developing -->
+   <!-- to see everything during developing -->
+   <link rel="stylesheet" type="text/css" href="css/dev.css" />
+   <!-- to see everything during developing -->
 
-    <title>Hero's Path</title>
+   <title>Hero's Path</title>
 </head>
 
 <body>
+   <div id="main" class="main">
+      <div id="ressourceColumn" class="ressourceColumn">
+         <div id="heroName">
+            <span class="ressourceName">Name:</span>
+            <span class="ressourceValue">Gunter</span>
+         </div>
+         <div id="heroLevel">
+            <span class="ressourceName">Level:</span>
+            <span class="ressourceValue">0</span>
+         </div>
+         <div id="heroHealth">
+            <span class="ressourceName">Health:</span>
+            <span class="ressourceValue">10/10</span>
+         </div>
+         <div id="heroMana">
+            <span class="ressourceName">Mana:</span>
+            <span class="ressourceValue">10/10</span>
+         </div>
+         <div id="heroStamina">
+            <span class="ressourceName">Stamina:</span>
+            <span class="ressourceValue">10/10</span>
+         </div>
+         <div id="exp">
+            <span class="ressourceName">exp:</span>
+            <span class="ressourceValue">0</span>
+         </div>
+         <div id="expNeeded">
+            <span class="ressourceName">Next Lv.:</span>
+            <span class="ressourceValue">10</span>
+         </div>
+         <!--
+         <div id="money">
+            <span class="ressourceName">Gold:</span>
+            <span class="ressourceValue">10</span>
+         </div>
 
+      -->
 
-    <div id="main" class="main">
-        <div id="ressourceColumn" class="ressourceColumn">
-            <div id="character_sheet">
-                <div id="character_name">Hero Name</div>
-                <div id="character_level">Lv. 0</div>
+      </div>
+      <div id="mainColumn" class="mainColumn">
+         <div id="tabsFirstLine" class="firstLine">
+            <button class="mainButton" onClick="button.openSecondTab('worldTab')">World</button>
+            <button class="mainButton" onClick="button.openSecondTab('attributeTab')">Attributes</button>
+            <button class="mainButton" onClick="button.clickedOnWorldButton()">Inventory</button>
+            <button class="mainButton" onClick="button.openSecondTab('diaryTab')">Diary</button>
+            <button class="mainButton" onClick="button.clickedOnSaveButton()">Save</button>
+            <button class="mainButton" onClick="button.clickedOnClearSaveButton()">Clear Save</button>
+         </div>
 
-                <div id=progressbar_health class=progress>
-                    <div id=progressbarHealthParty0 class=progressbar></div>
-                    <div id=progressbarTextHealthParty0 class=progressbarText>Health:</div>
-                    <div id=progressbarMaxHealthParty0 class=progressbarMax></div>
-                    <div id=progressbarStateHealthParty0 class=progressbarState>0</div>
-                </div>
-
-                <div id=progressbar_mana class=progress>
-                    <div id=progressbarManaParty0 class=progressbar></div>
-                    <div id=progressbarTextManaParty0 class=progressbarText>Mana:</div>
-                    <div id=progressbarMaxManaParty0 class=progressbarMax></div>
-                    <div id=progressbarStateManaParty0 class=progressbarState>0</div>
-                </div>
-
-                <div id=progressbar_stamina class=progress>
-                    <div id=progressbarStaminaParty0 class=progressbar></div>
-                    <div id=progressbarTextStaminaParty0 class=progressbarText>Stamina:</div>
-                    <div id=progressbarMaxStaminaParty0 class=progressbarMax></div>
-                    <div id=progressbarStateStaminaParty0 class=progressbarState>0</div>
-                </div>
-
-                <div id=money_exp_area>
-                    <div id=money>
-                        <div id="money_placeholder"></div>
-                        <div id="money_text">Gold: </div>
-                        <div id="money_number">0</div>
-                    </div>
-
-                    <div id=exp_area>
-                        <div id=exp_text>next Lv.: </div>
-                        <div id=exp_number>5</div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div id="mainColumn" class="mainColumn">
-            <div id="mainColumnFirstLine">
-                <button class="firstLineButton" onClick="button.clickedOnWorldButton()">World</button>
-                <button class="firstLineButton" onClick="button.clickedOnAttributesButton()">Attributes</button>
-                <button class="firstLineButton" onClick="button.clickedOnWorldButton()">Inventory</button>
-                <button class="firstLineButton" onClick="button.clickedOnDiaryButton()">Diary</button>
-                <button class="firstLineButton" onClick="button.clickedOnSaveButton()">Save</button>
-                <button class="firstLineButton" onClick="button.clickedOnClearSaveButton()">Clear Save</button>
-            </div>
-            <div id="mainColumnSecondLine">
-                <div id=world_area class=menuButtonArea>
-
-                    <div id=navigation_area>
-
-                        <div id="headline_Navigation_area" class="headline">World</div>
-                        <button class="heroButton" id="homeButton" onClick="button.clickedOnHomeButton()">Home</button>
-                        <button class="heroButton" id="littleTownButton"
-                            onClick="button.clickedOnLittleTownButton()">Little
-                            Town</button>
-
-                    </div>
-
-                    <div id=home_area class="switch_area">
-
-                        <div id=headline_home_area class="headline">Home</div>
-                        <button class="heroButton" id="talkToFatherButton"
-                            onClick="button.clickedOnTalkToFatherButton()">Talk to
-                            Father</button>
-                        <button class="heroButton" id="swordSwingButton"
-                            onClick="button.clickedOnSwordSwingButton()">Sword
-                            swing</button>
-                        <button class="heroButton" id="reinforceBodyButton"
-                            onClick="button.clickedOnReinforceBodyButton()">Reinforce Body</button>
-
-
-                    </div>
-
-                    <div id=littleTown_area class="switch_area">
-
-                        <div id=headline_first_area class="headline">Little Town</div>
-                        <button class="heroButton" id="talkToLadyButton"
-                            onClick="button.clickedOnTalkToLadyLittleTownButton()">Talk
-                            to Lady</button>
-                        <button class="heroButton" id="talkToFarmerButton"
-                            onClick="button.clickedOnTalkToLittleTownFarmerButton()">Talk to Farmer</button>
-                        <button class="heroButton" id="farmworkingButton"
-                            onClick="button.clickedOnFarmworkingButton()">Farmworking</button>
-                        <button class="heroButton" id="dungeonFlowerBedButton"
-                            onClick="button.clickedOnDungeonFlowerBedButton()">Dungeon: Flower Bed</button>
-
-                    </div>
-
-
-
-                </div>
+         <div id="tabsSecondLine" class="secondLine">
+            <div id="worldTab" class="tabcontent">
+               <button class="mainButton" id="homeButton" onClick="button.clickedOnHomeButton()">Home</button>
+               <button class="mainButton" id="littleTownButton" onClick="button.clickedOnLittleTownButton()">Little
+                  Town</button>
             </div>
 
+            <div id="attributeTab" class="tabcontent">
+               <div id="attributes_area_stat_sheet">
+                  <div id="headline_attributes_area" class="headline">Attributes</div>
 
-        </div>
-        <div id="messageColumn" class="messageColumn">
+                  <div id="attributes_topline">
+                     <div id="attributes_name">Name: Hero Name</div>
+                     <div id="attributes_level">Level: 0</div>
+                     <div id="attributes_remaining_points">Remaining Points: 0</div>
+                  </div>
 
-            <div id=logging_area>
+                  <div class="attributes_block">
+                     <div>
+                        <button id="attributes_strength" class="attributesButton"
+                           onClick="button.clickedOnRaiseAttributeButton('Strength')">
+                           Strength
+                        </button>
+                        <div id="attributes_strength_points" class="attributesPoints">1</div>
+                     </div>
 
-                <div id=logging_area_text_field>
+                     <div>
+                        <button id="attributes_constitution" class="attributesButton"
+                           onClick="button.clickedOnRaiseAttributeButton('Constitution')">
+                           Constitution
+                        </button>
+                        <div id="attributes_constitution_points" class="attributesPoints">1</div>
+                     </div>
 
-                    <div id=logging_area_text></div>
+                     <div>
+                        <button id="attributes_essence" class="attributesButton"
+                           onClick="button.clickedOnRaiseAttributeButton('Essence')">
+                           Essence
+                        </button>
+                        <div id="attributes_essence_points" class="attributesPoints">1</div>
+                     </div>
 
-                </div>
+                     <div>
+                        <button id="attributes_dexterity" class="attributesButton"
+                           onClick="button.clickedOnRaiseAttributeButton('Dexterity')">
+                           Dexterity
+                        </button>
+                        <div id="attributes_dexterity_points" class="attributesPoints">1</div>
+                     </div>
 
-            </div>
-        </div>
-    </div>
+                     <div>
+                        <button id="attributes_luck" class="attributesButton"
+                           onClick="button.clickedOnRaiseAttributeButton('Luck')">Luck</button>
+                        <div id="attributes_luck_points" class="attributesPoints">1</div>
+                     </div>
+                  </div>
 
-    <!-- ********** -->
-    <!-- World Area -->
-    <!-- ********** -->
+                  <div id="attributes_block_right" class="attributes_block">
+                     <div>
+                        <div id="attributes_attack" class="attributesStats">Attack:</div>
+                        <div id="attributes_attack_value" class="attributesStatsValue">10</div>
+                     </div>
 
+                     <div>
+                        <div id="attributes_defense" class="attributesStats">Defense:</div>
+                        <div id="attributes_defense_value" class="attributesStatsValue">10</div>
+                     </div>
 
+                     <div>
+                        <div id="attributes_evasion" class="attributesStats">Evasion:</div>
+                        <div id="attributes_evasion_value" class="attributesStatsValue">10%</div>
+                     </div>
 
-    <!-- *************** -->
-    <!-- Attributes Area -->
-    <!-- *************** -->
+                     <div>
+                        <div id="attributes_magic_attack" class="attributesStats">Magic Attack:</div>
+                        <div id="attributes_magic_attack_value" class="attributesStatsValue">10</div>
+                     </div>
 
-    <div id=attributes_area class=menuButtonArea>
-
-        <div id=attributes_area_stat_sheet>
-
-            <div id="headline_attributes_area" class="headline">Attributes</div>
-
-            <div id=attributes_topline>
-                <div id="attributes_name">Name: Hero Name</div>
-                <div id="attributes_level">Level: 0</div>
-                <div id="attributes_remaining_points">Remaining Points: 0</div>
-            </div>
-
-            <div class=attributes_block>
-                <div>
-                    <button id="attributes_strength" class="attributesButton"
-                        onClick="button.clickedOnRaiseAttributeButton('Strength')">Strength</button>
-                    <div id="attributes_strength_points" class=attributesPoints>1</div>
-                </div>
-
-                <div>
-                    <button id="attributes_constitution" class="attributesButton"
-                        onClick="button.clickedOnRaiseAttributeButton('Constitution')">Constitution</button>
-                    <div id="attributes_constitution_points" class=attributesPoints>1</div>
-                </div>
-
-                <div>
-                    <button id="attributes_essence" class="attributesButton"
-                        onClick="button.clickedOnRaiseAttributeButton('Essence')">Essence</button>
-                    <div id="attributes_essence_points" class=attributesPoints>1</div>
-                </div>
-
-                <div>
-                    <button id="attributes_dexterity" class="attributesButton"
-                        onClick="button.clickedOnRaiseAttributeButton('Dexterity')">Dexterity</button>
-                    <div id="attributes_dexterity_points" class=attributesPoints>1</div>
-                </div>
-
-                <div>
-                    <button id="attributes_luck" class="attributesButton"
-                        onClick="button.clickedOnRaiseAttributeButton('Luck')">Luck</button>
-                    <div id="attributes_luck_points" class=attributesPoints>1</div>
-                </div>
-            </div>
-
-            <div id=attributes_block_right class=attributes_block>
-                <div>
-                    <div id=attributes_attack class=attributesStats>Attack:</div>
-                    <div id="attributes_attack_value" class=attributesStatsValue>10</div>
-                </div>
-
-                <div>
-                    <div id=attributes_defense class=attributesStats>Defense:</div>
-                    <div id="attributes_defense_value" class=attributesStatsValue>10</div>
-                </div>
-
-                <div>
-                    <div id=attributes_evasion class=attributesStats>Evasion:</div>
-                    <div id="attributes_evasion_value" class=attributesStatsValue>10%</div>
-                </div>
-
-                <div>
-                    <div id=attributes_magic_attack class=attributesStats>Magic Attack:</div>
-                    <div id="attributes_magic_attack_value" class=attributesStatsValue>10</div>
-                </div>
-
-                <div>
-                    <div id=attributes_critical_chance class=attributesStats>Critical Chance:</div>
-                    <div id="attributes_critical_chance_value" class=attributesStatsValue>10%</div>
-                </div>
+                     <div>
+                        <div id="attributes_critical_chance" class="attributesStats">Critical Chance:</div>
+                        <div id="attributes_critical_chance_value" class="attributesStatsValue">10%</div>
+                     </div>
+                  </div>
+               </div>
             </div>
 
-        </div>
-    </div>
-
-    <!-- ********** -->
-    <!-- Diary Area -->
-    <!-- ********** -->
-
-    <div id=diary_area class=menuButtonArea>
-
-        <div id=navigation_area_diary>
-
-            <div id="headline_diary_area" class="headline">Diary</div>
-            <button class="heroButton" id="entriesButton" onClick="button.clickedOnEntriesButton()">Entries</button>
-            <button class="heroButton" id="questButton" onClick="button.clickedOnQuestButton()">Quest</button>
-
-        </div>
-
-        <div>
-
-            <div id=diary_entries_area class="switch_area_diary">Entries
-
-                <div id=diary_entries_area_text_field>
-                    <div id=diary_entries_area_text></div>
-                </div>
+            <div id="diaryTab" class="tabcontent">
+               <button class="mainButton" id="entriesButton" onClick="button.clickedOnEntriesButton()">Entries</button>
+               <button class="mainButton" id="questButton" onClick="button.clickedOnQuestButton()">Quest</button>
             </div>
 
-            <div id=diary_quest_area class="switch_area_diary">Quest
-                <div id=diary_quest_area_text></div>
+         </div>
+
+         <div id="tabsThirdLine" class="tabcontent">
+            <div id="home_area" class="switch_area">
+               <div id="headline_home_area" class="headline">Home</div>
+               <button class="heroButton" id="talkToFatherButton" onClick="button.clickedOnTalkToFatherButton()">
+                  Talk to Father
+               </button>
+               <button class="heroButton" id="swordSwingButton" onClick="button.clickedOnSwordSwingButton()">Sword
+                  swing</button>
+               <button class="heroButton" id="reinforceBodyButton" onClick="button.clickedOnReinforceBodyButton()">
+                  Reinforce Body
+               </button>
             </div>
-
-        </div>
-    </div>
-
-    <!-- ********** -->
-    <!-- Battle Area -->
-    <!-- ********** -->
-
-    <div id=battle_area class=menuButtonArea>
-
-        <div id="battle_area_combination">
-
-            <div id=battle_area_party></div>
-            <div id=battle_area_enemy></div>
-
-        </div>
-
-        <div id=battle_area_buttons></div>
-
-        <div id=logging_area_battle>
-
-            <div id=logging_area_battle_text_field>
-
-                <div id=logging_area_battle_text></div>
-
+            <div id="littleTown_area" class="switch_area">
+               <div id="headline_first_area" class="headline">Little Town</div>
+               <button class="heroButton" id="talkToLadyButton" onClick="button.clickedOnTalkToLadyLittleTownButton()">
+                  Talk to Lady
+               </button>
+               <button class="heroButton" id="talkToFarmerButton"
+                  onClick="button.clickedOnTalkToLittleTownFarmerButton()">
+                  Talk to Farmer
+               </button>
+               <button class="heroButton" id="farmworkingButton"
+                  onClick="button.clickedOnFarmworkingButton()">Farmworking</button>
+               <button class="heroButton" id="dungeonFlowerBedButton"
+                  onClick="button.clickedOnDungeonFlowerBedButton()">
+                  Dungeon: Flower Bed
+               </button>
             </div>
+            <div id="diaryArea">
+               <div id="diary_entries_area" class="switch_area_diary">
+                  Entries
 
-        </div>
+                  <div id="diary_entries_area_text_field">
+                     <div id="diary_entries_area_text"></div>
+                  </div>
+               </div>
 
-    </div>
+               <div id="diary_quest_area" class="switch_area_diary">
+                  Quest
+                  <div id="diary_quest_area_text"></div>
+               </div>
+            </div>
+         </div>
 
+      </div>
+      <div id="messageColumn" class="messageColumn">
+         <div id="logging_area">
+            <div id="logging_area_text_field">
+               <div id="logging_area_text"></div>
+            </div>
+         </div>
+      </div>
+   </div>
 
+   <!-- ********** -->
+   <!-- Battle Area -->
+   <!-- ********** -->
 
-    <!-- *********** -->
-    <!-- Script Area -->
-    <!-- *********** -->
+   <div id="battle_area" class="menuButtonArea">
+      <div id="battle_area_combination">
+         <div id="battle_area_party"></div>
+         <div id="battle_area_enemy"></div>
+      </div>
 
-    <!-- Scripts -->
-    <script src="scripts/progressbar.js"></script>
-    <script src="scripts/area_func.js"></script>
-    <script src="scripts/button.js"></script>
-    <script src="scripts/hero.js"></script>
-    <script src="scripts/activity.js"></script>
-    <script src="scripts/logging_area.js"></script>
-    <script src="scripts/functions_basic.js"></script>
-    <script src="scripts/story.js"></script>
-    <script src="scripts/background_timer.js"></script>
-    <script src="scripts/diary.js"></script>
-    <script src="scripts/config.js"></script>
-    <script src="scripts/configEnemy.js"></script>
-    <script src="scripts/configQuest.js"></script>
-    <script src="scripts/game.js"></script>
-    <script src="scripts/enemy.js"></script>
-    <script src="scripts/battle.js"></script>
-    <script src="scripts/savegame.js"></script>
+      <div id="battle_area_buttons"></div>
 
+      <div id="logging_area_battle">
+         <div id="logging_area_battle_text_field">
+            <div id="logging_area_battle_text"></div>
+         </div>
+      </div>
+   </div>
 
-    <!-- Starting main-function -->
-    <script src="scripts/main.js"></script>
+   <!-- *********** -->
+   <!-- Script Area -->
+   <!-- *********** -->
 
-    <!-- CDN - Scripts -->
-    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
-    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
-    <script src="scripts/tooltip.js"></script>
+   <!-- Scripts -->
+   <script src="scripts/progressbar.js"></script>
+   <script src="scripts/area_func.js"></script>
+   <script src="scripts/button.js"></script>
+   <script src="scripts/hero.js"></script>
+   <script src="scripts/activity.js"></script>
+   <script src="scripts/logging_area.js"></script>
+   <script src="scripts/functions_basic.js"></script>
+   <script src="scripts/story.js"></script>
+   <script src="scripts/background_timer.js"></script>
+   <script src="scripts/diary.js"></script>
+   <script src="scripts/config.js"></script>
+   <script src="scripts/configEnemy.js"></script>
+   <script src="scripts/configQuest.js"></script>
+   <script src="scripts/game.js"></script>
+   <script src="scripts/enemy.js"></script>
+   <script src="scripts/battle.js"></script>
+   <script src="scripts/savegame.js"></script>
+   <script src="scripts/pageBuilder.js"></script>
 
+   <!-- Starting main-function -->
+   <script src="scripts/main.js"></script>
+
+   <!-- CDN - Scripts -->
+   <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+   <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+   <script src="scripts/tooltip.js"></script>
 </body>
 
 </html>
