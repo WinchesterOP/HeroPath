@@ -1,16 +1,15 @@
 let button = {
-   openSecondTab: function (tabName) {
-      let i;
-      let tabcontent;
+   openLine: function (classname, name) {
+      let i, tabcontent;
 
-      // Get all elements with class="tabcontent" and hide them
-      tabcontent = document.getElementsByClassName("tabcontent");
+      // Get all elements with used classname and hide them
+      tabcontent = document.getElementsByClassName(classname);
       for (i = 0; i < tabcontent.length; i++) {
          tabcontent[i].style.display = "none";
       }
 
       // Show the new tab
-      document.getElementById(tabName).style.display = "block";
+      document.getElementById(name).style.display = "block";
    },
 };
 

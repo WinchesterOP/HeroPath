@@ -1,37 +1,4 @@
 let pageBuilder = {
-   ressources: {
-      health: {
-         id: "heroHealth",
-         name: "Health:",
-         value: 10,
-      },
-      mana: {
-         id: "heroMana",
-         name: "Mana:",
-         value: 10,
-      },
-      stamina: {
-         id: "heroStamina",
-         name: "Stamina:",
-         value: 10,
-      },
-      exp: {
-         id: "exp",
-         name: "EXP:",
-         value: 0,
-      },
-      expNeeded: {
-         id: "expNeeded",
-         name: "Next Lv.:",
-         value: 10,
-      },
-      money: {
-         id: "money",
-         name: "Gold:",
-         value: 0,
-      },
-   },
-
    creativeDIV: function (ressource) {
       let ressourceColumn = document.getElementById("ressourceColumn");
       let div = document.createElement("div");
@@ -51,8 +18,8 @@ let pageBuilder = {
 
    buildRessourceColumn: function () {
       // get every key from pageBuilder.ressources to use every subobject
-      Object.keys(pageBuilder.ressources).forEach(function (key) {
-         let temp = pageBuilder.ressources[key];
+      Object.keys(testSavegame.ressources).forEach(function (key) {
+         let temp = testSavegame.ressources[key];
          pageBuilder.creativeDIV(temp);
       });
    },

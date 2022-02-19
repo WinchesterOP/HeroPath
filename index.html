@@ -12,13 +12,8 @@
    <link rel="stylesheet" type="text/css" href="css/diary.css" />
    <link rel="stylesheet" type="text/css" href="css/attributes.css" />
    <link rel="stylesheet" type="text/css" href="css/battle.css" />
-   <link rel="stylesheet" type="text/css" href="css/progressbar.css" />
 
    <link rel="stylesheet" type="text/css" href="css/main.css" />
-
-   <!-- to see everything during developing -->
-   <link rel="stylesheet" type="text/css" href="css/dev.css" />
-   <!-- to see everything during developing -->
 
    <title>Hero's Path</title>
 </head>
@@ -38,22 +33,55 @@
 
       <div id="mainColumn" class="mainColumn">
          <div id="tabsFirstLine" class="firstLine">
-            <button class="mainButton" onClick="button.openSecondTab('worldTab')">World</button>
-            <button class="mainButton" onClick="button.openSecondTab('attributeTab')">Attributes</button>
+            <button class="mainButton" onClick="button.openLine('secondLineContent','worldTab')">World</button>
+            <button class="mainButton" onClick="button.openLine('secondLineContent','attributeTab')">Attributes</button>
             <button class="mainButton" onClick="button.clickedOnWorldButton()">Inventory</button>
-            <button class="mainButton" onClick="button.openSecondTab('diaryTab')">Diary</button>
+            <button class="mainButton" onClick="button.openFirstLine('diaryTab')">Diary</button>
             <button class="mainButton" onClick="button.clickedOnSaveButton()">Save</button>
             <button class="mainButton" onClick="button.clickedOnClearSaveButton()">Clear Save</button>
          </div>
 
          <div id="tabsSecondLine" class="secondLine">
-            <div id="worldTab" class="tabcontent">
-               <button class="mainButton" id="homeButton" onClick="button.clickedOnHomeButton()">Home</button>
-               <button class="mainButton" id="littleTownButton" onClick="button.clickedOnLittleTownButton()">Little
-                  Town</button>
+            <div id="worldTab" class="secondLineContent">
+               <div id="worldTabFirstLine">
+                  <button class="mainButton" onClick="button.openLine('worldContent', 'worldHome')">Home</button>
+                  <button class="mainButton" onClick="button.openLine('worldContent', 'worldLittleTown')">Little
+                     Town</button>
+               </div>
+               <div id="worldTabSecondLine">
+                  <div id="worldHome" class="worldContent">
+                     <button class="mainButton" id="talkToFatherButton" onClick="button.clickedOnTalkToFatherButton()">
+                        Talk to Father
+                     </button>
+                     <button class="mainButton" id="swordSwingButton" onClick="button.clickedOnSwordSwingButton()">Sword
+                        swing</button>
+                     <button class="mainButton" id="reinforceBodyButton"
+                        onClick="button.clickedOnReinforceBodyButton()">
+                        Reinforce Body
+                     </button>
+                  </div>
+                  <div id="worldLittleTown" class="worldContent">
+                     <button class="mainButton" id="talkToLadyButton"
+                        onClick="button.clickedOnTalkToLadyLittleTownButton()">
+                        Talk to Lady
+                     </button>
+                     <button class="mainButton" id="talkToFarmerButton"
+                        onClick="button.clickedOnTalkToLittleTownFarmerButton()">
+                        Talk to Farmer
+                     </button>
+                     <button class="mainButton" id="farmworkingButton"
+                        onClick="button.clickedOnFarmworkingButton()">Farmworking</button>
+                     <button class="mainButton" id="dungeonFlowerBedButton"
+                        onClick="button.clickedOnDungeonFlowerBedButton()">
+                        Dungeon: Flower Bed
+                     </button>
+                  </div>
+               </div>
+
+
             </div>
 
-            <div id="attributeTab" class="tabcontent">
+            <div id="attributeTab" class="secondLineContent">
                <div id="attributes_area_stat_sheet">
                   <div id="headline_attributes_area" class="headline">Attributes</div>
 
@@ -132,7 +160,7 @@
                </div>
             </div>
 
-            <div id="diaryTab" class="tabcontent">
+            <div id="diaryTab" class="secondLineContent">
                <button class="mainButton" id="entriesButton" onClick="button.clickedOnEntriesButton()">Entries</button>
                <button class="mainButton" id="questButton" onClick="button.clickedOnQuestButton()">Quest</button>
             </div>
@@ -140,33 +168,8 @@
          </div>
 
          <div id="tabsThirdLine" class="tabcontent">
-            <div id="home_area" class="switch_area">
-               <div id="headline_home_area" class="headline">Home</div>
-               <button class="heroButton" id="talkToFatherButton" onClick="button.clickedOnTalkToFatherButton()">
-                  Talk to Father
-               </button>
-               <button class="heroButton" id="swordSwingButton" onClick="button.clickedOnSwordSwingButton()">Sword
-                  swing</button>
-               <button class="heroButton" id="reinforceBodyButton" onClick="button.clickedOnReinforceBodyButton()">
-                  Reinforce Body
-               </button>
-            </div>
-            <div id="littleTown_area" class="switch_area">
-               <div id="headline_first_area" class="headline">Little Town</div>
-               <button class="heroButton" id="talkToLadyButton" onClick="button.clickedOnTalkToLadyLittleTownButton()">
-                  Talk to Lady
-               </button>
-               <button class="heroButton" id="talkToFarmerButton"
-                  onClick="button.clickedOnTalkToLittleTownFarmerButton()">
-                  Talk to Farmer
-               </button>
-               <button class="heroButton" id="farmworkingButton"
-                  onClick="button.clickedOnFarmworkingButton()">Farmworking</button>
-               <button class="heroButton" id="dungeonFlowerBedButton"
-                  onClick="button.clickedOnDungeonFlowerBedButton()">
-                  Dungeon: Flower Bed
-               </button>
-            </div>
+
+
             <div id="diaryArea">
                <div id="diary_entries_area" class="switch_area_diary">
                   Entries
@@ -227,9 +230,10 @@
    <script src="scripts/story.js"></script>
    <script src="scripts/background_timer.js"></script>
    <script src="scripts/diary.js"></script>
-   <script src="scripts/config.js"></script>
-   <script src="scripts/configEnemy.js"></script>
-   <script src="scripts/configQuest.js"></script>
+   <script src="scripts/configs/config.js"></script>
+   <script src="scripts/configs/configEnemy.js"></script>
+   <script src="scripts/configs/configQuest.js"></script>
+   <script src="scripts/configs/testSavegame.js"></script>
    <script src="scripts/game.js"></script>
    <script src="scripts/enemy.js"></script>
    <script src="scripts/battle.js"></script>
@@ -240,8 +244,6 @@
    <script src="scripts/main.js"></script>
 
    <!-- CDN - Scripts -->
-   <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
-   <script src="scripts/tooltip.js"></script>
 </body>
 
 </html>
