@@ -1,13 +1,48 @@
 let pageBuilder = {
-   creativeDIV: function (name, value) {
+   ressources: {
+      health: {
+         id: "heroHealth",
+         name: "Health:",
+         value: 10,
+      },
+      mana: {
+         id: "heroMana",
+         name: "Mana:",
+         value: 10,
+      },
+      stamina: {
+         id: "heroStamina",
+         name: "Stamina:",
+         value: 10,
+      },
+      exp: {
+         id: "exp",
+         name: "EXP:",
+         value: 0,
+      },
+      expNeeded: {
+         id: "expNeeded",
+         name: "Next Lv.:",
+         value: 10,
+      },
+      money: {
+         id: "money",
+         name: "Gold:",
+         value: 0,
+      },
+   },
+
+   creativeDIV: function (ressource) {
       let ressourceColumn = document.getElementById("ressourceColumn");
       let div = document.createElement("div");
       let span1 = document.createElement("span");
       let span2 = document.createElement("span");
 
-      div.id = name;
+      div.id = ressource.id;
       span1.className = "ressourceName";
+      span1.innerHTML = ressource.name;
       span2.className = "ressourceValue";
+      span2.innerHTML = ressource.value;
 
       div.appendChild(span1);
       div.appendChild(span2);
@@ -15,35 +50,10 @@ let pageBuilder = {
    },
 
    buildRessourceColumn: function () {
-      let ressources = {
-         health: {
-            name: "heroHealth",
-            value: 10,
-         },
-         mana: {
-            name: "heroMana",
-            value: 10,
-         },
-         stamina: {
-            name: "heroStamina",
-            value: 10,
-         },
-         exp: {
-            name: "exp",
-            value: 0,
-         },
-         expNeeded: {
-            name: "expNeeded",
-            value: 10,
-         },
-         money: {
-            name: "gold",
-            value: 0,
-         },
-      };
-
-      for (element in ressources) {
-         pageBuilder.creativeDIV(element.name, element.value);
-      }
+      // get every key from pageBuilder.ressources to use every subobject
+      Object.keys(pageBuilder.ressources).forEach(function (key) {
+         let temp = pageBuilder.ressources[key];
+         pageBuilder.creativeDIV(temp);
+      });
    },
 };

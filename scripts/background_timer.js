@@ -1,12 +1,10 @@
 let background_timer = {
+   startCounting: function () {
+      let saveTimer = 0;
+      let identity = setInterval(scene, 1000);
 
-    startCounting: function() {
-        let saveTimer = 0;
-        let identity = setInterval(scene, 1000);
-
-        function scene() {
-            
-            // Regeneration
+      function scene() {
+         /*/ Regeneration
             if (!game.checkBattleMode()) {
                 hero.increaseHealth(hero.healthPerSecond);
                 hero.increaseMana(hero.manaPerSecond);
@@ -20,10 +18,7 @@ let background_timer = {
                 saveTimer = 0;
             } else {
                 saveTimer++;
-            }
-
-
-
-        }
-    },
+            }*/
+      }
+   },
 };
