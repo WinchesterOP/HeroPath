@@ -32,16 +32,21 @@ function getPercentage(partialValue, totalValue) {
 function cutToFirstThreeLetters(word) {
    return word.substring(0, 3);
 }
-
+// TODO: working on JSON import
 function importJSON() {
-   let json = require("./json/dev.json"); //(with path)
-   return json;
-
-   fetch("./json/dev.json")
+   let devJSONRequired = require(".json/dev.json");
+   console.log("devJSONRequired", devJSONRequired);
+   console.log("json", devJSON);
+   /* let jsonstring = "./json/dev.json";
+   let json;
+   let json = require([jsonstring]); //(with path)
+ */
+   /* fetch("./json/dev.json")
       .then((response) => {
          return JSON.parse(response);
       })
       .then((jsondata) => console.log(jsondata));
+   return json; */
 }
 
 // was added to see how testing works

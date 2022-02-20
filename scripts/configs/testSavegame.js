@@ -33,14 +33,18 @@ let testSavegame = {
    },
    world: {
       home: {
-         id: "heroHealth",
-         name: "Health:",
-         value: 10,
+         text: "Home",
+         onclickParameter1: "worldContent",
+         onclickParameter2: "worldHome",
+         class: "mainButton",
+         visible: true,
       },
       litteTown: {
-         id: "heroMana",
-         name: "Mana:",
-         value: 10,
+         text: "Little Town",
+         onclickParameter1: "worldContent",
+         onclickParameter2: "worldLittleTown",
+         class: "mainButton",
+         visible: true,
       },
    },
 };
