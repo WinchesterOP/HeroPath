@@ -1,9 +1,9 @@
 let button = {
-   openLine: function (classname, name) {
+   openLine: function (element, name) {
       let i, tabcontent;
 
       // Get all elements with used classname and hide them
-      tabcontent = document.getElementsByClassName(classname);
+      tabcontent = document.getElementsByClassName(element);
       for (i = 0; i < tabcontent.length; i++) {
          tabcontent[i].style.display = "none";
       }

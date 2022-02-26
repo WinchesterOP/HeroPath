@@ -31,11 +31,20 @@ let testSavegame = {
          value: 0,
       },
    },
-   world: {
+   buttons: {
+      world: {
+         text: "World",
+         onclickParameter1: "secondLineContent",
+         onclickParameter2: "worldTab",
+         parent: "tabsFirstLine",
+         class: "mainButton",
+         visible: true,
+      },
       home: {
          text: "Home",
          onclickParameter1: "worldContent",
          onclickParameter2: "worldHome",
+         parent: "worldTabFirstLine",
          class: "mainButton",
          visible: true,
       },
@@ -43,6 +52,7 @@ let testSavegame = {
          text: "Little Town",
          onclickParameter1: "worldContent",
          onclickParameter2: "worldLittleTown",
+         parent: "worldTabFirstLine",
          class: "mainButton",
          visible: true,
       },

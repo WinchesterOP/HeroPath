@@ -16,18 +16,32 @@ let pageBuilder = {
       ressourceColumn.appendChild(div);
    },
 
-   buildButton: function (name, functzioncname) {},
+   createButton: function (buttonData) {
+      let parentDIV = document.getElementById(buttonData.parent);
+      let but = document.createElement("button");
 
-   buildRessourceColumn: function () {
-      //let jsontemp = importJSON();
-      //console.log(jsontemp);
+      but.className = buttonData.class;
+      but.innerHTML = buttonData.text;
+      but.onclick = function () {
+         button.openLine(buttonData.onclickParameter1, buttonData.onclickParameter2);
+      };
 
-      // get every key from pageBuilder.ressources to use every subobject
-      Object.keys(testSavegame.ressources).forEach(function (key) {
-         let temp = testSavegame.ressources[key];
-         pageBuilder.createRessource(temp);
+      parentDIV.appendChild(but);
+   },
+
+   // TODO: combine buildRessourceColumn and this function???
+   buildButtons: function () {
+      Object.keys(testSavegame.buttons).forEach(function (button) {
+         let temp = testSavegame.buttons[button];
+         pageBuilder.createButton(temp);
       });
    },
 
-   buildButton: function (name, functzioncname) {},
+   buildRessourceColumn: function () {
+      // get every key from savegame.ressources to use every subobject
+      // TODO: Option for Testing Savegame or loading localStorage
+      Object.keys(testSavegame.ressources).forEach(function (key) {
+         pageBuilder.createRessource(testSavegame.ressources[key]);
+      });
+   },
 };

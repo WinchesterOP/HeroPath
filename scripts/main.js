@@ -7,6 +7,7 @@ let hero = new Hero();
 let story = new Story();
 let diary = new Diary();
 pageBuilder.buildRessourceColumn();
+pageBuilder.buildButtons();
 
 //Savegame.loadAll();
 
